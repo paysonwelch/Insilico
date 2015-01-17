@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insilico", "Insilico\Insili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsilicoDemo", "InsilicoDemo\InsilicoDemo.csproj", "{3C01A770-D8BE-44E0-94C0-415745CA0719}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSimpleDemo", "SuperSimpleDemo\SuperSimpleDemo.csproj", "{AA706969-59F5-4AB0-BC06-C0E061DCE98E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3C01A770-D8BE-44E0-94C0-415745CA0719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C01A770-D8BE-44E0-94C0-415745CA0719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C01A770-D8BE-44E0-94C0-415745CA0719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA706969-59F5-4AB0-BC06-C0E061DCE98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA706969-59F5-4AB0-BC06-C0E061DCE98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA706969-59F5-4AB0-BC06-C0E061DCE98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA706969-59F5-4AB0-BC06-C0E061DCE98E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
