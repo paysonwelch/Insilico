@@ -72,8 +72,8 @@ namespace Insilico {
 
         public override void Compute() {
             if (oData != null && oData.Length > 0) {
-                float barWidthMax = (width - (leftMargin + rightMargin)) / (oData.Length-1);
-                float barHeightMax = height - (topMargin + bottomMargin);
+                float barWidthMax = width / (oData.Length-1);
+                float barHeightMax = height;
                 float max = oData.Max();
                 max = float.IsNaN(max) ? 1 : max;
                 float min = oData.Min();

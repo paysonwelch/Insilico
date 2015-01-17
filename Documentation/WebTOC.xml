@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="ddb0c6b9-1c9e-4e28-bc1f-00c74720af81" Title="Insilico" Url="html/2edb9b3d-069b-5193-0a35-a0ddf85f3074.htm">
+    <HelpTOCNode Id="4a416df7-a0ba-4d50-a7ea-437757da3812" Title="AngleConstraint Class" Url="html/be36453b-1c4c-220e-1907-aafa26979950.htm">
+      <HelpTOCNode Title="AngleConstraint Constructor " Url="html/ba60ed37-e7f7-c622-4d68-3d1e27059b73.htm" />
+      <HelpTOCNode Id="2a2c679a-fb26-4c09-8810-fd62e15b1deb" Title="AngleConstraint Fields" Url="html/8e5110b3-7845-0ab6-ff05-a12ca7719960.htm">
+        <HelpTOCNode Title="fromType Field" Url="html/2ded9ed8-26cf-0930-adab-7b5a82f9ecd0.htm" />
+        <HelpTOCNode Title="handle Field" Url="html/268c94f3-6378-b41c-73a7-7f459c5fd13a.htm" />
+        <HelpTOCNode Title="maxAngle Field" Url="html/0655c4c6-1ec6-61c1-e6e4-c29ed5291654.htm" />
+        <HelpTOCNode Title="minAngle Field" Url="html/eee951cb-a74e-c7a5-cf1e-f9633058c951.htm" />
+        <HelpTOCNode Title="toType Field" Url="html/5c6c4741-f2c2-b40c-d491-be5af6a668b1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="03c25bee-28eb-4572-9028-d3b1c7e57ba4" Title="AngleConstraint Methods" Url="html/4d651c4f-c41f-2331-9bf4-a2262fbc342e.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/c566905b-89c5-85a6-b780-2c1db819303d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b57a9576-783a-41d2-9908-acc31b0f053e" Title="AngleConstraintOverride Class" Url="html/e1c780dc-4ca2-f285-780a-72d802b7c829.htm">
+      <HelpTOCNode Title="AngleConstraintOverride Constructor " Url="html/cc136ecd-4ad8-0c5a-79c6-a67cc7b56245.htm" />
+      <HelpTOCNode Id="9ea38f15-bbc2-42b0-959c-b6544a83b3a8" Title="AngleConstraintOverride Fields" Url="html/d82aaa8c-5d4b-536a-b915-d17040ed0f75.htm">
+        <HelpTOCNode Title="handle Field" Url="html/b071ebeb-afa7-1663-f5ca-cb3f5040aa2a.htm" />
+        <HelpTOCNode Title="masterAngleConstraint Field" Url="html/f330c79d-e139-2d71-709d-8665d1987a94.htm" />
+        <HelpTOCNode Title="overriddenType Field" Url="html/b68d6fa3-63ca-2f38-5dda-a227a78051b9.htm" />
+        <HelpTOCNode Title="overridingType Field" Url="html/1fa4c993-9214-1493-3224-00753c4c28aa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c7acdd23-67b9-409e-915d-4871a7c0bf58" Title="AngleConstraintOverride Methods" Url="html/2795726d-82b1-cc78-eb7b-d575d51669c2.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/9f21fdfd-4c17-2119-60a3-9d23204ec6c3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1f78ee28-9580-414d-849c-bf5ce71d6ed3" Title="BaseDisplay Class" Url="html/12eac4a5-31bb-2e95-e5e2-346cd4f10b6d.htm">
+      <HelpTOCNode Title="BaseDisplay Constructor " Url="html/4dfe6199-05a6-ad8e-8d0a-1226605ebee8.htm" />
+      <HelpTOCNode Id="9a27265a-24da-46f7-a9d4-5e401631c38b" Title="BaseDisplay Fields" Url="html/9125b60e-a820-0439-951f-628be8f200b6.htm">
+        <HelpTOCNode Title="background Field" Url="html/52d14b9d-93cb-13b2-5b71-c952793e9353.htm" />
+        <HelpTOCNode Title="border Field" Url="html/ce870476-5394-11ca-e55e-8023852bd155.htm" />
+        <HelpTOCNode Title="dData Field" Url="html/5ec1f068-b641-d860-3c85-569655db664b.htm" />
+        <HelpTOCNode Title="displayLayout Field" Url="html/7653917f-8aaa-2298-28b0-0b6eaf0254ad.htm" />
+        <HelpTOCNode Title="elements Field" Url="html/19cd0495-21b6-b2d5-0a18-ee9e0265a3ae.htm" />
+        <HelpTOCNode Title="handle Field" Url="html/0545f23e-f85a-9a0b-97cb-b1cd26df76ab.htm" />
+        <HelpTOCNode Title="height Field" Url="html/40c5601e-2e51-ca4e-3c69-6fb16092d50d.htm" />
+        <HelpTOCNode Title="heightConsumed Field" Url="html/05abe290-91f4-7bb8-b8df-2bc2f1509c5c.htm" />
+        <HelpTOCNode Title="heightRemaining Field" Url="html/a17d039d-e306-d4c7-32e2-9e279d424925.htm" />
+        <HelpTOCNode Title="interiorHeight Field" Url="html/5fccaab1-e503-02a4-864f-4fb9a4717691.htm" />
+        <HelpTOCNode Title="interiorWidth Field" Url="html/23474183-4b97-4f51-e6d7-5fdf0075a416.htm" />
+        <HelpTOCNode Title="nData Field" Url="html/6181625b-ddb9-9f2d-e149-6ce5c1dd9930.htm" />
+        <HelpTOCNode Title="oData Field" Url="html/4107dd9a-63dd-0e80-6365-41180008549b.htm" />
+        <HelpTOCNode Title="requiredHorizonalMargin Field" Url="html/65986246-87d2-b826-a8fa-5f2267f9db93.htm" />
+        <HelpTOCNode Title="requiredVerticalMargin Field" Url="html/f9f9c39e-7e47-8702-bf3a-509f26dff40f.htm" />
+        <HelpTOCNode Title="stepCount Field" Url="html/0001f322-593e-1c12-c89d-06508852cb62.htm" />
+        <HelpTOCNode Title="stepSize Field" Url="html/474213b1-effc-892e-80db-796d16ed6fb8.htm" />
+        <HelpTOCNode Title="stepsRemaining Field" Url="html/e541b8cd-8fc6-9146-6863-4d8b92b07e06.htm" />
+        <HelpTOCNode Title="width Field" Url="html/55b51538-26f3-f649-c687-37f8cfdfbebd.htm" />
+        <HelpTOCNode Title="widthConsumed Field" Url="html/94690302-d5ca-8a35-1ea1-d296ba463ee2.htm" />
+        <HelpTOCNode Title="widthRemaining Field" Url="html/6c520372-e0d8-1d6e-8ce9-72cea8599340.htm" />
+        <HelpTOCNode Title="xo Field" Url="html/cf968b5b-e16d-588b-1bd9-5f004dd28e07.htm" />
+        <HelpTOCNode Title="yo Field" Url="html/01504437-5662-78f7-d491-4281c31cca96.htm" />
+        <HelpTOCNode Title="zOrder Field" Url="html/35a03216-e194-a4fe-38ee-9c4f8ae09dd2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f439625f-7e90-4621-9e2c-1b59497f9bf4" Title="BaseDisplay Methods" Url="html/6f4b59ca-3033-1df7-c466-c291b28a1fac.htm">
+        <HelpTOCNode Title="Activate Method " Url="html/0e24035c-373e-3480-9271-13d238d620ba.htm" />
+        <HelpTOCNode Title="Compute Method " Url="html/8469d098-a711-b322-b214-e229855c17a7.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/17387ba3-2831-0b32-4555-f34113fbc33b.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/8d38700c-1518-f5df-690c-97cc82168a5e.htm" />
+        <HelpTOCNode Title="ComputeDisplayContainer Method " Url="html/b78bdaed-484b-86a5-290b-b5b043baead1.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/ac3677ea-f7e8-9541-d477-b063d363387c.htm" />
+        <HelpTOCNode Title="Deactivate Method " Url="html/359c1630-2551-f4a4-91c1-0984034d0f9e.htm" />
+        <HelpTOCNode Title="Render Method " Url="html/f93b7276-80e2-9aa4-9a7a-7e0350988c7b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a90dafbe-38bf-4aea-bdf9-006ee56bca66" Title="BaseDisplay Properties" Url="html/c52bb3ba-cdaf-4746-3ddf-811dad55388e.htm">
+        <HelpTOCNode Title="Height Property " Url="html/64bdadbb-8163-63d8-bf4b-a97a6293b317.htm" />
+        <HelpTOCNode Title="IsActive Property " Url="html/f520ebc1-3011-73ec-3834-0e0f99ed12b0.htm" />
+        <HelpTOCNode Title="Layout Property " Url="html/07f6d00a-2373-63f2-e7db-4107b81554d3.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/0e84bf28-6a0a-1b27-56de-6fe9233b0c52.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="add61f51-7163-4b4a-a481-b114946c965d" Title="BaseThread Class" Url="html/9915e02c-0a25-be65-03e3-9c7a2ab5c5aa.htm">
+      <HelpTOCNode Title="BaseThread Constructor " Url="html/15f03f39-5cb7-6cf5-b39e-33c2b8222057.htm" />
+      <HelpTOCNode Id="c4c74ee1-0b3a-442c-9a3d-76484a6fcca2" Title="BaseThread Fields" Url="html/5356e2c5-7616-1ceb-a2a7-ae92d3243b66.htm">
+        <HelpTOCNode Title="_shouldPause Field" Url="html/4f5b7f2c-a115-238f-f194-1d8c12fc852d.htm" />
+        <HelpTOCNode Title="_shouldRestart Field" Url="html/36db208e-1abb-fab7-5907-d9e79bbf4297.htm" />
+        <HelpTOCNode Title="_shouldSleep Field" Url="html/0cf236ba-4209-cdd7-f48d-514b03162318.htm" />
+        <HelpTOCNode Title="_shouldStop Field" Url="html/5c883af2-ce74-f2d5-5993-5b8f0c8a068d.htm" />
+        <HelpTOCNode Title="_sleepTime Field" Url="html/71b98461-0721-b061-dd50-69944cc5a0b0.htm" />
+        <HelpTOCNode Title="isFree Field" Url="html/8accebda-176c-0ea6-896e-8ef9cc0ae32a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ecdbfec-a1bc-4f37-b053-df232f7281c4" Title="BaseThread Methods" Url="html/aa7868fb-dad3-c9a0-60f1-5fa135306449.htm">
+        <HelpTOCNode Title="IsPaused Method " Url="html/10ebe904-d638-8190-3dff-0406ee955d6b.htm" />
+        <HelpTOCNode Title="Join Method " Url="html/d859bd92-819b-13ae-664f-db0ae7fb7db9.htm" />
+        <HelpTOCNode Title="Pause Method " Url="html/d39c7a44-8196-51af-6715-68bbda000b45.htm" />
+        <HelpTOCNode Title="Restart Method " Url="html/e763ffea-1585-1416-99d7-57f6a145f232.htm" />
+        <HelpTOCNode Title="Resume Method " Url="html/0ab21557-207d-65fe-9726-285438d3df91.htm" />
+        <HelpTOCNode Title="RunThread Method " Url="html/6a01acc0-9b09-ad2e-4fb7-f6c50246ba41.htm" />
+        <HelpTOCNode Title="Sleep Method " Url="html/0b8c4a91-5ef9-8162-41d1-11d62982a1f8.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/76129ec2-6140-0837-5f52-c93108914ba0.htm" />
+        <HelpTOCNode Title="Stop Method " Url="html/59146d26-53ae-c63e-e45d-949b07719ffd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="82c3db76-c796-4666-82e4-c7d7229dda69" Title="BaseThread Properties" Url="html/cbdb491c-182d-b3d8-aacb-b609bfda3768.htm">
+        <HelpTOCNode Title="Immutable Property " Url="html/a4e4da9a-196f-c769-5c30-3d34937601a1.htm" />
+        <HelpTOCNode Title="IsAlive Property " Url="html/b34a1d05-82d3-7ae1-20cc-d12bfccadd4b.htm" />
+        <HelpTOCNode Title="IsFree Property " Url="html/4a0ed827-0dd1-4d4d-bdb4-e5cec92113fa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8bbe8246-e2a1-4461-81f8-f60813235815" Title="BoundingBox Class" Url="html/87c7e001-a414-8d88-a0fe-09675920190c.htm">
+      <HelpTOCNode Title="BoundingBox Constructor " Url="html/c2b5b7b9-9a94-5469-b333-1b1d6f195d10.htm" />
+      <HelpTOCNode Id="9bb25222-324c-41f5-a11e-24d4047319fa" Title="BoundingBox Fields" Url="html/a1f71241-c824-c4f3-faa0-464db2e7d27a.htm">
+        <HelpTOCNode Title="element Field" Url="html/53212ce2-1dff-1512-11fc-dd7c0c61eb5a.htm" />
+        <HelpTOCNode Title="vertex Field" Url="html/706663ef-8e25-3fbf-71c5-13676682c83a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BoundingBox Methods" Url="html/7e5b1247-e2d5-b08d-813d-bc56ade7b0cc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d4b45c95-fc73-44d8-b89c-fea5ac18eedc" Title="Cached Class" Url="html/5c99628e-9483-67c9-281b-d868127b252c.htm">
+      <HelpTOCNode Id="2ee002f6-c31e-47cb-9f73-ecd630322282" Title="Cached Fields" Url="html/b3caed21-0762-c3a0-70fd-26ba0f4feec4.htm">
+        <HelpTOCNode Title="arcLengthSpacingFudge Field" Url="html/a7cbe1ff-ecc6-b15d-84f3-61bc094d9241.htm" />
+        <HelpTOCNode Title="arrowPercentage Field" Url="html/0890c59e-7518-b8b8-4327-5fcfce7f3e48.htm" />
+        <HelpTOCNode Title="borderThickness Field" Url="html/6645d79d-4fc1-dc04-bee6-eb9c9e201854.htm" />
+        <HelpTOCNode Title="BrushAdjNode_ Field" Url="html/2f1013e7-9de9-4ad7-c071-cee038732321.htm" />
+        <HelpTOCNode Title="BrushAdverbNode_ Field" Url="html/3db30282-5d47-18a4-9d75-8905ffb331a7.htm" />
+        <HelpTOCNode Title="BrushArtDetNode_ Field" Url="html/c7329cac-248e-43ca-8513-e8e34ea9ae2a.htm" />
+        <HelpTOCNode Title="BrushauxiliaryNode_ Field" Url="html/f6186e4f-f5ed-32e9-98fb-d9c8fe091abb.htm" />
+        <HelpTOCNode Title="BrushBeige Field" Url="html/9ba91911-9716-682b-b140-1a450956ca08.htm" />
+        <HelpTOCNode Title="BrushBlack Field" Url="html/737ee1b4-aa84-ab9a-69f3-714fd1e69ae1.htm" />
+        <HelpTOCNode Title="BrushBlue Field" Url="html/3b1086bf-3a2b-2779-d1ad-56b1072e2f26.htm" />
+        <HelpTOCNode Title="BrushBubbleGum Field" Url="html/4f9b66da-c323-b84d-d5ab-863006c03af4.htm" />
+        <HelpTOCNode Title="BrushConjNode_ Field" Url="html/d50cd6a8-542c-0dc9-953b-4caf8ae1c4fb.htm" />
+        <HelpTOCNode Title="BrushCyan Field" Url="html/f89a4c29-3a13-d491-89e0-bae6739e1b04.htm" />
+        <HelpTOCNode Title="BrushDarkBlue Field" Url="html/1f81dccf-9db2-72ae-85f8-a54b6f8c2a63.htm" />
+        <HelpTOCNode Title="BrushDarkerOrange Field" Url="html/b2be61d8-8baf-0b82-f804-c2389ca83cae.htm" />
+        <HelpTOCNode Title="BrushDarkGray Field" Url="html/b7250563-7e42-e3dd-eea2-665a8e30afac.htm" />
+        <HelpTOCNode Title="BrushDarkGreen Field" Url="html/ca4a64b4-136f-adee-ea00-65cabb1b99dd.htm" />
+        <HelpTOCNode Title="BrushDarkKhaki Field" Url="html/0952169d-8ab3-d48b-39f1-1183b0ede05b.htm" />
+        <HelpTOCNode Title="BrushDarkMagenta Field" Url="html/083ffc8d-143e-c4b7-d222-7a7fda25e09b.htm" />
+        <HelpTOCNode Title="BrushDarkOrange Field" Url="html/94b510e3-3df1-cda6-ddad-d80c48c58b13.htm" />
+        <HelpTOCNode Title="BrushDarkRed Field" Url="html/653eef9e-38e9-ceaf-9266-e1d4e8b0f42b.htm" />
+        <HelpTOCNode Title="BrushDarkYellow Field" Url="html/ec634f5e-9a26-7264-8528-dc7a5e9242fb.htm" />
+        <HelpTOCNode Title="BrushDeepSkyBlue Field" Url="html/0ea559bb-1680-b834-14a2-f4b090fe5d33.htm" />
+        <HelpTOCNode Title="BrushDodgerBlue Field" Url="html/787e726b-68a9-947d-9579-bdd1e0feb8b5.htm" />
+        <HelpTOCNode Title="BrushError Field" Url="html/24dbed6b-0d65-9465-e4fb-18b0ae43e2b9.htm" />
+        <HelpTOCNode Title="BrushGray Field" Url="html/3fcb8025-8035-496b-79dd-e151a73048c6.htm" />
+        <HelpTOCNode Title="BrushGreen Field" Url="html/eb74ba09-875f-8446-fcb5-07c0abb49ce9.htm" />
+        <HelpTOCNode Title="BrushJavaPurple Field" Url="html/a10fd168-f067-7cf2-1aa1-a791ad357952.htm" />
+        <HelpTOCNode Title="BrushLightGoldenrodYellow Field" Url="html/7c17eec1-a2db-f75e-8021-2e0ed9d77ecb.htm" />
+        <HelpTOCNode Title="BrushLightGray Field" Url="html/59174160-af9d-ad75-cc2d-c3ff5035bf7e.htm" />
+        <HelpTOCNode Title="BrushLightTeal Field" Url="html/1fd26bb2-2a48-ef03-07d7-3d6a89353d5c.htm" />
+        <HelpTOCNode Title="BrushLightYellow Field" Url="html/2c641117-2658-6e5d-faaa-690c4e433953.htm" />
+        <HelpTOCNode Title="BrushLimeGreen Field" Url="html/c1cd7545-66ed-c750-7d0f-5c8c5c1ccb4c.htm" />
+        <HelpTOCNode Title="BrushMagenta Field" Url="html/f668e831-cff2-37df-4217-e61290d57d9c.htm" />
+        <HelpTOCNode Title="BrushNameNode Field" Url="html/47402087-5a9a-045c-9411-4f63ece735c5.htm" />
+        <HelpTOCNode Title="BrushNeonGreen Field" Url="html/88c7f9da-5f14-7e04-ca75-6193932eb06c.htm" />
+        <HelpTOCNode Title="BrushNounNode_ Field" Url="html/c16d6119-1501-147d-f28a-707b07568261.htm" />
+        <HelpTOCNode Title="BrushOrange Field" Url="html/0d447ebf-1df0-ad22-47ba-a1bedd472803.htm" />
+        <HelpTOCNode Title="BrushOrangeRed Field" Url="html/7f14dc7d-0f74-7895-5e86-d520171475e6.htm" />
+        <HelpTOCNode Title="BrushPrepNode_ Field" Url="html/63f6df2b-14ad-0954-7f76-6e3d29d70873.htm" />
+        <HelpTOCNode Title="BrushPronounNode_ Field" Url="html/43d925e9-6f86-363e-c4fd-3373eadb1bd6.htm" />
+        <HelpTOCNode Title="BrushRed Field" Url="html/300a67d5-1d24-387a-96a6-5f83629ad27d.htm" />
+        <HelpTOCNode Title="BrushRelNode Field" Url="html/0e6b02d3-154d-b759-a81e-cb664cef26ff.htm" />
+        <HelpTOCNode Title="BrushRuleNode Field" Url="html/6440ea4d-6a64-4823-0428-30be618730a6.htm" />
+        <HelpTOCNode Title="BrushSalmon Field" Url="html/20ee3b31-3165-3cdf-9171-e2031eac7e65.htm" />
+        <HelpTOCNode Title="BrushSysNode_ Field" Url="html/d9c658c2-1529-3c9d-f189-2ba5527f03f7.htm" />
+        <HelpTOCNode Title="BrushTASNode Field" Url="html/346b9499-92e0-e19d-2183-f8892e19234d.htm" />
+        <HelpTOCNode Title="BrushTransparent Field" Url="html/3b51dfd3-bd86-3199-5803-7ba97fb336ac.htm" />
+        <HelpTOCNode Title="BrushverbNode_ Field" Url="html/7f680233-2c4a-b0dc-0556-29cfc2feef44.htm" />
+        <HelpTOCNode Title="BrushWhite Field" Url="html/10edf97f-f1ab-505b-adf3-4b71ca35e996.htm" />
+        <HelpTOCNode Title="BrushWordNode Field" Url="html/2d53ff69-0ac7-c0de-aa33-c29a072163b9.htm" />
+        <HelpTOCNode Title="BrushYellow Field" Url="html/cc1ed14d-5cc1-75c3-fb79-65ddc9b462db.htm" />
+        <HelpTOCNode Title="cachedBorders Field" Url="html/71ec437b-7a73-038c-8831-d131af7b54ec.htm" />
+        <HelpTOCNode Title="cachedGrids Field" Url="html/ba5bd6b8-37af-7063-0473-e7004f258a03.htm" />
+        <HelpTOCNode Title="cachedLines Field" Url="html/a8f75196-0285-72ed-5d15-4c711ab39b5e.htm" />
+        <HelpTOCNode Title="DarkestBrown Field" Url="html/99010d10-4d23-a8e7-d788-2d651e5551d4.htm" />
+        <HelpTOCNode Title="dragEndPoint Field" Url="html/8704e8cd-1e9d-1ba3-34d5-c8bc6121431b.htm" />
+        <HelpTOCNode Title="dragStartPoint Field" Url="html/2cfc52cc-3157-ebd3-d93d-6428570904fe.htm" />
+        <HelpTOCNode Title="edgeLengthFudge Field" Url="html/4d203376-3e32-5cc5-8642-48bfe52b8247.htm" />
+        <HelpTOCNode Title="graph Field" Url="html/3bed4786-37e1-1e93-650f-7a9b4c13b659.htm" />
+        <HelpTOCNode Title="lastClickedVertex Field" Url="html/48db5399-77d9-34be-1ac5-a9413187cdbc.htm" />
+        <HelpTOCNode Title="lastClickPoint Field" Url="html/af47d32d-4d64-8d44-923d-85ed3353edfc.htm" />
+        <HelpTOCNode Title="lastOffset Field" Url="html/4c30e7ed-8535-d66f-df98-53fb4b7a3ced.htm" />
+        <HelpTOCNode Title="lastPoint Field" Url="html/bef70a89-b553-f3b2-f925-9543b4087843.htm" />
+        <HelpTOCNode Title="leftDragPrevOffset Field" Url="html/2c6f7134-106f-f185-eb2e-390db74b9b4e.htm" />
+        <HelpTOCNode Title="maxX Field" Url="html/d20fb0e2-bd84-6ebb-965a-d10d4b789224.htm" />
+        <HelpTOCNode Title="maxY Field" Url="html/4f5b02da-0d08-c484-90f4-a8fc4714b130.htm" />
+        <HelpTOCNode Title="minX Field" Url="html/df426654-bd06-eff7-d03a-f79b6ddc865f.htm" />
+        <HelpTOCNode Title="minY Field" Url="html/cdd31c5b-d516-de10-ad4d-2172aca2e7ff.htm" />
+        <HelpTOCNode Title="nodeRadiusFudge Field" Url="html/5d19b52f-19c2-ccdd-44ef-b07cad7a0068.htm" />
+        <HelpTOCNode Title="rightClicked Field" Url="html/9a7a86f6-7e12-a289-4ca9-e51b57a22bf4.htm" />
+        <HelpTOCNode Title="rightDragPrevOffset Field" Url="html/8d62d791-b583-f4d6-7839-f36450163f53.htm" />
+        <HelpTOCNode Title="rnd Field" Url="html/c9a98e29-3c18-1abd-cd7c-9bcdd46ba31d.htm" />
+        <HelpTOCNode Title="StandardBorderThickness Field" Url="html/709724bb-b166-b9d9-14fa-ad5992f75393.htm" />
+        <HelpTOCNode Title="StandardCornerRadius Field" Url="html/c1f6f2c6-88aa-ce5e-e118-ede827674846.htm" />
+        <HelpTOCNode Title="StandardDashedLine Field" Url="html/bcb2c221-5a3c-1643-b3b2-a32ae77b95ae.htm" />
+        <HelpTOCNode Title="startTime Field" Url="html/368ad7a5-b10e-bd08-0cdb-4b9cfa2385cb.htm" />
+        <HelpTOCNode Title="stickyDrag Field" Url="html/1426f8ce-efaa-dc6f-7210-7215137527b2.htm" />
+        <HelpTOCNode Title="typeface Field" Url="html/d0a497eb-c818-ae8e-dc6e-332273d0a581.htm" />
+        <HelpTOCNode Title="ZeroPoint Field" Url="html/56215fc3-38d7-b75d-5dc8-510efc8164aa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="76d0c38f-e0b5-4514-9958-d81b8dbbaab6" Title="CanvasThemeTemplate Class" Url="html/ac32bcfe-6009-cf52-a147-2fdaec47e034.htm">
+      <HelpTOCNode Title="CanvasThemeTemplate Constructor " Url="html/a2e3ed18-0d5a-0ef9-c759-1dd2610f4139.htm" />
+      <HelpTOCNode Id="3765cd8a-9549-4f47-a970-41a7b2d4e0ee" Title="CanvasThemeTemplate Fields" Url="html/fe6d5b7c-d596-5329-e07b-8aee039b2a01.htm">
+        <HelpTOCNode Title="background Field" Url="html/248bc172-fcee-8ead-c58a-c9fd99db71fc.htm" />
+        <HelpTOCNode Title="comboBoxBackground Field" Url="html/acbc6f3d-c3f9-0eb1-da22-394ea91dc9f5.htm" />
+        <HelpTOCNode Title="comboBoxForeground Field" Url="html/7c841a69-aa9b-0176-3900-2c707c94b098.htm" />
+        <HelpTOCNode Title="comboBoxItemSelected Field" Url="html/1290b927-0fd6-9a7c-148a-d8a2651f915f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CanvasThemeTemplate Methods" Url="html/47da0dd4-2352-881a-7e7d-062303dba97e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="40523727-c77d-4a3c-aefd-501788e63afc" Title="DisplayLayout Class" Url="html/f8655c0a-04b0-af0f-1205-a75845cbd269.htm">
+      <HelpTOCNode Title="DisplayLayout Constructor " Url="html/8323b884-8d22-e8cf-d417-0cfda9aadf6b.htm" />
+      <HelpTOCNode Id="25548589-26e0-4b25-bb19-d1853ae193f2" Title="DisplayLayout Fields" Url="html/ef112ad8-bf46-f0e3-a3b0-ab2af72c6e47.htm">
+        <HelpTOCNode Title="backgroundColor Field" Url="html/850d95fd-6323-c908-b462-a1cf71ea7647.htm" />
+        <HelpTOCNode Title="bAnimated Field" Url="html/9b421bd1-e41e-8dcc-cd2f-05baa4ed8b67.htm" />
+        <HelpTOCNode Title="barColor Field" Url="html/7d2fba99-31af-ba47-1575-d848a17e2527.htm" />
+        <HelpTOCNode Title="bHorizontalFlip Field" Url="html/c89a9382-13a5-8c51-74b8-6d448ea0fb17.htm" />
+        <HelpTOCNode Title="borderColor Field" Url="html/acec682b-8a76-723f-4b5a-f087db675e6a.htm" />
+        <HelpTOCNode Title="borderThickness Field" Url="html/e2d32a86-7ff1-66c7-bf44-98973ab982c8.htm" />
+        <HelpTOCNode Title="bShowAxes Field" Url="html/cac8aeac-e76f-69b7-d77d-689d9782917c.htm" />
+        <HelpTOCNode Title="bShowBackground Field" Url="html/4b9ffc12-d270-655d-bb1e-1cab60b8f52a.htm" />
+        <HelpTOCNode Title="bShowBorder Field" Url="html/098a455d-4119-e051-f124-d0849c80c68d.htm" />
+        <HelpTOCNode Title="bShowMeanLine Field" Url="html/3c5e3ef8-642a-0ee6-e14e-d3b907924338.htm" />
+        <HelpTOCNode Title="bShowPoints Field" Url="html/4fca1e92-d34b-65c5-02b1-18b9ce2aa995.htm" />
+        <HelpTOCNode Title="bShowScores Field" Url="html/4dc6bb42-2c82-b7bb-4095-cdf87974bef7.htm" />
+        <HelpTOCNode Title="bShowValues Field" Url="html/0563983d-bb9a-c7d3-63bd-686ef13b18c5.htm" />
+        <HelpTOCNode Title="bUpsidedown Field" Url="html/dab73d7b-8687-e5bd-1679-b163033a84a6.htm" />
+        <HelpTOCNode Title="interiorPadding Field" Url="html/ed60dd1a-31db-4054-62ee-47ac9ac19802.htm" />
+        <HelpTOCNode Title="labelColor Field" Url="html/79f6a25d-c965-c8d4-4d3b-3df7931b54a3.htm" />
+        <HelpTOCNode Title="lineColor Field" Url="html/8f98f04a-263c-8c1c-ad45-bd77e759617a.htm" />
+        <HelpTOCNode Title="lineThickness Field" Url="html/4479ca61-ae97-01dc-1be4-9e2fb060d9c7.htm" />
+        <HelpTOCNode Title="pointColor Field" Url="html/1b48d6c1-af53-5277-f820-536325ac4d39.htm" />
+        <HelpTOCNode Title="pointSize Field" Url="html/d7f3c544-fa90-5190-5963-46cfbd14bd94.htm" />
+        <HelpTOCNode Title="scoreColor Field" Url="html/a672790b-3e4f-0a71-0963-4eefca0f60d0.htm" />
+        <HelpTOCNode Title="textColor Field" Url="html/de769cfb-d46d-e0b8-0edd-945b7f49411e.htm" />
+        <HelpTOCNode Title="valueColor Field" Url="html/b7c00db8-108b-5d13-e1dc-139748b2f269.htm" />
+        <HelpTOCNode Title="valueColorScheme Field" Url="html/81bd5a94-1a23-6f36-3373-6e3ba89ce715.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DisplayLayout Methods" Url="html/eaccde71-94f6-a2af-6579-56b931cda6a1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d02d8591-b0f4-4933-b2d8-9a95d1a86e04" Title="Edge Class" Url="html/1da165f5-b83b-7bf9-ffc0-fd6d90037128.htm">
+      <HelpTOCNode Title="Edge Constructor " Url="html/a128d06d-c08c-7f66-b648-f9b17a83bcc4.htm" />
+      <HelpTOCNode Id="3d48f27b-e3ba-4af8-9a50-b01e676f213c" Title="Edge Fields" Url="html/5b166885-1df4-c981-425a-d93a15cb3da7.htm">
+        <HelpTOCNode Title="arrowLine0 Field" Url="html/b3e9b685-270e-3e0d-b4a8-12c3ecb4dae6.htm" />
+        <HelpTOCNode Title="arrowLine1 Field" Url="html/f72a4cdb-ebeb-ec85-debb-1768582fd30a.htm" />
+        <HelpTOCNode Title="destination Field" Url="html/bf5aeb50-af12-8bfd-4809-a2638f1c8b74.htm" />
+        <HelpTOCNode Title="edgeNode Field" Url="html/d0b44911-10ab-1553-f591-fd478b63129d.htm" />
+        <HelpTOCNode Title="edgeNodeLabel Field" Url="html/317af584-09bb-5c45-47c1-f580e31a8b74.htm" />
+        <HelpTOCNode Title="line Field" Url="html/5f5b7395-73a5-79a5-0108-34f33ed25bd6.htm" />
+        <HelpTOCNode Title="origin Field" Url="html/3c2239cd-3b6c-d266-a847-d72b46d7cfd9.htm" />
+        <HelpTOCNode Title="style Field" Url="html/e4c4a61d-88d2-2465-423b-4d48de25b7a6.htm" />
+        <HelpTOCNode Title="tooltip Field" Url="html/ac69a1bd-36c2-4bad-1d97-d287315ea5f7.htm" />
+        <HelpTOCNode Title="type Field" Url="html/476167cf-be39-2888-a646-57a0fb913c75.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="81f10289-d351-40d6-994b-7b4afde5c3ca" Title="Edge Methods" Url="html/7032353c-dcc7-a09c-5211-6a3cc2576660.htm">
+        <HelpTOCNode Title="ComputeArrow Method " Url="html/5e0c6901-628b-07cb-caba-0b1b42385784.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f55760f-44f3-477c-ab77-25773bce3164" Title="EdgeStyleTemplate Class" Url="html/44b0f2ac-4fe3-e66e-071a-a19d7d199e80.htm">
+      <HelpTOCNode Title="EdgeStyleTemplate Constructor " Url="html/bac954b3-c422-dc65-2a83-48fb002b6d07.htm" />
+      <HelpTOCNode Id="da8dba19-7c96-4b03-8696-696018bf14d4" Title="EdgeStyleTemplate Fields" Url="html/fdd3f4d3-69fe-37b2-693d-6d73899edf4e.htm">
+        <HelpTOCNode Title="bShowArrow Field" Url="html/192ab16a-2560-0375-c26b-63b9afb7dbda.htm" />
+        <HelpTOCNode Title="bShowEdgeNode Field" Url="html/5d6fcdd3-f55c-a566-c408-8926f04dceea.htm" />
+        <HelpTOCNode Title="edgeNodeColor Field" Url="html/769d8e12-2c96-8ec4-2766-c4edbf0eb33f.htm" />
+        <HelpTOCNode Title="edgeNodeOpacity Field" Url="html/a2349491-69e1-0f46-6f01-dbdd79fcca1a.htm" />
+        <HelpTOCNode Title="edgeNodeTextColor Field" Url="html/ca5c82ed-7737-a7bb-7f20-5c22e655a4b0.htm" />
+        <HelpTOCNode Title="linePrimaryColor Field" Url="html/7e1bf02a-58d1-db9b-ede2-b78064f0660b.htm" />
+        <HelpTOCNode Title="lineTextColor Field" Url="html/9ad423cb-e261-c319-1919-d3583c414fe4.htm" />
+        <HelpTOCNode Title="lineThickness Field" Url="html/e1c9a944-52ea-0ff7-9aa1-ca9e2b1eaf37.htm" />
+        <HelpTOCNode Title="StrokeDashArray Field" Url="html/1ebb8582-7fc1-d747-881b-2997a55e6ff4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EdgeStyleTemplate Methods" Url="html/d4cef699-0606-fc59-69aa-ca7a99a6452a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="68c206a8-1347-4e3f-8661-265392399405" Title="EEG Class" Url="html/e2977e82-8d24-4260-3939-309586ed2d71.htm">
+      <HelpTOCNode Title="EEG Constructor " Url="html/74feb094-a5cb-ae6f-6866-39fe2855d32e.htm" />
+      <HelpTOCNode Id="410fad86-30c1-4c3f-b9c9-4c8981578f11" Title="EEG Fields" Url="html/06a15f70-7e4c-0641-4f6e-8580fce6bf9e.htm">
+        <HelpTOCNode Title="max Field" Url="html/9ae88b32-ce9d-68f0-392d-c5dd47f9315f.htm" />
+        <HelpTOCNode Title="min Field" Url="html/ccd437dd-c2d0-5aed-21ff-3404c3b80c00.htm" />
+        <HelpTOCNode Title="newestValue Field" Url="html/22c9b188-efce-f4ad-d2d0-070068a20c8a.htm" />
+        <HelpTOCNode Title="pointCount Field" Url="html/45b76f5a-a13a-5607-4c9c-76857fe0b14e.htm" />
+        <HelpTOCNode Title="pointSpacing Field" Url="html/4398359f-87f7-3e2e-ef55-9b49ce7d22ea.htm" />
+        <HelpTOCNode Title="xlabel Field" Url="html/b98ffcc9-edd5-4c78-ce47-9ed14dc018f3.htm" />
+        <HelpTOCNode Title="ylabel Field" Url="html/a1e0e666-2db9-7899-1205-0bb70f8710b2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="569e5493-b060-4838-b2c3-bc6d3fc9dc09" Title="EEG Methods" Url="html/6caf2f69-155c-9d19-6fa3-71ddc11cd4b1.htm">
+        <HelpTOCNode Title="Compute Method " Url="html/a4b7d327-7836-6eb7-f90a-0e47cadb1344.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/a2229b79-6ebc-55d9-91e0-b404884bf661.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/cec73e0a-daa8-625f-be57-ed6a126efbd3.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/21324673-7ce0-9e2d-7722-870c262574d2.htm" />
+        <HelpTOCNode Title="PushDatum Method " Url="html/5c830b40-7652-2f38-dd4f-6ff9996bcb9f.htm" />
+        <HelpTOCNode Title="Step Method " Url="html/b845ab25-5cca-d7c7-b37d-460f68db07cf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EEG Properties" Url="html/9e41535e-9cd8-1a39-5c92-c4f664c54bbc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="78085ab0-530f-420c-9ca8-6b27593fff38" Title="Engine Class" Url="html/dff1731b-0090-e7be-03ed-b8a695489acb.htm">
+      <HelpTOCNode Title="Engine Constructor " Url="html/14a464df-5573-387b-4553-decc843362ec.htm" />
+      <HelpTOCNode Id="d2d15238-41bf-4dea-9cad-01d4a8ca5d89" Title="Engine Fields" Url="html/6489bee3-4cf7-e349-bde6-33d43ada129c.htm">
+        <HelpTOCNode Title="bCompressLeaves Field" Url="html/2c8a0b65-373a-382f-181e-1474e5a5ed5b.htm" />
+        <HelpTOCNode Title="bPrintEdgeNode Field" Url="html/fca3a048-6f07-b7cd-9e48-d00c2d7ca6b2.htm" />
+        <HelpTOCNode Title="bRequestSnapBack Field" Url="html/3b91e771-8baf-7b49-d111-c63a8f3ac20b.htm" />
+        <HelpTOCNode Title="bShowAnimations Field" Url="html/8ddcc0a2-5964-3d45-2130-c96561421758.htm" />
+        <HelpTOCNode Title="bShowDensityRegions Field" Url="html/cdef4889-3ffe-d02e-df36-7f88cce38236.htm" />
+        <HelpTOCNode Title="bShowEdges Field" Url="html/eed7cbb4-4558-3006-1564-50a06bbfab7d.htm" />
+        <HelpTOCNode Title="bShowObjectCoordinates Field" Url="html/f5941063-b5f8-3756-3588-532051424c29.htm" />
+        <HelpTOCNode Title="bSizeVertexToText Field" Url="html/410b61c3-4d4e-90c5-a0da-b7f9e7abb420.htm" />
+        <HelpTOCNode Title="bUseStandardTypeface Field" Url="html/58479537-51d0-c57a-e931-a93dbf0471b6.htm" />
+        <HelpTOCNode Title="canvas Field" Url="html/eb2b57de-a54f-18a7-92ed-6be3063be4a7.htm" />
+        <HelpTOCNode Title="clusterPadding Field" Url="html/c81a5b38-319c-7131-40d7-01d023a59231.htm" />
+        <HelpTOCNode Title="DefaultEdgeStyleTemplate Field" Url="html/70ac7d69-2d4c-c17b-92f6-7f8a21c7f041.htm" />
+        <HelpTOCNode Title="DefaultVertexStyleTemplate Field" Url="html/ccc352da-da4d-d5f9-1d27-198a6933317a.htm" />
+        <HelpTOCNode Title="displays Field" Url="html/33f1950b-54b4-d9fb-b499-4629f80ee1e7.htm" />
+        <HelpTOCNode Title="dummy Field" Url="html/a7bc9bd3-7e64-2082-93ea-20843bbadf4a.htm" />
+        <HelpTOCNode Title="expansion Field" Url="html/1b784b16-e850-2696-600b-5fc464f562cf.htm" />
+        <HelpTOCNode Title="graph Field" Url="html/5b24965f-32d5-0080-3877-de8fca8b6344.htm" />
+        <HelpTOCNode Title="histogram Field" Url="html/d1a198e2-281e-f42a-963a-46032de57a55.htm" />
+        <HelpTOCNode Title="increment Field" Url="html/ad20ce56-d7d0-ead8-6b6e-4927860fb73f.htm" />
+        <HelpTOCNode Title="labels Field" Url="html/4f4781cb-5f90-5737-b8a7-a6c6521c9724.htm" />
+        <HelpTOCNode Title="layout Field" Url="html/297b26ed-204b-39b0-d33f-b25c83d74616.htm" />
+        <HelpTOCNode Title="minLeftPadding Field" Url="html/cee235ea-5850-8a3b-d64f-10722db3d921.htm" />
+        <HelpTOCNode Title="overlapProbability Field" Url="html/39a81005-6d09-8f41-34fa-cd4b3a5e71a9.htm" />
+        <HelpTOCNode Title="snapBackVertex Field" Url="html/50fb660b-2771-c7f0-50dd-ec1296df9a55.htm" />
+        <HelpTOCNode Title="standardTypeface Field" Url="html/5c8458d8-ae55-9a65-7cb6-6cdd0de18553.htm" />
+        <HelpTOCNode Title="theta Field" Url="html/61dd3662-fa97-f21e-80fa-53e251a425e3.htm" />
+        <HelpTOCNode Title="threadBridge Field" Url="html/7ed128c1-f986-8c8e-16cb-30d2bbb7722e.htm" />
+        <HelpTOCNode Title="totalMultiplier Field" Url="html/bce016f5-1b9c-2c37-9848-5b9838238d8c.htm" />
+        <HelpTOCNode Title="vSpace Field" Url="html/a36b413c-940e-45b9-a400-e413945c0b8a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d4b058d6-8367-49fe-aff6-650f7d2e38c1" Title="Engine Methods" Url="html/6e0fe569-3e44-5be7-3d60-0a6a5ffb1047.htm">
+        <HelpTOCNode Title="ComputeGraphClusterSize Method " Url="html/5b72ab0b-29e3-0d8b-5b48-70841057e6c3.htm" />
+        <HelpTOCNode Title="ComputeTypedRadialGraphLayout Method " Url="html/87773ac7-17b4-ad47-bf83-5da2af8a5c70.htm" />
+        <HelpTOCNode Title="GenerateLabel Method " Url="html/1ba2b32e-cc1a-afc1-6f16-499048cd30d6.htm" />
+        <HelpTOCNode Title="GenerateLabels Method " Url="html/2198b863-bd1b-d68c-4cb7-475429a8db90.htm" />
+        <HelpTOCNode Title="NewDensitySurvey Method " Url="html/17f2ef80-6456-b70a-3eda-ecbf97bb1a26.htm" />
+        <HelpTOCNode Title="OnClickUp Method " Url="html/5a5ee254-0e03-1265-316d-04ecd508625c.htm" />
+        <HelpTOCNode Title="OnLeftMouseDown Method " Url="html/43eb89d2-0598-89d2-0ded-9d73ba5e46fd.htm" />
+        <HelpTOCNode Title="OnMouseMove Method " Url="html/a004853d-2d2d-4e69-6f02-b49743ca297c.htm" />
+        <HelpTOCNode Title="OnMouseWheel Method " Url="html/328461ae-b263-939f-b39c-e45b07f210d5.htm" />
+        <HelpTOCNode Title="OnRightMouseDown Method " Url="html/79c32b70-1704-f9f4-294b-7403ade70461.htm" />
+        <HelpTOCNode Title="OnSizeChanged Method " Url="html/299eeb12-a26b-9cd3-fe5a-d610e593612e.htm" />
+        <HelpTOCNode Title="RenderGraph Method " Url="html/c625d2a2-70ba-7a25-9333-e83f63756431.htm" />
+        <HelpTOCNode Title="RequestCompute Method " Url="html/92431c36-814b-070f-f527-652d19ec47d9.htm" />
+        <HelpTOCNode Title="RequestComputeNoDensity Method " Url="html/423da2e7-2ed6-8b9e-873b-5db954587c46.htm" />
+        <HelpTOCNode Title="RequestRender Method " Url="html/082f6288-3bae-07c9-2e64-b13f80da5065.htm" />
+        <HelpTOCNode Title="RequestSnapBack Method " Url="html/7cd52d07-1e57-ba50-e519-7b5af6f6953b.htm" />
+        <HelpTOCNode Title="RunThread Method " Url="html/223d067e-ce87-8adc-076e-71c409127222.htm" />
+        <HelpTOCNode Title="SendToGUI Method " Url="html/5a9ea337-b8ab-d4e0-e500-89f5f6d6751f.htm" />
+        <HelpTOCNode Title="ToCenteredCoords Method " Url="html/45facd54-d244-ca8e-f2c2-e5be034abece.htm" />
+        <HelpTOCNode Title="ToWPFCoords Method " Url="html/f59134f1-97e8-e8fc-1c89-6de62520972e.htm" />
+        <HelpTOCNode Title="TransformSubtree Method " Url="html/31bb225e-f771-fd14-206a-c02ef26ccc3a.htm" />
+        <HelpTOCNode Title="TranslateSubtree Method " Url="html/23ebebd0-3f25-7bb5-a7e6-1b6921797cbc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Engine Properties" Url="html/b789fbe0-954e-20fe-f1f1-2236e9b745b8.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="Engine.UpdateTextCallback Delegate" Url="html/1304c2cf-8902-0842-e81f-9f95307198b9.htm" />
+    <HelpTOCNode Id="85ff1585-e876-4e57-a5dd-a152b625e5f9" Title="Graph Class" Url="html/70dff725-437e-e671-8c59-e52dd4db3b96.htm">
+      <HelpTOCNode Title="Graph Constructor " Url="html/9f797f55-2469-6c08-d3f5-c616a6b60bba.htm" />
+      <HelpTOCNode Id="1ca25fe6-21b6-419d-b02f-54b78ba0a668" Title="Graph Fields" Url="html/4f9b82de-7b98-1eae-4eb2-6040f35bb9fc.htm">
+        <HelpTOCNode Title="charge Field" Url="html/559e8ec2-3d89-fca6-5c87-1d8d48ec4526.htm" />
+        <HelpTOCNode Title="DefaultEdgeStyleTemplate Field" Url="html/951fbc4a-4ce8-9f27-8745-fa535fadd105.htm" />
+        <HelpTOCNode Title="DefaultVertexStyleTemplate Field" Url="html/3e169a04-9a47-a888-04ea-0eb05c0eb599.htm" />
+        <HelpTOCNode Title="drawEdgeArrows Field" Url="html/f814b9b0-4ec6-c015-8530-7a9485d1d9a6.htm" />
+        <HelpTOCNode Title="edges Field" Url="html/de6f51b3-a090-6f7c-b988-60d1c9fa2567.htm" />
+        <HelpTOCNode Title="forceConstant Field" Url="html/68521946-ef35-9a3d-5ee6-d81a8eab9627.htm" />
+        <HelpTOCNode Title="mass Field" Url="html/5632f832-23ca-f3c2-8a26-9b10b45c8846.htm" />
+        <HelpTOCNode Title="maxDist Field" Url="html/5751f5f8-ba8d-1397-7bef-f91d2092b643.htm" />
+        <HelpTOCNode Title="minAcc Field" Url="html/268ea02e-4cee-17a2-8dfe-b9da6b5e8f7e.htm" />
+        <HelpTOCNode Title="minDist Field" Url="html/1d107fd7-42da-61b3-e520-607e18e19dce.htm" />
+        <HelpTOCNode Title="Root Field" Url="html/dbaf7309-2948-15d4-71fe-8d2fbe8cb55d.htm" />
+        <HelpTOCNode Title="topLevelVertices Field" Url="html/72bf5d38-e1b0-5e8b-1ffd-4132657fcf16.htm" />
+        <HelpTOCNode Title="vertices Field" Url="html/2d3abdba-4fdf-3f92-cd88-1b0c8ac1ed71.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b9d3da19-1d5f-48bd-8cc6-ae975175c58a" Title="Graph Methods" Url="html/24b9226a-5136-0d20-a9d3-23018671d24f.htm">
+        <HelpTOCNode Title="Add Method " Url="html/33a3b783-cf60-fca1-a6b7-e9f4ba3a6171.htm" />
+        <HelpTOCNode Title="Compute Method " Url="html/ed9c4bcb-b496-3039-744f-38c5150a337c.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/aa0a5048-6660-e099-f39c-d0a5b14ac005.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/76a15d87-a6ae-bf7e-2593-9b2685b06cf9.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/397cec7f-e782-4235-db8f-b671d3f65467.htm" />
+        <HelpTOCNode Title="ComputePairInteraction Method " Url="html/c5e38a0c-8509-2fd5-dd9a-a3a27cd533dc.htm" />
+        <HelpTOCNode Id="b6570e31-eddb-4eff-909d-863092941e1a" Title="CreateBidirectionalEdge Method " Url="html/14ec3562-5ac4-2284-6454-ec775ac6b28f.htm">
+          <HelpTOCNode Title="CreateBidirectionalEdge Method (String, String, EdgeStyleTemplate, String)" Url="html/cdbca163-1252-e5aa-544a-ac870392a7b7.htm" />
+          <HelpTOCNode Title="CreateBidirectionalEdge Method (Vertex, Vertex, EdgeStyleTemplate, String)" Url="html/577eefae-e800-41e5-4a74-1243dee5f867.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="eecbfcdd-dfb6-44e9-b9b5-20d9072822ab" Title="CreateUnidirectionalEdge Method " Url="html/b733f61e-d2ed-05ce-5f27-1001bfd64ba5.htm">
+          <HelpTOCNode Title="CreateUnidirectionalEdge Method (String, String, EdgeStyleTemplate, String)" Url="html/518bfb79-edc0-ce96-0cdd-7f3c6e8fce2b.htm" />
+          <HelpTOCNode Title="CreateUnidirectionalEdge Method (Vertex, Vertex, EdgeStyleTemplate, String)" Url="html/be8b2eb2-fe49-c802-c4c9-a8569093a540.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetRandomVertex Method " Url="html/374c340c-11f7-1e2d-a409-7a5334571381.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/c1292687-ed7d-9788-e9c9-1d74736d4465.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Graph Properties" Url="html/ff84794e-748d-e9ce-2ff3-9b3b1ab469eb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a682e450-36a2-47f1-863b-404e4cb2b51a" Title="GraphLayout Class" Url="html/9b634c79-eceb-2cf0-fa10-65134d1a97d0.htm">
+      <HelpTOCNode Title="GraphLayout Constructor " Url="html/6b5aeda6-9a8f-dec6-8494-f93c0924fc84.htm" />
+      <HelpTOCNode Id="e66e20d1-032a-4fc4-9981-5f38bf54ef40" Title="GraphLayout Fields" Url="html/3bb7e794-4e38-b5ce-b18e-aad922146a86.htm">
+        <HelpTOCNode Title="DefaultClusterConnectorBrush Field" Url="html/66c396a7-5708-8ed4-95ee-230f5793c6cf.htm" />
+        <HelpTOCNode Title="EdgeStyleRules Field" Url="html/4b37b1b7-1711-6c8b-5b32-f122c76f2308.htm" />
+        <HelpTOCNode Title="IgnoreVertexList Field" Url="html/2c9af885-20c7-2e4c-b519-4ae82e6753ea.htm" />
+        <HelpTOCNode Title="layoutType Field" Url="html/6b2f0be1-5e82-0386-f2e3-27f953b0112f.htm" />
+        <HelpTOCNode Title="RadialExpansionRules Field" Url="html/e9ec1c1f-afca-6036-29cf-9266572a79c2.htm" />
+        <HelpTOCNode Title="radiusReqFudge Field" Url="html/8f110099-2af3-7bf2-b865-f2de93daba93.htm" />
+        <HelpTOCNode Title="VertexStyleRules Field" Url="html/0400e690-1edf-a432-abff-fe2a6906e7a8.htm" />
+        <HelpTOCNode Title="VertextAngleOverrideRules Field" Url="html/dc18d913-f23d-d20a-8db3-6f291aa6c4ef.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GraphLayout Methods" Url="html/38d7be6e-27ef-ae21-2bd1-8bfc13da2ada.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="GraphLayoutType Enumeration" Url="html/ba9d04fb-3ad5-77ef-5970-886aac76371b.htm" />
+    <HelpTOCNode Id="9e9cc3b9-dd91-491f-b8f0-0c46dec40792" Title="Histogram Class" Url="html/47fe934d-5700-3c69-b8d5-cc5b898da22c.htm">
+      <HelpTOCNode Title="Histogram Constructor " Url="html/d1825580-c572-b5aa-393d-b2dd406812a5.htm" />
+      <HelpTOCNode Id="68dfd36c-530f-43e6-a754-5d10cae57966" Title="Histogram Fields" Url="html/abfac11b-198a-121a-401e-857b502328b1.htm">
+        <HelpTOCNode Title="bars Field" Url="html/efae06fe-2a2a-ecf7-d5b2-23480c03760e.htm" />
+        <HelpTOCNode Title="barSpacing Field" Url="html/872b561f-af69-8127-d7d2-9592f5bdd4f2.htm" />
+        <HelpTOCNode Title="max Field" Url="html/4bae221d-a510-fc60-abf4-d7a9fa735ebc.htm" />
+        <HelpTOCNode Title="min Field" Url="html/741787dd-cf52-bf02-f708-53b1ceb7df8d.htm" />
+        <HelpTOCNode Title="pointCount Field" Url="html/253f4dcc-fb0b-a9ac-82cc-0744dfa0cfc1.htm" />
+        <HelpTOCNode Title="xlabel Field" Url="html/c4aa46ad-0287-ba0a-a988-47b496517fc1.htm" />
+        <HelpTOCNode Title="ylabel Field" Url="html/2bbad7f3-0d45-4dfe-0f0e-5310a6ce6bf8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9c055d21-57e0-4628-8158-ee8ecd3e6352" Title="Histogram Methods" Url="html/d8aef528-907b-9a59-ba38-fc9804d956e3.htm">
+        <HelpTOCNode Title="Compute Method " Url="html/21656b31-b93f-71b5-ea9b-22f184de7afd.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/57a6c050-3bdc-594f-670a-2b703925102c.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/8da8c09b-4780-e45a-9ade-d264b25bb6ea.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/4a79e9f9-5d94-52f4-adad-c07d22a1e16a.htm" />
+        <HelpTOCNode Title="SetData Method " Url="html/4e62d2a5-5530-6105-6965-ca50f9108206.htm" />
+        <HelpTOCNode Title="Step Method " Url="html/9c900ac9-5d2e-2aa2-43dd-ab638971cb74.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Histogram Properties" Url="html/6d7a2b75-9330-f420-6975-c0624486f4bb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fc7ba9be-b308-48a3-8b55-b9855b145913" Title="Lattice Class" Url="html/9d7adb0b-bbba-38db-b125-91578c8e3455.htm">
+      <HelpTOCNode Title="Lattice Constructor " Url="html/bedaac71-eddf-a8d5-1cb9-1b620cb7a21e.htm" />
+      <HelpTOCNode Id="ed74b726-c24f-47e1-8c58-e35d6b847e24" Title="Lattice Fields" Url="html/0ff8633a-f154-604d-b98d-e3913ed6fe33.htm">
+        <HelpTOCNode Title="bars Field" Url="html/87e22b2e-73fa-0a96-082d-a7ad9d031ee0.htm" />
+        <HelpTOCNode Title="barSpacing Field" Url="html/652f90c9-17f1-70d8-1b6b-96fe0654da5c.htm" />
+        <HelpTOCNode Title="data Field" Url="html/f8e7352b-4c03-93f5-7737-3d3cbca0964f.htm" />
+        <HelpTOCNode Title="elementsCount Field" Url="html/ece7c49e-fec9-a020-b841-8dfba3c63412.htm" />
+        <HelpTOCNode Title="opacity Field" Url="html/39a458d8-287a-9ee2-2afe-48ea7aa30010.htm" />
+        <HelpTOCNode Title="xlabel Field" Url="html/341e0ef0-8afb-d481-bee3-014244d644fe.htm" />
+        <HelpTOCNode Title="ylabel Field" Url="html/04cbb28e-147c-643e-0bac-f3e9ee05b39e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4a082a6a-b580-4697-94f5-4205880b4062" Title="Lattice Methods" Url="html/c3bdc279-c017-cc82-5a66-942d61d9476b.htm">
+        <HelpTOCNode Title="Compute Method " Url="html/f22d2320-8008-2765-6631-28e4efe9bbd7.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/65268f5e-98ce-b5cb-20ed-d2dbe58919de.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/845bfc23-166e-0673-0b93-ec4572655adb.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/e51b11d6-7634-f2d9-91c8-0957e61f4d0d.htm" />
+        <HelpTOCNode Title="SetData Method " Url="html/9911de8d-e97b-b671-0674-1075bac33a3e.htm" />
+        <HelpTOCNode Title="Step Method " Url="html/55a1643d-c930-b429-3c9d-fdc354e959e2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Lattice Properties" Url="html/7d4b04f7-3197-0c42-d3d1-41e6ca66f872.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="720f8128-5324-4abb-828f-ee273039d953" Title="Layouts Class" Url="html/b4a0b784-940b-1c74-c79b-3853ed940333.htm">
+      <HelpTOCNode Id="ead8618f-711f-46fe-952b-f3f0d2afb1fe" Title="Layouts Fields" Url="html/e1d2f8e2-d70f-aa1b-1a45-5764dfdedcab.htm">
+        <HelpTOCNode Title="DefaultLayout Field" Url="html/23fb3156-9ecf-6631-b464-102f67d4aeb2.htm" />
+        <HelpTOCNode Title="HistogramLimeGreen Field" Url="html/78c60b28-3654-7491-e435-b368241f68cc.htm" />
+        <HelpTOCNode Title="LinePlotBlue Field" Url="html/e358f2f7-ff41-09c9-2762-ac58e20cfb12.htm" />
+        <HelpTOCNode Title="LinePlotLimeGreen Field" Url="html/1b7e7523-72b7-fae3-be21-8a37d7ac7e5f.htm" />
+        <HelpTOCNode Title="LinePlotRed Field" Url="html/f6cf56be-4735-ae24-40e6-f9077ece8c30.htm" />
+        <HelpTOCNode Title="RadioactiveChocolate Field" Url="html/14b38173-8bea-a3a3-cf35-8c13926d4018.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="01d45e0f-5b93-4ee8-ac81-fb081f961dc2" Title="LinePlot Class" Url="html/03db4a15-fcea-06fe-093b-5c9269baf9a5.htm">
+      <HelpTOCNode Title="LinePlot Constructor " Url="html/8ad6d965-813f-c681-f88b-ca2c4e000408.htm" />
+      <HelpTOCNode Id="3f978bb4-4251-4a35-9e21-07fa260c631a" Title="LinePlot Fields" Url="html/964b9b93-a380-3fa6-fc80-794d28cb53e8.htm">
+        <HelpTOCNode Title="lines Field" Url="html/267367ff-9c50-a186-55cd-d364dbb3fa5f.htm" />
+        <HelpTOCNode Title="max Field" Url="html/0719c481-3e9e-960a-ba4c-a3e16def40d9.htm" />
+        <HelpTOCNode Title="meanLine Field" Url="html/01d06854-0bde-7d25-6e28-6759bdd9bdc2.htm" />
+        <HelpTOCNode Title="meanLineTB Field" Url="html/42f0ab6f-72a6-4b97-3787-f3d4584247dd.htm" />
+        <HelpTOCNode Title="min Field" Url="html/23720903-5923-3cfc-fd3e-1b0acf1c9848.htm" />
+        <HelpTOCNode Title="opacity Field" Url="html/21a630b3-ab2c-2cc7-3782-782247846f5a.htm" />
+        <HelpTOCNode Title="pointCount Field" Url="html/94126cd3-0f28-4540-8e6b-26acd4f179a0.htm" />
+        <HelpTOCNode Title="points Field" Url="html/9d8f62af-c645-eee5-5b56-5843eab36a6d.htm" />
+        <HelpTOCNode Title="randomFuckingPoint Field" Url="html/b4e5ed71-f17f-1821-22dc-36436dfe87b2.htm" />
+        <HelpTOCNode Title="xlabel Field" Url="html/4cb89637-67da-bff4-0d6e-81aaa42fbad1.htm" />
+        <HelpTOCNode Title="ylabel Field" Url="html/4033bc9a-9c2b-4939-b8c2-10df4da0b5d7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="27ee1018-88f9-4cfe-a809-b8ebc1d2f82f" Title="LinePlot Methods" Url="html/6eb2eb58-6b12-9fb0-f980-e995287e07d0.htm">
+        <HelpTOCNode Title="Compute Method " Url="html/0cfefb44-6544-08b6-a67a-ad185204f7f4.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/9a603111-e1fe-a594-50a3-b70748d1085f.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/2edcd531-a7f1-0022-db08-ec1eee244c5c.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/b968dbcf-4723-862e-2eeb-476fa9306b08.htm" />
+        <HelpTOCNode Title="SetData Method " Url="html/77b12907-4e38-c4e5-d63a-a7a0218f40bc.htm" />
+        <HelpTOCNode Title="Step Method " Url="html/1864e105-01f0-6a30-e14a-6b55183762cc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="LinePlot Properties" Url="html/521344aa-86b9-b18f-18c6-0bab2f5b0650.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4599d79d-2b87-4f39-b329-eb5eefb7af0b" Title="Primitives Class" Url="html/751db9f4-c2fe-07a6-d51c-8aeaed70ae4c.htm">
+      <HelpTOCNode Id="6110c102-1389-40c9-a44b-d0ebe74ae5b9" Title="Primitives Methods" Url="html/9f95be69-fb30-976e-c852-a0d1d49ec25c.htm">
+        <HelpTOCNode Title="CreateBorder Method " Url="html/5a88cf83-fcf1-7f05-739a-b9cdd3880cac.htm" />
+        <HelpTOCNode Title="CreateCombinedEllipse Method " Url="html/c65683e7-843f-6c6d-76d3-2e166d796b54.htm" />
+        <HelpTOCNode Title="CreateCombinedRectangle Method " Url="html/b55b3a22-44fd-be80-8f93-dfc6dc98a551.htm" />
+        <HelpTOCNode Title="CreateEllipse Method " Url="html/13cffd8b-42ee-5a19-90e1-cbe4a5ea1503.htm" />
+        <HelpTOCNode Id="d735aea5-cac0-4000-bda5-8d207b3ccca1" Title="CreateRectangle Method " Url="html/c6603d41-355a-9e68-fac4-ea664631f36e.htm">
+          <HelpTOCNode Title="CreateRectangle Method (Double, Double, Double, Double, SolidColorBrush)" Url="html/f106a609-8d84-ce35-0abe-75fe36f8332f.htm" />
+          <HelpTOCNode Title="CreateRectangle Method (Double, Double, Double, Double, SolidColorBrush, Double, Boolean, String)" Url="html/9e4036f9-d6e3-bbf2-4c61-88ff906c39a3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CreateTextBlock Method " Url="html/894eed2f-85de-be26-0c3a-ea61942dc67b.htm" />
+        <HelpTOCNode Title="MeasureString Method " Url="html/c89a97cb-19ae-eb0f-7385-5048f043b4a0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c55aec83-8d2d-43a5-ab5c-b535cb7be12f" Title="Scheme Class" Url="html/19a9b4bb-7fd4-b895-5d29-42a2c395357e.htm">
+      <HelpTOCNode Id="18ff6251-c116-438a-9905-b58cc9210a43" Title="Scheme Fields" Url="html/77ba40d3-a7fe-de1c-b751-f929c452cc3a.htm">
+        <HelpTOCNode Title="highRed Field" Url="html/9458df70-bc93-e0ac-7a67-2b54959805b8.htm" />
+        <HelpTOCNode Title="lowGreen Field" Url="html/deb1d03a-db3e-d4f7-8427-65f5613854d0.htm" />
+        <HelpTOCNode Title="medYellow Field" Url="html/1b8d1eca-b923-f455-e2e7-c1dbbdbbe6b5.htm" />
+        <HelpTOCNode Title="SimpleRYG Field" Url="html/1ce192ab-02da-2939-67eb-25bd2af7bd51.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b3240367-7fc1-4ada-9d5e-20d5fd1209cb" Title="Styles Class" Url="html/541d23c6-8a6f-43cf-38ec-495aab99d50f.htm">
+      <HelpTOCNode Id="90109cd8-f188-402b-985b-cae6a9deeacb" Title="Styles Fields" Url="html/ee5241c4-b172-b13e-982b-3879630af0c7.htm">
+        <HelpTOCNode Title="Conjunction_EdgeStyle Field" Url="html/39703195-449e-9ad2-1a2f-370e4d8348b8.htm" />
+        <HelpTOCNode Title="Green_VertexStyle Field" Url="html/abd17bde-dcb4-6110-4491-84ac6db8b49b.htm" />
+        <HelpTOCNode Title="GreenGlass_EdgeStyle Field" Url="html/e3bd948f-1017-a386-4b48-17cd13c5d8f1.htm" />
+        <HelpTOCNode Title="Purple_VertexStyle Field" Url="html/3321946f-2644-8dcb-d98e-ed3e59be8d9d.htm" />
+        <HelpTOCNode Title="Red_EdgeStyle Field" Url="html/f48e7b60-3b98-0187-fabc-50b44f328e56.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4acc0eb3-254e-44c1-be8b-d5f887c82c0d" Title="ValueColorScheme Class" Url="html/3021d5b3-93aa-3cd5-028e-7ee7f64470d5.htm">
+      <HelpTOCNode Title="ValueColorScheme Constructor " Url="html/a8db0595-20f2-e6f4-5d6f-27fda6692cf0.htm" />
+      <HelpTOCNode Id="e6d96246-3ab2-484e-9134-16bcca84df1b" Title="ValueColorScheme Fields" Url="html/13719fc7-9b07-8eca-00b6-ace53b0019ec.htm">
+        <HelpTOCNode Title="regions Field" Url="html/cd3da930-d0c2-6737-c815-1155ac003325.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ace95cd5-108b-4ea2-80e3-8f03e0ed709b" Title="ValueColorScheme Methods" Url="html/f04f236a-5843-e5b0-f080-ec769cb4091a.htm">
+        <HelpTOCNode Title="GetColor Method " Url="html/20e3f823-a740-39ee-1175-9021d3cc8fa2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d2a97db1-5e97-4825-8112-86ce66617c8f" Title="Vertex Class" Url="html/e7054e49-d317-660e-8316-c56e9a854ce4.htm">
+      <HelpTOCNode Title="Vertex Constructor " Url="html/8bc36833-771b-c5df-6012-c8357227a2c2.htm" />
+      <HelpTOCNode Id="0b15e0a6-8a11-4b78-8362-c83e620b8533" Title="Vertex Fields" Url="html/d884d6fd-4af7-8c45-ebf7-596f44e36a4e.htm">
+        <HelpTOCNode Title="adding Field" Url="html/be4d171d-4c76-0a51-d456-889286227c65.htm" />
+        <HelpTOCNode Title="animation Field" Url="html/8defcb19-562d-a1d3-9ac7-ff05cd4039e2.htm" />
+        <HelpTOCNode Title="attachedDisplay Field" Url="html/40e8540f-0038-8823-30ac-a9ff3b21f742.htm" />
+        <HelpTOCNode Title="bIsolated Field" Url="html/e7741be9-33d3-d61c-a9f1-097838313b64.htm" />
+        <HelpTOCNode Title="box Field" Url="html/06531492-b334-dcdb-a270-f858d9cf6812.htm" />
+        <HelpTOCNode Title="bTopLevel Field" Url="html/4ace8055-ab41-d3a6-6d6e-9cf033363a23.htm" />
+        <HelpTOCNode Title="charge Field" Url="html/ba3ff71d-6d16-84e4-f9d5-ca4ea5727042.htm" />
+        <HelpTOCNode Title="children Field" Url="html/0ef3e057-cd9c-e869-19af-ea9f5488b47b.htm" />
+        <HelpTOCNode Title="coordinates Field" Url="html/de0352ae-eb6e-c9b5-9974-026cd7ebb293.htm" />
+        <HelpTOCNode Title="coordLabel Field" Url="html/b2e06811-d5c8-cbae-a60a-0b8e0344ab5c.htm" />
+        <HelpTOCNode Title="dxoff Field" Url="html/65e0dd9d-b88f-3c81-e556-b56bdbe58d5d.htm" />
+        <HelpTOCNode Title="dyoff Field" Url="html/be1b1cee-2fc5-2f20-fa04-a5859f7d664c.htm" />
+        <HelpTOCNode Title="incomingEdges Field" Url="html/f402b21d-adee-13d4-90f1-148faaf9962f.htm" />
+        <HelpTOCNode Title="label Field" Url="html/73e580a5-b6fb-dfdc-211f-d3fd87c73829.htm" />
+        <HelpTOCNode Title="labelBlock Field" Url="html/51524169-cc67-7358-a731-5671e4bbca9c.htm" />
+        <HelpTOCNode Title="labelBlockSize Field" Url="html/e8d254c7-8100-fe69-de78-c5363f0424a1.htm" />
+        <HelpTOCNode Title="mass Field" Url="html/4d29dbca-d242-8c0d-7391-26528f9bdcaf.htm" />
+        <HelpTOCNode Title="maxrelX Field" Url="html/f3a73320-178e-ce88-54bb-b885dce96930.htm" />
+        <HelpTOCNode Title="maxrelY Field" Url="html/9905f325-62fe-897e-d0b3-3f2e0bbf9646.htm" />
+        <HelpTOCNode Title="maxx Field" Url="html/8d45b5e4-b3ec-037b-2cb1-8635284afe00.htm" />
+        <HelpTOCNode Title="maxy Field" Url="html/18e9ddc2-22e0-2c7e-b9c5-ca5d3c819f9e.htm" />
+        <HelpTOCNode Title="minrelX Field" Url="html/2990a22f-ca10-5c30-9488-e349118511f9.htm" />
+        <HelpTOCNode Title="minrelY Field" Url="html/b5bbc6ca-d917-d1bf-b3ca-f6535a03e57f.htm" />
+        <HelpTOCNode Title="minx Field" Url="html/c7110bde-9aea-84aa-f1da-e05c7db7a79c.htm" />
+        <HelpTOCNode Title="miny Field" Url="html/9d308fe3-6ad2-55b7-ea9d-ac474bc68abe.htm" />
+        <HelpTOCNode Title="neighbors Field" Url="html/d0131516-0db7-5a8a-16ab-370086894f9b.htm" />
+        <HelpTOCNode Title="outgoingEdges Field" Url="html/61506573-7daa-5e37-1c7c-0a90cdc5c10a.htm" />
+        <HelpTOCNode Title="reqHeight Field" Url="html/4b8536a5-e802-e85e-06d5-ddd179277d23.htm" />
+        <HelpTOCNode Title="reqRegion Field" Url="html/3dc1b9dd-ccd0-b14d-e6c4-eaf1d0436a47.htm" />
+        <HelpTOCNode Title="reqWidth Field" Url="html/58ac7398-67a5-5be3-bc96-d704f8034a96.htm" />
+        <HelpTOCNode Title="style Field" Url="html/44c4b945-d5c0-ab9a-96e4-65dbd2830e5c.htm" />
+        <HelpTOCNode Title="tooltip Field" Url="html/1be48f68-f7f6-1230-b0bf-38afb4dcc34e.htm" />
+        <HelpTOCNode Title="transCoords Field" Url="html/d6ac4027-0aec-b8e4-c10f-97e6c7aa623b.htm" />
+        <HelpTOCNode Title="type Field" Url="html/25e9a1d4-dd09-915f-5dfc-076d5ea7f60b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c79a44f-dc2a-4ddb-a5fc-f84fd20fa42d" Title="Vertex Methods" Url="html/609fe7f9-29ba-8d41-02ef-f7ba22e7a642.htm">
+        <HelpTOCNode Title="ToString Method " Url="html/2b2714a9-7b0c-3046-0231-d3ff2914d7a3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="be9d19fb-59fa-4d4b-a90b-aae90f4e6730" Title="VertexAnimationTemplate Class" Url="html/5b0a3ecd-8b81-e67b-ace7-99ca37f82f4c.htm">
+      <HelpTOCNode Id="5d53eb14-7040-4d9d-96d8-0f88560f6982" Title="VertexAnimationTemplate Constructor " Url="html/a758357f-2e87-6a2a-5663-ebf6eebab89b.htm">
+        <HelpTOCNode Title="VertexAnimationTemplate Constructor " Url="html/87e00c06-4312-f4c0-f5b2-cd9b9084a279.htm" />
+        <HelpTOCNode Title="VertexAnimationTemplate Constructor (VertexAnimationTemplate)" Url="html/bccf9fdc-521f-d73e-8c55-21f74bbb28cc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4cefd898-7826-4be1-8d83-79b78824fb91" Title="VertexAnimationTemplate Fields" Url="html/fd91dea3-fea0-688f-9c80-6a0861948d12.htm">
+        <HelpTOCNode Title="bPulseOn Field" Url="html/e7a81b05-a00a-417c-2eba-944e2add88c7.htm" />
+        <HelpTOCNode Title="lastPulse Field" Url="html/cc0b9c28-1d9a-f532-0911-9d6e9d74213d.htm" />
+        <HelpTOCNode Title="pulseDelayLength Field" Url="html/4aa8a455-64ca-58dd-d93b-8ef3d9896ae9.htm" />
+        <HelpTOCNode Title="pulseHaloColor Field" Url="html/fff1da5d-c3de-4944-d2a7-2d4977f93431.htm" />
+        <HelpTOCNode Title="pulseLength Field" Url="html/3f4396aa-91c7-ad5b-8552-9ca718f109ee.htm" />
+        <HelpTOCNode Title="pulsePrimaryColor Field" Url="html/3ea5459a-9648-d4e4-9c27-b9525835aee8.htm" />
+        <HelpTOCNode Title="pulsePrimaryTextColor Field" Url="html/f89d6681-55f0-7710-5a0e-22028839cf8f.htm" />
+        <HelpTOCNode Title="pulseSecondaryColor Field" Url="html/a0015054-cacc-8569-d54f-78d581cfa47e.htm" />
+        <HelpTOCNode Title="pulseSecondaryTextColor Field" Url="html/73eca694-16ae-01e6-36c9-184a55e332bd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="VertexAnimationTemplate Methods" Url="html/e9e23583-6c3b-8b79-807b-8651cf54f715.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="VertexShapeType Enumeration" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+    <HelpTOCNode Id="9cfdd78a-3464-4b29-89c9-463c850d3149" Title="VertexStyleTemplate Class" Url="html/0e936a4c-8d6f-6fd1-4305-437e621867c2.htm">
+      <HelpTOCNode Title="VertexStyleTemplate Constructor " Url="html/2ccff380-8a21-74bb-8381-0b432a38c016.htm" />
+      <HelpTOCNode Id="be62ac22-bfc6-4666-b262-ce3d74a7fa2c" Title="VertexStyleTemplate Fields" Url="html/fbbee679-2e4d-48d5-6ca5-860922a83192.htm">
+        <HelpTOCNode Title="bRoundedRectangleCorners Field" Url="html/54ab643d-e04a-7442-af3e-2eba50763573.htm" />
+        <HelpTOCNode Title="bShowExtraHalo Field" Url="html/af46737d-260e-6f48-4893-035444af57ba.htm" />
+        <HelpTOCNode Title="bShowHalo Field" Url="html/eb6a0208-5899-9492-1b5a-fa2dc9322aea.htm" />
+        <HelpTOCNode Title="bShowLabel Field" Url="html/16f24224-c544-a6b3-46ed-691210d5e40e.htm" />
+        <HelpTOCNode Title="fontFamily Field" Url="html/93feefb5-a06f-ba77-9fac-0089a3fad2aa.htm" />
+        <HelpTOCNode Title="haloColor Field" Url="html/5ed891cf-94d8-b377-e18e-7c890a6ea610.htm" />
+        <HelpTOCNode Title="haloOpacity Field" Url="html/e81f4f91-50d9-211c-17be-2bccc6bf3310.htm" />
+        <HelpTOCNode Title="haloThickness Field" Url="html/568aafc0-6170-089f-fb76-7b3f25c15646.htm" />
+        <HelpTOCNode Title="tooltipTemplate Field" Url="html/fdbd6f13-be4e-05f9-0d24-66d5a9da244b.htm" />
+        <HelpTOCNode Title="type Field" Url="html/8f06b27d-5bbe-c389-0a77-2212e8e106e0.htm" />
+        <HelpTOCNode Title="vertexColor Field" Url="html/b22e8c0f-4214-a7f0-4ba2-e54fbdc63d2e.htm" />
+        <HelpTOCNode Title="vertexFontWeight Field" Url="html/65b87835-0112-9c52-4803-ef985ff44137.htm" />
+        <HelpTOCNode Title="vertexOpacity Field" Url="html/e74d9172-13ad-1ceb-d025-36b234a8412b.htm" />
+        <HelpTOCNode Title="vertexRadius Field" Url="html/cb03b80c-9759-6f20-111c-8a0b95486c8f.htm" />
+        <HelpTOCNode Title="vertexTextColor Field" Url="html/b20fa29c-e77f-d31c-eaa6-e0b505f971b7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="VertexStyleTemplate Methods" Url="html/71beb790-a4ef-640f-9405-e24fcbfdb764.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6e823fe-cd3c-4d74-8864-6cf5b9398430" Title="VitalIndicator Class" Url="html/348fe6f8-c434-3fe4-ed41-38660dce9463.htm">
+      <HelpTOCNode Title="VitalIndicator Constructor " Url="html/79160eaa-6b59-3309-5cbc-987e758fa5d4.htm" />
+      <HelpTOCNode Id="0c2ad604-ea85-4b1f-a18f-8417d7c7eddb" Title="VitalIndicator Fields" Url="html/14266fb0-0753-52ef-4b71-a153ab062815.htm">
+        <HelpTOCNode Title="cursor Field" Url="html/836e953c-30d6-1b49-967d-c7d3bb823db3.htm" />
+        <HelpTOCNode Title="max Field" Url="html/752fbef2-9fec-ae78-c90e-ba6f6a820922.htm" />
+        <HelpTOCNode Title="maxLabel Field" Url="html/d835df96-8ef4-bc5a-313a-7992ca7db599.htm" />
+        <HelpTOCNode Title="min Field" Url="html/812c0080-69df-7ac7-2ee2-9c8fd38a619a.htm" />
+        <HelpTOCNode Title="minLabel Field" Url="html/8fdbbcbb-f547-4c36-b6a3-f0715dd006e9.htm" />
+        <HelpTOCNode Title="primaryLine Field" Url="html/4d9af40c-1947-2eb0-09d2-266385d698f9.htm" />
+        <HelpTOCNode Title="value Field" Url="html/4ea5e156-2b8b-03b9-c0bd-1eb6771a5eb4.htm" />
+        <HelpTOCNode Title="valueLabel Field" Url="html/241cef28-ca28-1467-22e2-67c3469530c6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7baf9db8-6359-4207-a232-88a54a1116d6" Title="VitalIndicator Methods" Url="html/626429bb-b7e3-486c-53ea-d699b69c1e4f.htm">
+        <HelpTOCNode Title="Compute Method " Url="html/cce9ce37-46ef-af6a-46f2-174aabd72bfe.htm" />
+        <HelpTOCNode Title="ComputeActiveElements Method " Url="html/6b59e14f-a928-d4ac-ffb5-0448abc884ec.htm" />
+        <HelpTOCNode Title="ComputeDecorations Method " Url="html/d1a06ad7-bec1-d6f6-8dc0-6d4e3f147de1.htm" />
+        <HelpTOCNode Title="ComputeMetrics Method " Url="html/a8c88845-157e-14c4-adb5-12adbacbd855.htm" />
+        <HelpTOCNode Title="SetData Method " Url="html/636fb989-033b-6ebe-4f80-f7376a718cf8.htm" />
+        <HelpTOCNode Title="Step Method " Url="html/d2eb4b37-df60-cf3b-eb7a-9eeb66f7358d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="VitalIndicator Properties" Url="html/e55d00d1-72e1-d22c-5143-5a096ad05650.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

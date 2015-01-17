@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Activate method" Url="html/0e24035c-373e-3480-9271-13d238d620ba.htm" />
+  <HelpKINode Title="Add method" Url="html/33a3b783-cf60-fca1-a6b7-e9f4ba3a6171.htm" />
+  <HelpKINode Title="adding field" Url="html/be4d171d-4c76-0a51-d456-889286227c65.htm" />
+  <HelpKINode Title="AngleConstraint class">
+    <HelpKINode Title="AngleConstraint Class" Url="html/be36453b-1c4c-220e-1907-aafa26979950.htm" />
+    <HelpKINode Title="about AngleConstraint class" Url="html/be36453b-1c4c-220e-1907-aafa26979950.htm" />
+    <HelpKINode Title="constructor" Url="html/ba60ed37-e7f7-c622-4d68-3d1e27059b73.htm" />
+    <HelpKINode Title="fields" Url="html/8e5110b3-7845-0ab6-ff05-a12ca7719960.htm" />
+    <HelpKINode Title="methods" Url="html/4d651c4f-c41f-2331-9bf4-a2262fbc342e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AngleConstraint.AngleConstraint constructor" Url="html/ba60ed37-e7f7-c622-4d68-3d1e27059b73.htm" />
+  <HelpKINode Title="AngleConstraint.fromType field" Url="html/2ded9ed8-26cf-0930-adab-7b5a82f9ecd0.htm" />
+  <HelpKINode Title="AngleConstraint.handle field" Url="html/268c94f3-6378-b41c-73a7-7f459c5fd13a.htm" />
+  <HelpKINode Title="AngleConstraint.maxAngle field" Url="html/0655c4c6-1ec6-61c1-e6e4-c29ed5291654.htm" />
+  <HelpKINode Title="AngleConstraint.minAngle field" Url="html/eee951cb-a74e-c7a5-cf1e-f9633058c951.htm" />
+  <HelpKINode Title="AngleConstraint.ToString method" Url="html/c566905b-89c5-85a6-b780-2c1db819303d.htm" />
+  <HelpKINode Title="AngleConstraint.toType field" Url="html/5c6c4741-f2c2-b40c-d491-be5af6a668b1.htm" />
+  <HelpKINode Title="AngleConstraintOverride class">
+    <HelpKINode Title="AngleConstraintOverride Class" Url="html/e1c780dc-4ca2-f285-780a-72d802b7c829.htm" />
+    <HelpKINode Title="about AngleConstraintOverride class" Url="html/e1c780dc-4ca2-f285-780a-72d802b7c829.htm" />
+    <HelpKINode Title="constructor" Url="html/cc136ecd-4ad8-0c5a-79c6-a67cc7b56245.htm" />
+    <HelpKINode Title="fields" Url="html/d82aaa8c-5d4b-536a-b915-d17040ed0f75.htm" />
+    <HelpKINode Title="methods" Url="html/2795726d-82b1-cc78-eb7b-d575d51669c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AngleConstraintOverride.AngleConstraintOverride constructor" Url="html/cc136ecd-4ad8-0c5a-79c6-a67cc7b56245.htm" />
+  <HelpKINode Title="AngleConstraintOverride.handle field" Url="html/b071ebeb-afa7-1663-f5ca-cb3f5040aa2a.htm" />
+  <HelpKINode Title="AngleConstraintOverride.masterAngleConstraint field" Url="html/f330c79d-e139-2d71-709d-8665d1987a94.htm" />
+  <HelpKINode Title="AngleConstraintOverride.overriddenType field" Url="html/b68d6fa3-63ca-2f38-5dda-a227a78051b9.htm" />
+  <HelpKINode Title="AngleConstraintOverride.overridingType field" Url="html/1fa4c993-9214-1493-3224-00753c4c28aa.htm" />
+  <HelpKINode Title="AngleConstraintOverride.ToString method" Url="html/9f21fdfd-4c17-2119-60a3-9d23204ec6c3.htm" />
+  <HelpKINode Title="animation field" Url="html/8defcb19-562d-a1d3-9ac7-ff05cd4039e2.htm" />
+  <HelpKINode Title="arcLengthSpacingFudge field" Url="html/a7cbe1ff-ecc6-b15d-84f3-61bc094d9241.htm" />
+  <HelpKINode Title="arrowLine0 field" Url="html/b3e9b685-270e-3e0d-b4a8-12c3ecb4dae6.htm" />
+  <HelpKINode Title="arrowLine1 field" Url="html/f72a4cdb-ebeb-ec85-debb-1768582fd30a.htm" />
+  <HelpKINode Title="arrowPercentage field" Url="html/0890c59e-7518-b8b8-4327-5fcfce7f3e48.htm" />
+  <HelpKINode Title="attachedDisplay field" Url="html/40e8540f-0038-8823-30ac-a9ff3b21f742.htm" />
+  <HelpKINode Title="background field">
+    <HelpKINode Title="BaseDisplay.background Field" Url="html/52d14b9d-93cb-13b2-5b71-c952793e9353.htm" />
+    <HelpKINode Title="CanvasThemeTemplate.background Field" Url="html/248bc172-fcee-8ead-c58a-c9fd99db71fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="backgroundColor field" Url="html/850d95fd-6323-c908-b462-a1cf71ea7647.htm" />
+  <HelpKINode Title="bAnimated field" Url="html/9b421bd1-e41e-8dcc-cd2f-05baa4ed8b67.htm" />
+  <HelpKINode Title="barColor field" Url="html/7d2fba99-31af-ba47-1575-d848a17e2527.htm" />
+  <HelpKINode Title="bars field">
+    <HelpKINode Title="Histogram.bars Field" Url="html/efae06fe-2a2a-ecf7-d5b2-23480c03760e.htm" />
+    <HelpKINode Title="Lattice.bars Field" Url="html/87e22b2e-73fa-0a96-082d-a7ad9d031ee0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="barSpacing field">
+    <HelpKINode Title="Histogram.barSpacing Field" Url="html/872b561f-af69-8127-d7d2-9592f5bdd4f2.htm" />
+    <HelpKINode Title="Lattice.barSpacing Field" Url="html/652f90c9-17f1-70d8-1b6b-96fe0654da5c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseDisplay class">
+    <HelpKINode Title="BaseDisplay Class" Url="html/12eac4a5-31bb-2e95-e5e2-346cd4f10b6d.htm" />
+    <HelpKINode Title="about BaseDisplay class" Url="html/12eac4a5-31bb-2e95-e5e2-346cd4f10b6d.htm" />
+    <HelpKINode Title="constructor" Url="html/4dfe6199-05a6-ad8e-8d0a-1226605ebee8.htm" />
+    <HelpKINode Title="fields" Url="html/9125b60e-a820-0439-951f-628be8f200b6.htm" />
+    <HelpKINode Title="methods" Url="html/6f4b59ca-3033-1df7-c466-c291b28a1fac.htm" />
+    <HelpKINode Title="properties" Url="html/c52bb3ba-cdaf-4746-3ddf-811dad55388e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseDisplay.Activate method" Url="html/0e24035c-373e-3480-9271-13d238d620ba.htm" />
+  <HelpKINode Title="BaseDisplay.background field" Url="html/52d14b9d-93cb-13b2-5b71-c952793e9353.htm" />
+  <HelpKINode Title="BaseDisplay.BaseDisplay constructor" Url="html/4dfe6199-05a6-ad8e-8d0a-1226605ebee8.htm" />
+  <HelpKINode Title="BaseDisplay.border field" Url="html/ce870476-5394-11ca-e55e-8023852bd155.htm" />
+  <HelpKINode Title="BaseDisplay.Compute method" Url="html/8469d098-a711-b322-b214-e229855c17a7.htm" />
+  <HelpKINode Title="BaseDisplay.ComputeActiveElements method" Url="html/17387ba3-2831-0b32-4555-f34113fbc33b.htm" />
+  <HelpKINode Title="BaseDisplay.ComputeDecorations method" Url="html/8d38700c-1518-f5df-690c-97cc82168a5e.htm" />
+  <HelpKINode Title="BaseDisplay.ComputeDisplayContainer method" Url="html/b78bdaed-484b-86a5-290b-b5b043baead1.htm" />
+  <HelpKINode Title="BaseDisplay.ComputeMetrics method" Url="html/ac3677ea-f7e8-9541-d477-b063d363387c.htm" />
+  <HelpKINode Title="BaseDisplay.dData field" Url="html/5ec1f068-b641-d860-3c85-569655db664b.htm" />
+  <HelpKINode Title="BaseDisplay.Deactivate method" Url="html/359c1630-2551-f4a4-91c1-0984034d0f9e.htm" />
+  <HelpKINode Title="BaseDisplay.displayLayout field" Url="html/7653917f-8aaa-2298-28b0-0b6eaf0254ad.htm" />
+  <HelpKINode Title="BaseDisplay.elements field" Url="html/19cd0495-21b6-b2d5-0a18-ee9e0265a3ae.htm" />
+  <HelpKINode Title="BaseDisplay.handle field" Url="html/0545f23e-f85a-9a0b-97cb-b1cd26df76ab.htm" />
+  <HelpKINode Title="BaseDisplay.height field" Url="html/40c5601e-2e51-ca4e-3c69-6fb16092d50d.htm" />
+  <HelpKINode Title="BaseDisplay.Height property" Url="html/64bdadbb-8163-63d8-bf4b-a97a6293b317.htm" />
+  <HelpKINode Title="BaseDisplay.heightConsumed field" Url="html/05abe290-91f4-7bb8-b8df-2bc2f1509c5c.htm" />
+  <HelpKINode Title="BaseDisplay.heightRemaining field" Url="html/a17d039d-e306-d4c7-32e2-9e279d424925.htm" />
+  <HelpKINode Title="BaseDisplay.interiorHeight field" Url="html/5fccaab1-e503-02a4-864f-4fb9a4717691.htm" />
+  <HelpKINode Title="BaseDisplay.interiorWidth field" Url="html/23474183-4b97-4f51-e6d7-5fdf0075a416.htm" />
+  <HelpKINode Title="BaseDisplay.IsActive property" Url="html/f520ebc1-3011-73ec-3834-0e0f99ed12b0.htm" />
+  <HelpKINode Title="BaseDisplay.Layout property" Url="html/07f6d00a-2373-63f2-e7db-4107b81554d3.htm" />
+  <HelpKINode Title="BaseDisplay.nData field" Url="html/6181625b-ddb9-9f2d-e149-6ce5c1dd9930.htm" />
+  <HelpKINode Title="BaseDisplay.oData field" Url="html/4107dd9a-63dd-0e80-6365-41180008549b.htm" />
+  <HelpKINode Title="BaseDisplay.Render method" Url="html/f93b7276-80e2-9aa4-9a7a-7e0350988c7b.htm" />
+  <HelpKINode Title="BaseDisplay.requiredHorizonalMargin field" Url="html/65986246-87d2-b826-a8fa-5f2267f9db93.htm" />
+  <HelpKINode Title="BaseDisplay.requiredVerticalMargin field" Url="html/f9f9c39e-7e47-8702-bf3a-509f26dff40f.htm" />
+  <HelpKINode Title="BaseDisplay.stepCount field" Url="html/0001f322-593e-1c12-c89d-06508852cb62.htm" />
+  <HelpKINode Title="BaseDisplay.stepSize field" Url="html/474213b1-effc-892e-80db-796d16ed6fb8.htm" />
+  <HelpKINode Title="BaseDisplay.stepsRemaining field" Url="html/e541b8cd-8fc6-9146-6863-4d8b92b07e06.htm" />
+  <HelpKINode Title="BaseDisplay.width field" Url="html/55b51538-26f3-f649-c687-37f8cfdfbebd.htm" />
+  <HelpKINode Title="BaseDisplay.Width property" Url="html/0e84bf28-6a0a-1b27-56de-6fe9233b0c52.htm" />
+  <HelpKINode Title="BaseDisplay.widthConsumed field" Url="html/94690302-d5ca-8a35-1ea1-d296ba463ee2.htm" />
+  <HelpKINode Title="BaseDisplay.widthRemaining field" Url="html/6c520372-e0d8-1d6e-8ce9-72cea8599340.htm" />
+  <HelpKINode Title="BaseDisplay.xo field" Url="html/cf968b5b-e16d-588b-1bd9-5f004dd28e07.htm" />
+  <HelpKINode Title="BaseDisplay.yo field" Url="html/01504437-5662-78f7-d491-4281c31cca96.htm" />
+  <HelpKINode Title="BaseDisplay.zOrder field" Url="html/35a03216-e194-a4fe-38ee-9c4f8ae09dd2.htm" />
+  <HelpKINode Title="BaseThread class">
+    <HelpKINode Title="BaseThread Class" Url="html/9915e02c-0a25-be65-03e3-9c7a2ab5c5aa.htm" />
+    <HelpKINode Title="about BaseThread class" Url="html/9915e02c-0a25-be65-03e3-9c7a2ab5c5aa.htm" />
+    <HelpKINode Title="constructor" Url="html/15f03f39-5cb7-6cf5-b39e-33c2b8222057.htm" />
+    <HelpKINode Title="fields" Url="html/5356e2c5-7616-1ceb-a2a7-ae92d3243b66.htm" />
+    <HelpKINode Title="methods" Url="html/aa7868fb-dad3-c9a0-60f1-5fa135306449.htm" />
+    <HelpKINode Title="properties" Url="html/cbdb491c-182d-b3d8-aacb-b609bfda3768.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseThread.BaseThread constructor" Url="html/15f03f39-5cb7-6cf5-b39e-33c2b8222057.htm" />
+  <HelpKINode Title="BaseThread.Immutable property" Url="html/a4e4da9a-196f-c769-5c30-3d34937601a1.htm" />
+  <HelpKINode Title="BaseThread.IsAlive property" Url="html/b34a1d05-82d3-7ae1-20cc-d12bfccadd4b.htm" />
+  <HelpKINode Title="BaseThread.isFree field" Url="html/8accebda-176c-0ea6-896e-8ef9cc0ae32a.htm" />
+  <HelpKINode Title="BaseThread.IsFree property" Url="html/4a0ed827-0dd1-4d4d-bdb4-e5cec92113fa.htm" />
+  <HelpKINode Title="BaseThread.IsPaused method" Url="html/10ebe904-d638-8190-3dff-0406ee955d6b.htm" />
+  <HelpKINode Title="BaseThread.Join method" Url="html/d859bd92-819b-13ae-664f-db0ae7fb7db9.htm" />
+  <HelpKINode Title="BaseThread.Pause method" Url="html/d39c7a44-8196-51af-6715-68bbda000b45.htm" />
+  <HelpKINode Title="BaseThread.Restart method" Url="html/e763ffea-1585-1416-99d7-57f6a145f232.htm" />
+  <HelpKINode Title="BaseThread.Resume method" Url="html/0ab21557-207d-65fe-9726-285438d3df91.htm" />
+  <HelpKINode Title="BaseThread.RunThread method" Url="html/6a01acc0-9b09-ad2e-4fb7-f6c50246ba41.htm" />
+  <HelpKINode Title="BaseThread.Sleep method" Url="html/0b8c4a91-5ef9-8162-41d1-11d62982a1f8.htm" />
+  <HelpKINode Title="BaseThread.Start method" Url="html/76129ec2-6140-0837-5f52-c93108914ba0.htm" />
+  <HelpKINode Title="BaseThread.Stop method" Url="html/59146d26-53ae-c63e-e45d-949b07719ffd.htm" />
+  <HelpKINode Title="BaseThread._shouldPause field" Url="html/4f5b7f2c-a115-238f-f194-1d8c12fc852d.htm" />
+  <HelpKINode Title="BaseThread._shouldRestart field" Url="html/36db208e-1abb-fab7-5907-d9e79bbf4297.htm" />
+  <HelpKINode Title="BaseThread._shouldSleep field" Url="html/0cf236ba-4209-cdd7-f48d-514b03162318.htm" />
+  <HelpKINode Title="BaseThread._shouldStop field" Url="html/5c883af2-ce74-f2d5-5993-5b8f0c8a068d.htm" />
+  <HelpKINode Title="BaseThread._sleepTime field" Url="html/71b98461-0721-b061-dd50-69944cc5a0b0.htm" />
+  <HelpKINode Title="bCompressLeaves field" Url="html/2c8a0b65-373a-382f-181e-1474e5a5ed5b.htm" />
+  <HelpKINode Title="bHorizontalFlip field" Url="html/c89a9382-13a5-8c51-74b8-6d448ea0fb17.htm" />
+  <HelpKINode Title="bIsolated field" Url="html/e7741be9-33d3-d61c-a9f1-097838313b64.htm" />
+  <HelpKINode Title="border field" Url="html/ce870476-5394-11ca-e55e-8023852bd155.htm" />
+  <HelpKINode Title="borderColor field" Url="html/acec682b-8a76-723f-4b5a-f087db675e6a.htm" />
+  <HelpKINode Title="borderThickness field">
+    <HelpKINode Title="Cached.borderThickness Field" Url="html/6645d79d-4fc1-dc04-bee6-eb9c9e201854.htm" />
+    <HelpKINode Title="DisplayLayout.borderThickness Field" Url="html/e2d32a86-7ff1-66c7-bf44-98973ab982c8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BoundingBox class">
+    <HelpKINode Title="BoundingBox Class" Url="html/87c7e001-a414-8d88-a0fe-09675920190c.htm" />
+    <HelpKINode Title="about BoundingBox class" Url="html/87c7e001-a414-8d88-a0fe-09675920190c.htm" />
+    <HelpKINode Title="constructor" Url="html/c2b5b7b9-9a94-5469-b333-1b1d6f195d10.htm" />
+    <HelpKINode Title="fields" Url="html/a1f71241-c824-c4f3-faa0-464db2e7d27a.htm" />
+    <HelpKINode Title="methods" Url="html/7e5b1247-e2d5-b08d-813d-bc56ade7b0cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BoundingBox.BoundingBox constructor" Url="html/c2b5b7b9-9a94-5469-b333-1b1d6f195d10.htm" />
+  <HelpKINode Title="BoundingBox.element field" Url="html/53212ce2-1dff-1512-11fc-dd7c0c61eb5a.htm" />
+  <HelpKINode Title="BoundingBox.vertex field" Url="html/706663ef-8e25-3fbf-71c5-13676682c83a.htm" />
+  <HelpKINode Title="box field" Url="html/06531492-b334-dcdb-a270-f858d9cf6812.htm" />
+  <HelpKINode Title="bPrintEdgeNode field" Url="html/fca3a048-6f07-b7cd-9e48-d00c2d7ca6b2.htm" />
+  <HelpKINode Title="bPulseOn field" Url="html/e7a81b05-a00a-417c-2eba-944e2add88c7.htm" />
+  <HelpKINode Title="bRequestSnapBack field" Url="html/3b91e771-8baf-7b49-d111-c63a8f3ac20b.htm" />
+  <HelpKINode Title="bRoundedRectangleCorners field" Url="html/54ab643d-e04a-7442-af3e-2eba50763573.htm" />
+  <HelpKINode Title="BrushAdjNode_ field" Url="html/2f1013e7-9de9-4ad7-c071-cee038732321.htm" />
+  <HelpKINode Title="BrushAdverbNode_ field" Url="html/3db30282-5d47-18a4-9d75-8905ffb331a7.htm" />
+  <HelpKINode Title="BrushArtDetNode_ field" Url="html/c7329cac-248e-43ca-8513-e8e34ea9ae2a.htm" />
+  <HelpKINode Title="BrushauxiliaryNode_ field" Url="html/f6186e4f-f5ed-32e9-98fb-d9c8fe091abb.htm" />
+  <HelpKINode Title="BrushBeige field" Url="html/9ba91911-9716-682b-b140-1a450956ca08.htm" />
+  <HelpKINode Title="BrushBlack field" Url="html/737ee1b4-aa84-ab9a-69f3-714fd1e69ae1.htm" />
+  <HelpKINode Title="BrushBlue field" Url="html/3b1086bf-3a2b-2779-d1ad-56b1072e2f26.htm" />
+  <HelpKINode Title="BrushBubbleGum field" Url="html/4f9b66da-c323-b84d-d5ab-863006c03af4.htm" />
+  <HelpKINode Title="BrushConjNode_ field" Url="html/d50cd6a8-542c-0dc9-953b-4caf8ae1c4fb.htm" />
+  <HelpKINode Title="BrushCyan field" Url="html/f89a4c29-3a13-d491-89e0-bae6739e1b04.htm" />
+  <HelpKINode Title="BrushDarkBlue field" Url="html/1f81dccf-9db2-72ae-85f8-a54b6f8c2a63.htm" />
+  <HelpKINode Title="BrushDarkerOrange field" Url="html/b2be61d8-8baf-0b82-f804-c2389ca83cae.htm" />
+  <HelpKINode Title="BrushDarkGray field" Url="html/b7250563-7e42-e3dd-eea2-665a8e30afac.htm" />
+  <HelpKINode Title="BrushDarkGreen field" Url="html/ca4a64b4-136f-adee-ea00-65cabb1b99dd.htm" />
+  <HelpKINode Title="BrushDarkKhaki field" Url="html/0952169d-8ab3-d48b-39f1-1183b0ede05b.htm" />
+  <HelpKINode Title="BrushDarkMagenta field" Url="html/083ffc8d-143e-c4b7-d222-7a7fda25e09b.htm" />
+  <HelpKINode Title="BrushDarkOrange field" Url="html/94b510e3-3df1-cda6-ddad-d80c48c58b13.htm" />
+  <HelpKINode Title="BrushDarkRed field" Url="html/653eef9e-38e9-ceaf-9266-e1d4e8b0f42b.htm" />
+  <HelpKINode Title="BrushDarkYellow field" Url="html/ec634f5e-9a26-7264-8528-dc7a5e9242fb.htm" />
+  <HelpKINode Title="BrushDeepSkyBlue field" Url="html/0ea559bb-1680-b834-14a2-f4b090fe5d33.htm" />
+  <HelpKINode Title="BrushDodgerBlue field" Url="html/787e726b-68a9-947d-9579-bdd1e0feb8b5.htm" />
+  <HelpKINode Title="BrushError field" Url="html/24dbed6b-0d65-9465-e4fb-18b0ae43e2b9.htm" />
+  <HelpKINode Title="BrushGray field" Url="html/3fcb8025-8035-496b-79dd-e151a73048c6.htm" />
+  <HelpKINode Title="BrushGreen field" Url="html/eb74ba09-875f-8446-fcb5-07c0abb49ce9.htm" />
+  <HelpKINode Title="BrushJavaPurple field" Url="html/a10fd168-f067-7cf2-1aa1-a791ad357952.htm" />
+  <HelpKINode Title="BrushLightGoldenrodYellow field" Url="html/7c17eec1-a2db-f75e-8021-2e0ed9d77ecb.htm" />
+  <HelpKINode Title="BrushLightGray field" Url="html/59174160-af9d-ad75-cc2d-c3ff5035bf7e.htm" />
+  <HelpKINode Title="BrushLightTeal field" Url="html/1fd26bb2-2a48-ef03-07d7-3d6a89353d5c.htm" />
+  <HelpKINode Title="BrushLightYellow field" Url="html/2c641117-2658-6e5d-faaa-690c4e433953.htm" />
+  <HelpKINode Title="BrushLimeGreen field" Url="html/c1cd7545-66ed-c750-7d0f-5c8c5c1ccb4c.htm" />
+  <HelpKINode Title="BrushMagenta field" Url="html/f668e831-cff2-37df-4217-e61290d57d9c.htm" />
+  <HelpKINode Title="BrushNameNode field" Url="html/47402087-5a9a-045c-9411-4f63ece735c5.htm" />
+  <HelpKINode Title="BrushNeonGreen field" Url="html/88c7f9da-5f14-7e04-ca75-6193932eb06c.htm" />
+  <HelpKINode Title="BrushNounNode_ field" Url="html/c16d6119-1501-147d-f28a-707b07568261.htm" />
+  <HelpKINode Title="BrushOrange field" Url="html/0d447ebf-1df0-ad22-47ba-a1bedd472803.htm" />
+  <HelpKINode Title="BrushOrangeRed field" Url="html/7f14dc7d-0f74-7895-5e86-d520171475e6.htm" />
+  <HelpKINode Title="BrushPrepNode_ field" Url="html/63f6df2b-14ad-0954-7f76-6e3d29d70873.htm" />
+  <HelpKINode Title="BrushPronounNode_ field" Url="html/43d925e9-6f86-363e-c4fd-3373eadb1bd6.htm" />
+  <HelpKINode Title="BrushRed field" Url="html/300a67d5-1d24-387a-96a6-5f83629ad27d.htm" />
+  <HelpKINode Title="BrushRelNode field" Url="html/0e6b02d3-154d-b759-a81e-cb664cef26ff.htm" />
+  <HelpKINode Title="BrushRuleNode field" Url="html/6440ea4d-6a64-4823-0428-30be618730a6.htm" />
+  <HelpKINode Title="BrushSalmon field" Url="html/20ee3b31-3165-3cdf-9171-e2031eac7e65.htm" />
+  <HelpKINode Title="BrushSysNode_ field" Url="html/d9c658c2-1529-3c9d-f189-2ba5527f03f7.htm" />
+  <HelpKINode Title="BrushTASNode field" Url="html/346b9499-92e0-e19d-2183-f8892e19234d.htm" />
+  <HelpKINode Title="BrushTransparent field" Url="html/3b51dfd3-bd86-3199-5803-7ba97fb336ac.htm" />
+  <HelpKINode Title="BrushverbNode_ field" Url="html/7f680233-2c4a-b0dc-0556-29cfc2feef44.htm" />
+  <HelpKINode Title="BrushWhite field" Url="html/10edf97f-f1ab-505b-adf3-4b71ca35e996.htm" />
+  <HelpKINode Title="BrushWordNode field" Url="html/2d53ff69-0ac7-c0de-aa33-c29a072163b9.htm" />
+  <HelpKINode Title="BrushYellow field" Url="html/cc1ed14d-5cc1-75c3-fb79-65ddc9b462db.htm" />
+  <HelpKINode Title="bShowAnimations field" Url="html/8ddcc0a2-5964-3d45-2130-c96561421758.htm" />
+  <HelpKINode Title="bShowArrow field" Url="html/192ab16a-2560-0375-c26b-63b9afb7dbda.htm" />
+  <HelpKINode Title="bShowAxes field" Url="html/cac8aeac-e76f-69b7-d77d-689d9782917c.htm" />
+  <HelpKINode Title="bShowBackground field" Url="html/4b9ffc12-d270-655d-bb1e-1cab60b8f52a.htm" />
+  <HelpKINode Title="bShowBorder field" Url="html/098a455d-4119-e051-f124-d0849c80c68d.htm" />
+  <HelpKINode Title="bShowDensityRegions field" Url="html/cdef4889-3ffe-d02e-df36-7f88cce38236.htm" />
+  <HelpKINode Title="bShowEdgeNode field" Url="html/5d6fcdd3-f55c-a566-c408-8926f04dceea.htm" />
+  <HelpKINode Title="bShowEdges field" Url="html/eed7cbb4-4558-3006-1564-50a06bbfab7d.htm" />
+  <HelpKINode Title="bShowExtraHalo field" Url="html/af46737d-260e-6f48-4893-035444af57ba.htm" />
+  <HelpKINode Title="bShowHalo field" Url="html/eb6a0208-5899-9492-1b5a-fa2dc9322aea.htm" />
+  <HelpKINode Title="bShowLabel field" Url="html/16f24224-c544-a6b3-46ed-691210d5e40e.htm" />
+  <HelpKINode Title="bShowMeanLine field" Url="html/3c5e3ef8-642a-0ee6-e14e-d3b907924338.htm" />
+  <HelpKINode Title="bShowObjectCoordinates field" Url="html/f5941063-b5f8-3756-3588-532051424c29.htm" />
+  <HelpKINode Title="bShowPoints field" Url="html/4fca1e92-d34b-65c5-02b1-18b9ce2aa995.htm" />
+  <HelpKINode Title="bShowScores field" Url="html/4dc6bb42-2c82-b7bb-4095-cdf87974bef7.htm" />
+  <HelpKINode Title="bShowValues field" Url="html/0563983d-bb9a-c7d3-63bd-686ef13b18c5.htm" />
+  <HelpKINode Title="bSizeVertexToText field" Url="html/410b61c3-4d4e-90c5-a0da-b7f9e7abb420.htm" />
+  <HelpKINode Title="bTopLevel field" Url="html/4ace8055-ab41-d3a6-6d6e-9cf033363a23.htm" />
+  <HelpKINode Title="bUpsidedown field" Url="html/dab73d7b-8687-e5bd-1679-b163033a84a6.htm" />
+  <HelpKINode Title="bUseStandardTypeface field" Url="html/58479537-51d0-c57a-e931-a93dbf0471b6.htm" />
+  <HelpKINode Title="Cached class">
+    <HelpKINode Title="Cached Class" Url="html/5c99628e-9483-67c9-281b-d868127b252c.htm" />
+    <HelpKINode Title="about Cached class" Url="html/5c99628e-9483-67c9-281b-d868127b252c.htm" />
+    <HelpKINode Title="fields" Url="html/b3caed21-0762-c3a0-70fd-26ba0f4feec4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cached.arcLengthSpacingFudge field" Url="html/a7cbe1ff-ecc6-b15d-84f3-61bc094d9241.htm" />
+  <HelpKINode Title="Cached.arrowPercentage field" Url="html/0890c59e-7518-b8b8-4327-5fcfce7f3e48.htm" />
+  <HelpKINode Title="Cached.borderThickness field" Url="html/6645d79d-4fc1-dc04-bee6-eb9c9e201854.htm" />
+  <HelpKINode Title="Cached.BrushAdjNode_ field" Url="html/2f1013e7-9de9-4ad7-c071-cee038732321.htm" />
+  <HelpKINode Title="Cached.BrushAdverbNode_ field" Url="html/3db30282-5d47-18a4-9d75-8905ffb331a7.htm" />
+  <HelpKINode Title="Cached.BrushArtDetNode_ field" Url="html/c7329cac-248e-43ca-8513-e8e34ea9ae2a.htm" />
+  <HelpKINode Title="Cached.BrushauxiliaryNode_ field" Url="html/f6186e4f-f5ed-32e9-98fb-d9c8fe091abb.htm" />
+  <HelpKINode Title="Cached.BrushBeige field" Url="html/9ba91911-9716-682b-b140-1a450956ca08.htm" />
+  <HelpKINode Title="Cached.BrushBlack field" Url="html/737ee1b4-aa84-ab9a-69f3-714fd1e69ae1.htm" />
+  <HelpKINode Title="Cached.BrushBlue field" Url="html/3b1086bf-3a2b-2779-d1ad-56b1072e2f26.htm" />
+  <HelpKINode Title="Cached.BrushBubbleGum field" Url="html/4f9b66da-c323-b84d-d5ab-863006c03af4.htm" />
+  <HelpKINode Title="Cached.BrushConjNode_ field" Url="html/d50cd6a8-542c-0dc9-953b-4caf8ae1c4fb.htm" />
+  <HelpKINode Title="Cached.BrushCyan field" Url="html/f89a4c29-3a13-d491-89e0-bae6739e1b04.htm" />
+  <HelpKINode Title="Cached.BrushDarkBlue field" Url="html/1f81dccf-9db2-72ae-85f8-a54b6f8c2a63.htm" />
+  <HelpKINode Title="Cached.BrushDarkerOrange field" Url="html/b2be61d8-8baf-0b82-f804-c2389ca83cae.htm" />
+  <HelpKINode Title="Cached.BrushDarkGray field" Url="html/b7250563-7e42-e3dd-eea2-665a8e30afac.htm" />
+  <HelpKINode Title="Cached.BrushDarkGreen field" Url="html/ca4a64b4-136f-adee-ea00-65cabb1b99dd.htm" />
+  <HelpKINode Title="Cached.BrushDarkKhaki field" Url="html/0952169d-8ab3-d48b-39f1-1183b0ede05b.htm" />
+  <HelpKINode Title="Cached.BrushDarkMagenta field" Url="html/083ffc8d-143e-c4b7-d222-7a7fda25e09b.htm" />
+  <HelpKINode Title="Cached.BrushDarkOrange field" Url="html/94b510e3-3df1-cda6-ddad-d80c48c58b13.htm" />
+  <HelpKINode Title="Cached.BrushDarkRed field" Url="html/653eef9e-38e9-ceaf-9266-e1d4e8b0f42b.htm" />
+  <HelpKINode Title="Cached.BrushDarkYellow field" Url="html/ec634f5e-9a26-7264-8528-dc7a5e9242fb.htm" />
+  <HelpKINode Title="Cached.BrushDeepSkyBlue field" Url="html/0ea559bb-1680-b834-14a2-f4b090fe5d33.htm" />
+  <HelpKINode Title="Cached.BrushDodgerBlue field" Url="html/787e726b-68a9-947d-9579-bdd1e0feb8b5.htm" />
+  <HelpKINode Title="Cached.BrushError field" Url="html/24dbed6b-0d65-9465-e4fb-18b0ae43e2b9.htm" />
+  <HelpKINode Title="Cached.BrushGray field" Url="html/3fcb8025-8035-496b-79dd-e151a73048c6.htm" />
+  <HelpKINode Title="Cached.BrushGreen field" Url="html/eb74ba09-875f-8446-fcb5-07c0abb49ce9.htm" />
+  <HelpKINode Title="Cached.BrushJavaPurple field" Url="html/a10fd168-f067-7cf2-1aa1-a791ad357952.htm" />
+  <HelpKINode Title="Cached.BrushLightGoldenrodYellow field" Url="html/7c17eec1-a2db-f75e-8021-2e0ed9d77ecb.htm" />
+  <HelpKINode Title="Cached.BrushLightGray field" Url="html/59174160-af9d-ad75-cc2d-c3ff5035bf7e.htm" />
+  <HelpKINode Title="Cached.BrushLightTeal field" Url="html/1fd26bb2-2a48-ef03-07d7-3d6a89353d5c.htm" />
+  <HelpKINode Title="Cached.BrushLightYellow field" Url="html/2c641117-2658-6e5d-faaa-690c4e433953.htm" />
+  <HelpKINode Title="Cached.BrushLimeGreen field" Url="html/c1cd7545-66ed-c750-7d0f-5c8c5c1ccb4c.htm" />
+  <HelpKINode Title="Cached.BrushMagenta field" Url="html/f668e831-cff2-37df-4217-e61290d57d9c.htm" />
+  <HelpKINode Title="Cached.BrushNameNode field" Url="html/47402087-5a9a-045c-9411-4f63ece735c5.htm" />
+  <HelpKINode Title="Cached.BrushNeonGreen field" Url="html/88c7f9da-5f14-7e04-ca75-6193932eb06c.htm" />
+  <HelpKINode Title="Cached.BrushNounNode_ field" Url="html/c16d6119-1501-147d-f28a-707b07568261.htm" />
+  <HelpKINode Title="Cached.BrushOrange field" Url="html/0d447ebf-1df0-ad22-47ba-a1bedd472803.htm" />
+  <HelpKINode Title="Cached.BrushOrangeRed field" Url="html/7f14dc7d-0f74-7895-5e86-d520171475e6.htm" />
+  <HelpKINode Title="Cached.BrushPrepNode_ field" Url="html/63f6df2b-14ad-0954-7f76-6e3d29d70873.htm" />
+  <HelpKINode Title="Cached.BrushPronounNode_ field" Url="html/43d925e9-6f86-363e-c4fd-3373eadb1bd6.htm" />
+  <HelpKINode Title="Cached.BrushRed field" Url="html/300a67d5-1d24-387a-96a6-5f83629ad27d.htm" />
+  <HelpKINode Title="Cached.BrushRelNode field" Url="html/0e6b02d3-154d-b759-a81e-cb664cef26ff.htm" />
+  <HelpKINode Title="Cached.BrushRuleNode field" Url="html/6440ea4d-6a64-4823-0428-30be618730a6.htm" />
+  <HelpKINode Title="Cached.BrushSalmon field" Url="html/20ee3b31-3165-3cdf-9171-e2031eac7e65.htm" />
+  <HelpKINode Title="Cached.BrushSysNode_ field" Url="html/d9c658c2-1529-3c9d-f189-2ba5527f03f7.htm" />
+  <HelpKINode Title="Cached.BrushTASNode field" Url="html/346b9499-92e0-e19d-2183-f8892e19234d.htm" />
+  <HelpKINode Title="Cached.BrushTransparent field" Url="html/3b51dfd3-bd86-3199-5803-7ba97fb336ac.htm" />
+  <HelpKINode Title="Cached.BrushverbNode_ field" Url="html/7f680233-2c4a-b0dc-0556-29cfc2feef44.htm" />
+  <HelpKINode Title="Cached.BrushWhite field" Url="html/10edf97f-f1ab-505b-adf3-4b71ca35e996.htm" />
+  <HelpKINode Title="Cached.BrushWordNode field" Url="html/2d53ff69-0ac7-c0de-aa33-c29a072163b9.htm" />
+  <HelpKINode Title="Cached.BrushYellow field" Url="html/cc1ed14d-5cc1-75c3-fb79-65ddc9b462db.htm" />
+  <HelpKINode Title="Cached.cachedBorders field" Url="html/71ec437b-7a73-038c-8831-d131af7b54ec.htm" />
+  <HelpKINode Title="Cached.cachedGrids field" Url="html/ba5bd6b8-37af-7063-0473-e7004f258a03.htm" />
+  <HelpKINode Title="Cached.cachedLines field" Url="html/a8f75196-0285-72ed-5d15-4c711ab39b5e.htm" />
+  <HelpKINode Title="Cached.DarkestBrown field" Url="html/99010d10-4d23-a8e7-d788-2d651e5551d4.htm" />
+  <HelpKINode Title="Cached.dragEndPoint field" Url="html/8704e8cd-1e9d-1ba3-34d5-c8bc6121431b.htm" />
+  <HelpKINode Title="Cached.dragStartPoint field" Url="html/2cfc52cc-3157-ebd3-d93d-6428570904fe.htm" />
+  <HelpKINode Title="Cached.edgeLengthFudge field" Url="html/4d203376-3e32-5cc5-8642-48bfe52b8247.htm" />
+  <HelpKINode Title="Cached.graph field" Url="html/3bed4786-37e1-1e93-650f-7a9b4c13b659.htm" />
+  <HelpKINode Title="Cached.lastClickedVertex field" Url="html/48db5399-77d9-34be-1ac5-a9413187cdbc.htm" />
+  <HelpKINode Title="Cached.lastClickPoint field" Url="html/af47d32d-4d64-8d44-923d-85ed3353edfc.htm" />
+  <HelpKINode Title="Cached.lastOffset field" Url="html/4c30e7ed-8535-d66f-df98-53fb4b7a3ced.htm" />
+  <HelpKINode Title="Cached.lastPoint field" Url="html/bef70a89-b553-f3b2-f925-9543b4087843.htm" />
+  <HelpKINode Title="Cached.leftDragPrevOffset field" Url="html/2c6f7134-106f-f185-eb2e-390db74b9b4e.htm" />
+  <HelpKINode Title="Cached.maxX field" Url="html/d20fb0e2-bd84-6ebb-965a-d10d4b789224.htm" />
+  <HelpKINode Title="Cached.maxY field" Url="html/4f5b02da-0d08-c484-90f4-a8fc4714b130.htm" />
+  <HelpKINode Title="Cached.minX field" Url="html/df426654-bd06-eff7-d03a-f79b6ddc865f.htm" />
+  <HelpKINode Title="Cached.minY field" Url="html/cdd31c5b-d516-de10-ad4d-2172aca2e7ff.htm" />
+  <HelpKINode Title="Cached.nodeRadiusFudge field" Url="html/5d19b52f-19c2-ccdd-44ef-b07cad7a0068.htm" />
+  <HelpKINode Title="Cached.rightClicked field" Url="html/9a7a86f6-7e12-a289-4ca9-e51b57a22bf4.htm" />
+  <HelpKINode Title="Cached.rightDragPrevOffset field" Url="html/8d62d791-b583-f4d6-7839-f36450163f53.htm" />
+  <HelpKINode Title="Cached.rnd field" Url="html/c9a98e29-3c18-1abd-cd7c-9bcdd46ba31d.htm" />
+  <HelpKINode Title="Cached.StandardBorderThickness field" Url="html/709724bb-b166-b9d9-14fa-ad5992f75393.htm" />
+  <HelpKINode Title="Cached.StandardCornerRadius field" Url="html/c1f6f2c6-88aa-ce5e-e118-ede827674846.htm" />
+  <HelpKINode Title="Cached.StandardDashedLine field" Url="html/bcb2c221-5a3c-1643-b3b2-a32ae77b95ae.htm" />
+  <HelpKINode Title="Cached.startTime field" Url="html/368ad7a5-b10e-bd08-0cdb-4b9cfa2385cb.htm" />
+  <HelpKINode Title="Cached.stickyDrag field" Url="html/1426f8ce-efaa-dc6f-7210-7215137527b2.htm" />
+  <HelpKINode Title="Cached.typeface field" Url="html/d0a497eb-c818-ae8e-dc6e-332273d0a581.htm" />
+  <HelpKINode Title="Cached.ZeroPoint field" Url="html/56215fc3-38d7-b75d-5dc8-510efc8164aa.htm" />
+  <HelpKINode Title="cachedBorders field" Url="html/71ec437b-7a73-038c-8831-d131af7b54ec.htm" />
+  <HelpKINode Title="cachedGrids field" Url="html/ba5bd6b8-37af-7063-0473-e7004f258a03.htm" />
+  <HelpKINode Title="cachedLines field" Url="html/a8f75196-0285-72ed-5d15-4c711ab39b5e.htm" />
+  <HelpKINode Title="canvas field" Url="html/eb2b57de-a54f-18a7-92ed-6be3063be4a7.htm" />
+  <HelpKINode Title="CanvasThemeTemplate class">
+    <HelpKINode Title="CanvasThemeTemplate Class" Url="html/ac32bcfe-6009-cf52-a147-2fdaec47e034.htm" />
+    <HelpKINode Title="about CanvasThemeTemplate class" Url="html/ac32bcfe-6009-cf52-a147-2fdaec47e034.htm" />
+    <HelpKINode Title="constructor" Url="html/a2e3ed18-0d5a-0ef9-c759-1dd2610f4139.htm" />
+    <HelpKINode Title="fields" Url="html/fe6d5b7c-d596-5329-e07b-8aee039b2a01.htm" />
+    <HelpKINode Title="methods" Url="html/47da0dd4-2352-881a-7e7d-062303dba97e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CanvasThemeTemplate.background field" Url="html/248bc172-fcee-8ead-c58a-c9fd99db71fc.htm" />
+  <HelpKINode Title="CanvasThemeTemplate.CanvasThemeTemplate constructor" Url="html/a2e3ed18-0d5a-0ef9-c759-1dd2610f4139.htm" />
+  <HelpKINode Title="CanvasThemeTemplate.comboBoxBackground field" Url="html/acbc6f3d-c3f9-0eb1-da22-394ea91dc9f5.htm" />
+  <HelpKINode Title="CanvasThemeTemplate.comboBoxForeground field" Url="html/7c841a69-aa9b-0176-3900-2c707c94b098.htm" />
+  <HelpKINode Title="CanvasThemeTemplate.comboBoxItemSelected field" Url="html/1290b927-0fd6-9a7c-148a-d8a2651f915f.htm" />
+  <HelpKINode Title="charge field">
+    <HelpKINode Title="Graph.charge Field" Url="html/559e8ec2-3d89-fca6-5c87-1d8d48ec4526.htm" />
+    <HelpKINode Title="Vertex.charge Field" Url="html/ba3ff71d-6d16-84e4-f9d5-ca4ea5727042.htm" />
+  </HelpKINode>
+  <HelpKINode Title="children field" Url="html/0ef3e057-cd9c-e869-19af-ea9f5488b47b.htm" />
+  <HelpKINode Title="clusterPadding field" Url="html/c81a5b38-319c-7131-40d7-01d023a59231.htm" />
+  <HelpKINode Title="CombinedEllipse enumeration member" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="CombinedRectangle enumeration member" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="comboBoxBackground field" Url="html/acbc6f3d-c3f9-0eb1-da22-394ea91dc9f5.htm" />
+  <HelpKINode Title="comboBoxForeground field" Url="html/7c841a69-aa9b-0176-3900-2c707c94b098.htm" />
+  <HelpKINode Title="comboBoxItemSelected field" Url="html/1290b927-0fd6-9a7c-148a-d8a2651f915f.htm" />
+  <HelpKINode Title="Compute method">
+    <HelpKINode Title="BaseDisplay.Compute Method " Url="html/8469d098-a711-b322-b214-e229855c17a7.htm" />
+    <HelpKINode Title="EEG.Compute Method " Url="html/a4b7d327-7836-6eb7-f90a-0e47cadb1344.htm" />
+    <HelpKINode Title="Graph.Compute Method " Url="html/ed9c4bcb-b496-3039-744f-38c5150a337c.htm" />
+    <HelpKINode Title="Histogram.Compute Method " Url="html/21656b31-b93f-71b5-ea9b-22f184de7afd.htm" />
+    <HelpKINode Title="Lattice.Compute Method " Url="html/f22d2320-8008-2765-6631-28e4efe9bbd7.htm" />
+    <HelpKINode Title="LinePlot.Compute Method " Url="html/0cfefb44-6544-08b6-a67a-ad185204f7f4.htm" />
+    <HelpKINode Title="VitalIndicator.Compute Method " Url="html/cce9ce37-46ef-af6a-46f2-174aabd72bfe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComputeActiveElements method">
+    <HelpKINode Title="BaseDisplay.ComputeActiveElements Method " Url="html/17387ba3-2831-0b32-4555-f34113fbc33b.htm" />
+    <HelpKINode Title="EEG.ComputeActiveElements Method " Url="html/a2229b79-6ebc-55d9-91e0-b404884bf661.htm" />
+    <HelpKINode Title="Graph.ComputeActiveElements Method " Url="html/aa0a5048-6660-e099-f39c-d0a5b14ac005.htm" />
+    <HelpKINode Title="Histogram.ComputeActiveElements Method " Url="html/57a6c050-3bdc-594f-670a-2b703925102c.htm" />
+    <HelpKINode Title="Lattice.ComputeActiveElements Method " Url="html/65268f5e-98ce-b5cb-20ed-d2dbe58919de.htm" />
+    <HelpKINode Title="LinePlot.ComputeActiveElements Method " Url="html/9a603111-e1fe-a594-50a3-b70748d1085f.htm" />
+    <HelpKINode Title="VitalIndicator.ComputeActiveElements Method " Url="html/6b59e14f-a928-d4ac-ffb5-0448abc884ec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComputeArrow method" Url="html/5e0c6901-628b-07cb-caba-0b1b42385784.htm" />
+  <HelpKINode Title="ComputeDecorations method">
+    <HelpKINode Title="BaseDisplay.ComputeDecorations Method " Url="html/8d38700c-1518-f5df-690c-97cc82168a5e.htm" />
+    <HelpKINode Title="EEG.ComputeDecorations Method " Url="html/cec73e0a-daa8-625f-be57-ed6a126efbd3.htm" />
+    <HelpKINode Title="Graph.ComputeDecorations Method " Url="html/76a15d87-a6ae-bf7e-2593-9b2685b06cf9.htm" />
+    <HelpKINode Title="Histogram.ComputeDecorations Method " Url="html/8da8c09b-4780-e45a-9ade-d264b25bb6ea.htm" />
+    <HelpKINode Title="Lattice.ComputeDecorations Method " Url="html/845bfc23-166e-0673-0b93-ec4572655adb.htm" />
+    <HelpKINode Title="LinePlot.ComputeDecorations Method " Url="html/2edcd531-a7f1-0022-db08-ec1eee244c5c.htm" />
+    <HelpKINode Title="VitalIndicator.ComputeDecorations Method " Url="html/d1a06ad7-bec1-d6f6-8dc0-6d4e3f147de1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComputeDisplayContainer method" Url="html/b78bdaed-484b-86a5-290b-b5b043baead1.htm" />
+  <HelpKINode Title="ComputeGraphClusterSize method" Url="html/5b72ab0b-29e3-0d8b-5b48-70841057e6c3.htm" />
+  <HelpKINode Title="ComputeMetrics method">
+    <HelpKINode Title="BaseDisplay.ComputeMetrics Method " Url="html/ac3677ea-f7e8-9541-d477-b063d363387c.htm" />
+    <HelpKINode Title="EEG.ComputeMetrics Method " Url="html/21324673-7ce0-9e2d-7722-870c262574d2.htm" />
+    <HelpKINode Title="Graph.ComputeMetrics Method " Url="html/397cec7f-e782-4235-db8f-b671d3f65467.htm" />
+    <HelpKINode Title="Histogram.ComputeMetrics Method " Url="html/4a79e9f9-5d94-52f4-adad-c07d22a1e16a.htm" />
+    <HelpKINode Title="Lattice.ComputeMetrics Method " Url="html/e51b11d6-7634-f2d9-91c8-0957e61f4d0d.htm" />
+    <HelpKINode Title="LinePlot.ComputeMetrics Method " Url="html/b968dbcf-4723-862e-2eeb-476fa9306b08.htm" />
+    <HelpKINode Title="VitalIndicator.ComputeMetrics Method " Url="html/a8c88845-157e-14c4-adb5-12adbacbd855.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComputePairInteraction method" Url="html/c5e38a0c-8509-2fd5-dd9a-a3a27cd533dc.htm" />
+  <HelpKINode Title="ComputeTypedRadialGraphLayout method" Url="html/87773ac7-17b4-ad47-bf83-5da2af8a5c70.htm" />
+  <HelpKINode Title="Conjunction_EdgeStyle field" Url="html/39703195-449e-9ad2-1a2f-370e4d8348b8.htm" />
+  <HelpKINode Title="coordinates field" Url="html/de0352ae-eb6e-c9b5-9974-026cd7ebb293.htm" />
+  <HelpKINode Title="coordLabel field" Url="html/b2e06811-d5c8-cbae-a60a-0b8e0344ab5c.htm" />
+  <HelpKINode Title="CreateBidirectionalEdge method" Url="html/14ec3562-5ac4-2284-6454-ec775ac6b28f.htm" />
+  <HelpKINode Title="CreateBorder method" Url="html/5a88cf83-fcf1-7f05-739a-b9cdd3880cac.htm" />
+  <HelpKINode Title="CreateCombinedEllipse method" Url="html/c65683e7-843f-6c6d-76d3-2e166d796b54.htm" />
+  <HelpKINode Title="CreateCombinedRectangle method" Url="html/b55b3a22-44fd-be80-8f93-dfc6dc98a551.htm" />
+  <HelpKINode Title="CreateEllipse method" Url="html/13cffd8b-42ee-5a19-90e1-cbe4a5ea1503.htm" />
+  <HelpKINode Title="CreateRectangle method" Url="html/c6603d41-355a-9e68-fac4-ea664631f36e.htm" />
+  <HelpKINode Title="CreateTextBlock method" Url="html/894eed2f-85de-be26-0c3a-ea61942dc67b.htm" />
+  <HelpKINode Title="CreateUnidirectionalEdge method" Url="html/b733f61e-d2ed-05ce-5f27-1001bfd64ba5.htm" />
+  <HelpKINode Title="cursor field" Url="html/836e953c-30d6-1b49-967d-c7d3bb823db3.htm" />
+  <HelpKINode Title="DarkestBrown field" Url="html/99010d10-4d23-a8e7-d788-2d651e5551d4.htm" />
+  <HelpKINode Title="data field" Url="html/f8e7352b-4c03-93f5-7737-3d3cbca0964f.htm" />
+  <HelpKINode Title="dData field" Url="html/5ec1f068-b641-d860-3c85-569655db664b.htm" />
+  <HelpKINode Title="Deactivate method" Url="html/359c1630-2551-f4a4-91c1-0984034d0f9e.htm" />
+  <HelpKINode Title="DefaultClusterConnectorBrush field" Url="html/66c396a7-5708-8ed4-95ee-230f5793c6cf.htm" />
+  <HelpKINode Title="DefaultEdgeStyleTemplate field">
+    <HelpKINode Title="Engine.DefaultEdgeStyleTemplate Field" Url="html/70ac7d69-2d4c-c17b-92f6-7f8a21c7f041.htm" />
+    <HelpKINode Title="Graph.DefaultEdgeStyleTemplate Field" Url="html/951fbc4a-4ce8-9f27-8745-fa535fadd105.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultLayout field" Url="html/23fb3156-9ecf-6631-b464-102f67d4aeb2.htm" />
+  <HelpKINode Title="DefaultVertexStyleTemplate field">
+    <HelpKINode Title="Engine.DefaultVertexStyleTemplate Field" Url="html/ccc352da-da4d-d5f9-1d27-198a6933317a.htm" />
+    <HelpKINode Title="Graph.DefaultVertexStyleTemplate Field" Url="html/3e169a04-9a47-a888-04ea-0eb05c0eb599.htm" />
+  </HelpKINode>
+  <HelpKINode Title="destination field" Url="html/bf5aeb50-af12-8bfd-4809-a2638f1c8b74.htm" />
+  <HelpKINode Title="DisplayLayout class">
+    <HelpKINode Title="DisplayLayout Class" Url="html/f8655c0a-04b0-af0f-1205-a75845cbd269.htm" />
+    <HelpKINode Title="about DisplayLayout class" Url="html/f8655c0a-04b0-af0f-1205-a75845cbd269.htm" />
+    <HelpKINode Title="constructor" Url="html/8323b884-8d22-e8cf-d417-0cfda9aadf6b.htm" />
+    <HelpKINode Title="fields" Url="html/ef112ad8-bf46-f0e3-a3b0-ab2af72c6e47.htm" />
+    <HelpKINode Title="methods" Url="html/eaccde71-94f6-a2af-6579-56b931cda6a1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="displayLayout field" Url="html/7653917f-8aaa-2298-28b0-0b6eaf0254ad.htm" />
+  <HelpKINode Title="DisplayLayout.backgroundColor field" Url="html/850d95fd-6323-c908-b462-a1cf71ea7647.htm" />
+  <HelpKINode Title="DisplayLayout.bAnimated field" Url="html/9b421bd1-e41e-8dcc-cd2f-05baa4ed8b67.htm" />
+  <HelpKINode Title="DisplayLayout.barColor field" Url="html/7d2fba99-31af-ba47-1575-d848a17e2527.htm" />
+  <HelpKINode Title="DisplayLayout.bHorizontalFlip field" Url="html/c89a9382-13a5-8c51-74b8-6d448ea0fb17.htm" />
+  <HelpKINode Title="DisplayLayout.borderColor field" Url="html/acec682b-8a76-723f-4b5a-f087db675e6a.htm" />
+  <HelpKINode Title="DisplayLayout.borderThickness field" Url="html/e2d32a86-7ff1-66c7-bf44-98973ab982c8.htm" />
+  <HelpKINode Title="DisplayLayout.bShowAxes field" Url="html/cac8aeac-e76f-69b7-d77d-689d9782917c.htm" />
+  <HelpKINode Title="DisplayLayout.bShowBackground field" Url="html/4b9ffc12-d270-655d-bb1e-1cab60b8f52a.htm" />
+  <HelpKINode Title="DisplayLayout.bShowBorder field" Url="html/098a455d-4119-e051-f124-d0849c80c68d.htm" />
+  <HelpKINode Title="DisplayLayout.bShowMeanLine field" Url="html/3c5e3ef8-642a-0ee6-e14e-d3b907924338.htm" />
+  <HelpKINode Title="DisplayLayout.bShowPoints field" Url="html/4fca1e92-d34b-65c5-02b1-18b9ce2aa995.htm" />
+  <HelpKINode Title="DisplayLayout.bShowScores field" Url="html/4dc6bb42-2c82-b7bb-4095-cdf87974bef7.htm" />
+  <HelpKINode Title="DisplayLayout.bShowValues field" Url="html/0563983d-bb9a-c7d3-63bd-686ef13b18c5.htm" />
+  <HelpKINode Title="DisplayLayout.bUpsidedown field" Url="html/dab73d7b-8687-e5bd-1679-b163033a84a6.htm" />
+  <HelpKINode Title="DisplayLayout.DisplayLayout constructor" Url="html/8323b884-8d22-e8cf-d417-0cfda9aadf6b.htm" />
+  <HelpKINode Title="DisplayLayout.interiorPadding field" Url="html/ed60dd1a-31db-4054-62ee-47ac9ac19802.htm" />
+  <HelpKINode Title="DisplayLayout.labelColor field" Url="html/79f6a25d-c965-c8d4-4d3b-3df7931b54a3.htm" />
+  <HelpKINode Title="DisplayLayout.lineColor field" Url="html/8f98f04a-263c-8c1c-ad45-bd77e759617a.htm" />
+  <HelpKINode Title="DisplayLayout.lineThickness field" Url="html/4479ca61-ae97-01dc-1be4-9e2fb060d9c7.htm" />
+  <HelpKINode Title="DisplayLayout.pointColor field" Url="html/1b48d6c1-af53-5277-f820-536325ac4d39.htm" />
+  <HelpKINode Title="DisplayLayout.pointSize field" Url="html/d7f3c544-fa90-5190-5963-46cfbd14bd94.htm" />
+  <HelpKINode Title="DisplayLayout.scoreColor field" Url="html/a672790b-3e4f-0a71-0963-4eefca0f60d0.htm" />
+  <HelpKINode Title="DisplayLayout.textColor field" Url="html/de769cfb-d46d-e0b8-0edd-945b7f49411e.htm" />
+  <HelpKINode Title="DisplayLayout.valueColor field" Url="html/b7c00db8-108b-5d13-e1dc-139748b2f269.htm" />
+  <HelpKINode Title="DisplayLayout.valueColorScheme field" Url="html/81bd5a94-1a23-6f36-3373-6e3ba89ce715.htm" />
+  <HelpKINode Title="displays field" Url="html/33f1950b-54b4-d9fb-b499-4629f80ee1e7.htm" />
+  <HelpKINode Title="dragEndPoint field" Url="html/8704e8cd-1e9d-1ba3-34d5-c8bc6121431b.htm" />
+  <HelpKINode Title="dragStartPoint field" Url="html/2cfc52cc-3157-ebd3-d93d-6428570904fe.htm" />
+  <HelpKINode Title="drawEdgeArrows field" Url="html/f814b9b0-4ec6-c015-8530-7a9485d1d9a6.htm" />
+  <HelpKINode Title="dummy field" Url="html/a7bc9bd3-7e64-2082-93ea-20843bbadf4a.htm" />
+  <HelpKINode Title="dxoff field" Url="html/65e0dd9d-b88f-3c81-e556-b56bdbe58d5d.htm" />
+  <HelpKINode Title="dyoff field" Url="html/be1b1cee-2fc5-2f20-fa04-a5859f7d664c.htm" />
+  <HelpKINode Title="Edge class">
+    <HelpKINode Title="Edge Class" Url="html/1da165f5-b83b-7bf9-ffc0-fd6d90037128.htm" />
+    <HelpKINode Title="about Edge class" Url="html/1da165f5-b83b-7bf9-ffc0-fd6d90037128.htm" />
+    <HelpKINode Title="constructor" Url="html/a128d06d-c08c-7f66-b648-f9b17a83bcc4.htm" />
+    <HelpKINode Title="fields" Url="html/5b166885-1df4-c981-425a-d93a15cb3da7.htm" />
+    <HelpKINode Title="methods" Url="html/7032353c-dcc7-a09c-5211-6a3cc2576660.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Edge.arrowLine0 field" Url="html/b3e9b685-270e-3e0d-b4a8-12c3ecb4dae6.htm" />
+  <HelpKINode Title="Edge.arrowLine1 field" Url="html/f72a4cdb-ebeb-ec85-debb-1768582fd30a.htm" />
+  <HelpKINode Title="Edge.ComputeArrow method" Url="html/5e0c6901-628b-07cb-caba-0b1b42385784.htm" />
+  <HelpKINode Title="Edge.destination field" Url="html/bf5aeb50-af12-8bfd-4809-a2638f1c8b74.htm" />
+  <HelpKINode Title="Edge.Edge constructor" Url="html/a128d06d-c08c-7f66-b648-f9b17a83bcc4.htm" />
+  <HelpKINode Title="Edge.edgeNode field" Url="html/d0b44911-10ab-1553-f591-fd478b63129d.htm" />
+  <HelpKINode Title="Edge.edgeNodeLabel field" Url="html/317af584-09bb-5c45-47c1-f580e31a8b74.htm" />
+  <HelpKINode Title="Edge.line field" Url="html/5f5b7395-73a5-79a5-0108-34f33ed25bd6.htm" />
+  <HelpKINode Title="Edge.origin field" Url="html/3c2239cd-3b6c-d266-a847-d72b46d7cfd9.htm" />
+  <HelpKINode Title="Edge.style field" Url="html/e4c4a61d-88d2-2465-423b-4d48de25b7a6.htm" />
+  <HelpKINode Title="Edge.tooltip field" Url="html/ac69a1bd-36c2-4bad-1d97-d287315ea5f7.htm" />
+  <HelpKINode Title="Edge.type field" Url="html/476167cf-be39-2888-a646-57a0fb913c75.htm" />
+  <HelpKINode Title="edgeLengthFudge field" Url="html/4d203376-3e32-5cc5-8642-48bfe52b8247.htm" />
+  <HelpKINode Title="edgeNode field" Url="html/d0b44911-10ab-1553-f591-fd478b63129d.htm" />
+  <HelpKINode Title="edgeNodeColor field" Url="html/769d8e12-2c96-8ec4-2766-c4edbf0eb33f.htm" />
+  <HelpKINode Title="edgeNodeLabel field" Url="html/317af584-09bb-5c45-47c1-f580e31a8b74.htm" />
+  <HelpKINode Title="edgeNodeOpacity field" Url="html/a2349491-69e1-0f46-6f01-dbdd79fcca1a.htm" />
+  <HelpKINode Title="edgeNodeTextColor field" Url="html/ca5c82ed-7737-a7bb-7f20-5c22e655a4b0.htm" />
+  <HelpKINode Title="edges field" Url="html/de6f51b3-a090-6f7c-b988-60d1c9fa2567.htm" />
+  <HelpKINode Title="EdgeStyleRules field" Url="html/4b37b1b7-1711-6c8b-5b32-f122c76f2308.htm" />
+  <HelpKINode Title="EdgeStyleTemplate class">
+    <HelpKINode Title="EdgeStyleTemplate Class" Url="html/44b0f2ac-4fe3-e66e-071a-a19d7d199e80.htm" />
+    <HelpKINode Title="about EdgeStyleTemplate class" Url="html/44b0f2ac-4fe3-e66e-071a-a19d7d199e80.htm" />
+    <HelpKINode Title="constructor" Url="html/bac954b3-c422-dc65-2a83-48fb002b6d07.htm" />
+    <HelpKINode Title="fields" Url="html/fdd3f4d3-69fe-37b2-693d-6d73899edf4e.htm" />
+    <HelpKINode Title="methods" Url="html/d4cef699-0606-fc59-69aa-ca7a99a6452a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EdgeStyleTemplate.bShowArrow field" Url="html/192ab16a-2560-0375-c26b-63b9afb7dbda.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.bShowEdgeNode field" Url="html/5d6fcdd3-f55c-a566-c408-8926f04dceea.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.edgeNodeColor field" Url="html/769d8e12-2c96-8ec4-2766-c4edbf0eb33f.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.edgeNodeOpacity field" Url="html/a2349491-69e1-0f46-6f01-dbdd79fcca1a.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.edgeNodeTextColor field" Url="html/ca5c82ed-7737-a7bb-7f20-5c22e655a4b0.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.EdgeStyleTemplate constructor" Url="html/bac954b3-c422-dc65-2a83-48fb002b6d07.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.linePrimaryColor field" Url="html/7e1bf02a-58d1-db9b-ede2-b78064f0660b.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.lineTextColor field" Url="html/9ad423cb-e261-c319-1919-d3583c414fe4.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.lineThickness field" Url="html/e1c9a944-52ea-0ff7-9aa1-ca9e2b1eaf37.htm" />
+  <HelpKINode Title="EdgeStyleTemplate.StrokeDashArray field" Url="html/1ebb8582-7fc1-d747-881b-2997a55e6ff4.htm" />
+  <HelpKINode Title="EEG class">
+    <HelpKINode Title="EEG Class" Url="html/e2977e82-8d24-4260-3939-309586ed2d71.htm" />
+    <HelpKINode Title="about EEG class" Url="html/e2977e82-8d24-4260-3939-309586ed2d71.htm" />
+    <HelpKINode Title="constructor" Url="html/74feb094-a5cb-ae6f-6866-39fe2855d32e.htm" />
+    <HelpKINode Title="fields" Url="html/06a15f70-7e4c-0641-4f6e-8580fce6bf9e.htm" />
+    <HelpKINode Title="methods" Url="html/6caf2f69-155c-9d19-6fa3-71ddc11cd4b1.htm" />
+    <HelpKINode Title="properties" Url="html/9e41535e-9cd8-1a39-5c92-c4f664c54bbc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EEG.Compute method" Url="html/a4b7d327-7836-6eb7-f90a-0e47cadb1344.htm" />
+  <HelpKINode Title="EEG.ComputeActiveElements method" Url="html/a2229b79-6ebc-55d9-91e0-b404884bf661.htm" />
+  <HelpKINode Title="EEG.ComputeDecorations method" Url="html/cec73e0a-daa8-625f-be57-ed6a126efbd3.htm" />
+  <HelpKINode Title="EEG.ComputeMetrics method" Url="html/21324673-7ce0-9e2d-7722-870c262574d2.htm" />
+  <HelpKINode Title="EEG.EEG constructor" Url="html/74feb094-a5cb-ae6f-6866-39fe2855d32e.htm" />
+  <HelpKINode Title="EEG.max field" Url="html/9ae88b32-ce9d-68f0-392d-c5dd47f9315f.htm" />
+  <HelpKINode Title="EEG.min field" Url="html/ccd437dd-c2d0-5aed-21ff-3404c3b80c00.htm" />
+  <HelpKINode Title="EEG.newestValue field" Url="html/22c9b188-efce-f4ad-d2d0-070068a20c8a.htm" />
+  <HelpKINode Title="EEG.pointCount field" Url="html/45b76f5a-a13a-5607-4c9c-76857fe0b14e.htm" />
+  <HelpKINode Title="EEG.pointSpacing field" Url="html/4398359f-87f7-3e2e-ef55-9b49ce7d22ea.htm" />
+  <HelpKINode Title="EEG.PushDatum method" Url="html/5c830b40-7652-2f38-dd4f-6ff9996bcb9f.htm" />
+  <HelpKINode Title="EEG.Step method" Url="html/b845ab25-5cca-d7c7-b37d-460f68db07cf.htm" />
+  <HelpKINode Title="EEG.xlabel field" Url="html/b98ffcc9-edd5-4c78-ce47-9ed14dc018f3.htm" />
+  <HelpKINode Title="EEG.ylabel field" Url="html/a1e0e666-2db9-7899-1205-0bb70f8710b2.htm" />
+  <HelpKINode Title="element field" Url="html/53212ce2-1dff-1512-11fc-dd7c0c61eb5a.htm" />
+  <HelpKINode Title="elements field" Url="html/19cd0495-21b6-b2d5-0a18-ee9e0265a3ae.htm" />
+  <HelpKINode Title="elementsCount field" Url="html/ece7c49e-fec9-a020-b841-8dfba3c63412.htm" />
+  <HelpKINode Title="Ellipse enumeration member" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="Engine class">
+    <HelpKINode Title="Engine Class" Url="html/dff1731b-0090-e7be-03ed-b8a695489acb.htm" />
+    <HelpKINode Title="about Engine class" Url="html/dff1731b-0090-e7be-03ed-b8a695489acb.htm" />
+    <HelpKINode Title="constructor" Url="html/14a464df-5573-387b-4553-decc843362ec.htm" />
+    <HelpKINode Title="fields" Url="html/6489bee3-4cf7-e349-bde6-33d43ada129c.htm" />
+    <HelpKINode Title="methods" Url="html/6e0fe569-3e44-5be7-3d60-0a6a5ffb1047.htm" />
+    <HelpKINode Title="properties" Url="html/b789fbe0-954e-20fe-f1f1-2236e9b745b8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Engine.bCompressLeaves field" Url="html/2c8a0b65-373a-382f-181e-1474e5a5ed5b.htm" />
+  <HelpKINode Title="Engine.bPrintEdgeNode field" Url="html/fca3a048-6f07-b7cd-9e48-d00c2d7ca6b2.htm" />
+  <HelpKINode Title="Engine.bRequestSnapBack field" Url="html/3b91e771-8baf-7b49-d111-c63a8f3ac20b.htm" />
+  <HelpKINode Title="Engine.bShowAnimations field" Url="html/8ddcc0a2-5964-3d45-2130-c96561421758.htm" />
+  <HelpKINode Title="Engine.bShowDensityRegions field" Url="html/cdef4889-3ffe-d02e-df36-7f88cce38236.htm" />
+  <HelpKINode Title="Engine.bShowEdges field" Url="html/eed7cbb4-4558-3006-1564-50a06bbfab7d.htm" />
+  <HelpKINode Title="Engine.bShowObjectCoordinates field" Url="html/f5941063-b5f8-3756-3588-532051424c29.htm" />
+  <HelpKINode Title="Engine.bSizeVertexToText field" Url="html/410b61c3-4d4e-90c5-a0da-b7f9e7abb420.htm" />
+  <HelpKINode Title="Engine.bUseStandardTypeface field" Url="html/58479537-51d0-c57a-e931-a93dbf0471b6.htm" />
+  <HelpKINode Title="Engine.canvas field" Url="html/eb2b57de-a54f-18a7-92ed-6be3063be4a7.htm" />
+  <HelpKINode Title="Engine.clusterPadding field" Url="html/c81a5b38-319c-7131-40d7-01d023a59231.htm" />
+  <HelpKINode Title="Engine.ComputeGraphClusterSize method" Url="html/5b72ab0b-29e3-0d8b-5b48-70841057e6c3.htm" />
+  <HelpKINode Title="Engine.ComputeTypedRadialGraphLayout method" Url="html/87773ac7-17b4-ad47-bf83-5da2af8a5c70.htm" />
+  <HelpKINode Title="Engine.DefaultEdgeStyleTemplate field" Url="html/70ac7d69-2d4c-c17b-92f6-7f8a21c7f041.htm" />
+  <HelpKINode Title="Engine.DefaultVertexStyleTemplate field" Url="html/ccc352da-da4d-d5f9-1d27-198a6933317a.htm" />
+  <HelpKINode Title="Engine.displays field" Url="html/33f1950b-54b4-d9fb-b499-4629f80ee1e7.htm" />
+  <HelpKINode Title="Engine.dummy field" Url="html/a7bc9bd3-7e64-2082-93ea-20843bbadf4a.htm" />
+  <HelpKINode Title="Engine.Engine constructor" Url="html/14a464df-5573-387b-4553-decc843362ec.htm" />
+  <HelpKINode Title="Engine.expansion field" Url="html/1b784b16-e850-2696-600b-5fc464f562cf.htm" />
+  <HelpKINode Title="Engine.GenerateLabel method" Url="html/1ba2b32e-cc1a-afc1-6f16-499048cd30d6.htm" />
+  <HelpKINode Title="Engine.GenerateLabels method" Url="html/2198b863-bd1b-d68c-4cb7-475429a8db90.htm" />
+  <HelpKINode Title="Engine.graph field" Url="html/5b24965f-32d5-0080-3877-de8fca8b6344.htm" />
+  <HelpKINode Title="Engine.histogram field" Url="html/d1a198e2-281e-f42a-963a-46032de57a55.htm" />
+  <HelpKINode Title="Engine.increment field" Url="html/ad20ce56-d7d0-ead8-6b6e-4927860fb73f.htm" />
+  <HelpKINode Title="Engine.labels field" Url="html/4f4781cb-5f90-5737-b8a7-a6c6521c9724.htm" />
+  <HelpKINode Title="Engine.layout field" Url="html/297b26ed-204b-39b0-d33f-b25c83d74616.htm" />
+  <HelpKINode Title="Engine.minLeftPadding field" Url="html/cee235ea-5850-8a3b-d64f-10722db3d921.htm" />
+  <HelpKINode Title="Engine.NewDensitySurvey method" Url="html/17f2ef80-6456-b70a-3eda-ecbf97bb1a26.htm" />
+  <HelpKINode Title="Engine.OnClickUp method" Url="html/5a5ee254-0e03-1265-316d-04ecd508625c.htm" />
+  <HelpKINode Title="Engine.OnLeftMouseDown method" Url="html/43eb89d2-0598-89d2-0ded-9d73ba5e46fd.htm" />
+  <HelpKINode Title="Engine.OnMouseMove method" Url="html/a004853d-2d2d-4e69-6f02-b49743ca297c.htm" />
+  <HelpKINode Title="Engine.OnMouseWheel method" Url="html/328461ae-b263-939f-b39c-e45b07f210d5.htm" />
+  <HelpKINode Title="Engine.OnRightMouseDown method" Url="html/79c32b70-1704-f9f4-294b-7403ade70461.htm" />
+  <HelpKINode Title="Engine.OnSizeChanged method" Url="html/299eeb12-a26b-9cd3-fe5a-d610e593612e.htm" />
+  <HelpKINode Title="Engine.overlapProbability field" Url="html/39a81005-6d09-8f41-34fa-cd4b3a5e71a9.htm" />
+  <HelpKINode Title="Engine.RenderGraph method" Url="html/c625d2a2-70ba-7a25-9333-e83f63756431.htm" />
+  <HelpKINode Title="Engine.RequestCompute method" Url="html/92431c36-814b-070f-f527-652d19ec47d9.htm" />
+  <HelpKINode Title="Engine.RequestComputeNoDensity method" Url="html/423da2e7-2ed6-8b9e-873b-5db954587c46.htm" />
+  <HelpKINode Title="Engine.RequestRender method" Url="html/082f6288-3bae-07c9-2e64-b13f80da5065.htm" />
+  <HelpKINode Title="Engine.RequestSnapBack method" Url="html/7cd52d07-1e57-ba50-e519-7b5af6f6953b.htm" />
+  <HelpKINode Title="Engine.RunThread method" Url="html/223d067e-ce87-8adc-076e-71c409127222.htm" />
+  <HelpKINode Title="Engine.SendToGUI method" Url="html/5a9ea337-b8ab-d4e0-e500-89f5f6d6751f.htm" />
+  <HelpKINode Title="Engine.snapBackVertex field" Url="html/50fb660b-2771-c7f0-50dd-ec1296df9a55.htm" />
+  <HelpKINode Title="Engine.standardTypeface field" Url="html/5c8458d8-ae55-9a65-7cb6-6cdd0de18553.htm" />
+  <HelpKINode Title="Engine.theta field" Url="html/61dd3662-fa97-f21e-80fa-53e251a425e3.htm" />
+  <HelpKINode Title="Engine.threadBridge field" Url="html/7ed128c1-f986-8c8e-16cb-30d2bbb7722e.htm" />
+  <HelpKINode Title="Engine.ToCenteredCoords method" Url="html/45facd54-d244-ca8e-f2c2-e5be034abece.htm" />
+  <HelpKINode Title="Engine.totalMultiplier field" Url="html/bce016f5-1b9c-2c37-9848-5b9838238d8c.htm" />
+  <HelpKINode Title="Engine.ToWPFCoords method" Url="html/f59134f1-97e8-e8fc-1c89-6de62520972e.htm" />
+  <HelpKINode Title="Engine.TransformSubtree method" Url="html/31bb225e-f771-fd14-206a-c02ef26ccc3a.htm" />
+  <HelpKINode Title="Engine.TranslateSubtree method" Url="html/23ebebd0-3f25-7bb5-a7e6-1b6921797cbc.htm" />
+  <HelpKINode Title="Engine.UpdateTextCallback delegate" Url="html/1304c2cf-8902-0842-e81f-9f95307198b9.htm" />
+  <HelpKINode Title="Engine.vSpace field" Url="html/a36b413c-940e-45b9-a400-e413945c0b8a.htm" />
+  <HelpKINode Title="expansion field" Url="html/1b784b16-e850-2696-600b-5fc464f562cf.htm" />
+  <HelpKINode Title="fontFamily field" Url="html/93feefb5-a06f-ba77-9fac-0089a3fad2aa.htm" />
+  <HelpKINode Title="forceConstant field" Url="html/68521946-ef35-9a3d-5ee6-d81a8eab9627.htm" />
+  <HelpKINode Title="fromType field" Url="html/2ded9ed8-26cf-0930-adab-7b5a82f9ecd0.htm" />
+  <HelpKINode Title="GenerateLabel method" Url="html/1ba2b32e-cc1a-afc1-6f16-499048cd30d6.htm" />
+  <HelpKINode Title="GenerateLabels method" Url="html/2198b863-bd1b-d68c-4cb7-475429a8db90.htm" />
+  <HelpKINode Title="GetColor method" Url="html/20e3f823-a740-39ee-1175-9021d3cc8fa2.htm" />
+  <HelpKINode Title="GetRandomVertex method" Url="html/374c340c-11f7-1e2d-a409-7a5334571381.htm" />
+  <HelpKINode Title="Graph class">
+    <HelpKINode Title="Graph Class" Url="html/70dff725-437e-e671-8c59-e52dd4db3b96.htm" />
+    <HelpKINode Title="about Graph class" Url="html/70dff725-437e-e671-8c59-e52dd4db3b96.htm" />
+    <HelpKINode Title="constructor" Url="html/9f797f55-2469-6c08-d3f5-c616a6b60bba.htm" />
+    <HelpKINode Title="fields" Url="html/4f9b82de-7b98-1eae-4eb2-6040f35bb9fc.htm" />
+    <HelpKINode Title="methods" Url="html/24b9226a-5136-0d20-a9d3-23018671d24f.htm" />
+    <HelpKINode Title="properties" Url="html/ff84794e-748d-e9ce-2ff3-9b3b1ab469eb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="graph field">
+    <HelpKINode Title="Cached.graph Field" Url="html/3bed4786-37e1-1e93-650f-7a9b4c13b659.htm" />
+    <HelpKINode Title="Engine.graph Field" Url="html/5b24965f-32d5-0080-3877-de8fca8b6344.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Graph.Add method" Url="html/33a3b783-cf60-fca1-a6b7-e9f4ba3a6171.htm" />
+  <HelpKINode Title="Graph.charge field" Url="html/559e8ec2-3d89-fca6-5c87-1d8d48ec4526.htm" />
+  <HelpKINode Title="Graph.Compute method" Url="html/ed9c4bcb-b496-3039-744f-38c5150a337c.htm" />
+  <HelpKINode Title="Graph.ComputeActiveElements method" Url="html/aa0a5048-6660-e099-f39c-d0a5b14ac005.htm" />
+  <HelpKINode Title="Graph.ComputeDecorations method" Url="html/76a15d87-a6ae-bf7e-2593-9b2685b06cf9.htm" />
+  <HelpKINode Title="Graph.ComputeMetrics method" Url="html/397cec7f-e782-4235-db8f-b671d3f65467.htm" />
+  <HelpKINode Title="Graph.ComputePairInteraction method" Url="html/c5e38a0c-8509-2fd5-dd9a-a3a27cd533dc.htm" />
+  <HelpKINode Title="Graph.CreateBidirectionalEdge method" Url="html/14ec3562-5ac4-2284-6454-ec775ac6b28f.htm" />
+  <HelpKINode Title="Graph.CreateUnidirectionalEdge method" Url="html/b733f61e-d2ed-05ce-5f27-1001bfd64ba5.htm" />
+  <HelpKINode Title="Graph.DefaultEdgeStyleTemplate field" Url="html/951fbc4a-4ce8-9f27-8745-fa535fadd105.htm" />
+  <HelpKINode Title="Graph.DefaultVertexStyleTemplate field" Url="html/3e169a04-9a47-a888-04ea-0eb05c0eb599.htm" />
+  <HelpKINode Title="Graph.drawEdgeArrows field" Url="html/f814b9b0-4ec6-c015-8530-7a9485d1d9a6.htm" />
+  <HelpKINode Title="Graph.edges field" Url="html/de6f51b3-a090-6f7c-b988-60d1c9fa2567.htm" />
+  <HelpKINode Title="Graph.forceConstant field" Url="html/68521946-ef35-9a3d-5ee6-d81a8eab9627.htm" />
+  <HelpKINode Title="Graph.GetRandomVertex method" Url="html/374c340c-11f7-1e2d-a409-7a5334571381.htm" />
+  <HelpKINode Title="Graph.Graph constructor" Url="html/9f797f55-2469-6c08-d3f5-c616a6b60bba.htm" />
+  <HelpKINode Title="Graph.mass field" Url="html/5632f832-23ca-f3c2-8a26-9b10b45c8846.htm" />
+  <HelpKINode Title="Graph.maxDist field" Url="html/5751f5f8-ba8d-1397-7bef-f91d2092b643.htm" />
+  <HelpKINode Title="Graph.minAcc field" Url="html/268ea02e-4cee-17a2-8dfe-b9da6b5e8f7e.htm" />
+  <HelpKINode Title="Graph.minDist field" Url="html/1d107fd7-42da-61b3-e520-607e18e19dce.htm" />
+  <HelpKINode Title="Graph.Remove method" Url="html/c1292687-ed7d-9788-e9c9-1d74736d4465.htm" />
+  <HelpKINode Title="Graph.Root field" Url="html/dbaf7309-2948-15d4-71fe-8d2fbe8cb55d.htm" />
+  <HelpKINode Title="Graph.topLevelVertices field" Url="html/72bf5d38-e1b0-5e8b-1ffd-4132657fcf16.htm" />
+  <HelpKINode Title="Graph.vertices field" Url="html/2d3abdba-4fdf-3f92-cd88-1b0c8ac1ed71.htm" />
+  <HelpKINode Title="GraphLayout class">
+    <HelpKINode Title="GraphLayout Class" Url="html/9b634c79-eceb-2cf0-fa10-65134d1a97d0.htm" />
+    <HelpKINode Title="about GraphLayout class" Url="html/9b634c79-eceb-2cf0-fa10-65134d1a97d0.htm" />
+    <HelpKINode Title="constructor" Url="html/6b5aeda6-9a8f-dec6-8494-f93c0924fc84.htm" />
+    <HelpKINode Title="fields" Url="html/3bb7e794-4e38-b5ce-b18e-aad922146a86.htm" />
+    <HelpKINode Title="methods" Url="html/38d7be6e-27ef-ae21-2bd1-8bfc13da2ada.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphLayout.DefaultClusterConnectorBrush field" Url="html/66c396a7-5708-8ed4-95ee-230f5793c6cf.htm" />
+  <HelpKINode Title="GraphLayout.EdgeStyleRules field" Url="html/4b37b1b7-1711-6c8b-5b32-f122c76f2308.htm" />
+  <HelpKINode Title="GraphLayout.GraphLayout constructor" Url="html/6b5aeda6-9a8f-dec6-8494-f93c0924fc84.htm" />
+  <HelpKINode Title="GraphLayout.IgnoreVertexList field" Url="html/2c9af885-20c7-2e4c-b519-4ae82e6753ea.htm" />
+  <HelpKINode Title="GraphLayout.layoutType field" Url="html/6b2f0be1-5e82-0386-f2e3-27f953b0112f.htm" />
+  <HelpKINode Title="GraphLayout.RadialExpansionRules field" Url="html/e9ec1c1f-afca-6036-29cf-9266572a79c2.htm" />
+  <HelpKINode Title="GraphLayout.radiusReqFudge field" Url="html/8f110099-2af3-7bf2-b865-f2de93daba93.htm" />
+  <HelpKINode Title="GraphLayout.VertexStyleRules field" Url="html/0400e690-1edf-a432-abff-fe2a6906e7a8.htm" />
+  <HelpKINode Title="GraphLayout.VertextAngleOverrideRules field" Url="html/dc18d913-f23d-d20a-8db3-6f291aa6c4ef.htm" />
+  <HelpKINode Title="GraphLayoutType enumeration" Url="html/ba9d04fb-3ad5-77ef-5970-886aac76371b.htm" />
+  <HelpKINode Title="GreenGlass_EdgeStyle field" Url="html/e3bd948f-1017-a386-4b48-17cd13c5d8f1.htm" />
+  <HelpKINode Title="Green_VertexStyle field" Url="html/abd17bde-dcb4-6110-4491-84ac6db8b49b.htm" />
+  <HelpKINode Title="haloColor field" Url="html/5ed891cf-94d8-b377-e18e-7c890a6ea610.htm" />
+  <HelpKINode Title="haloOpacity field" Url="html/e81f4f91-50d9-211c-17be-2bccc6bf3310.htm" />
+  <HelpKINode Title="haloThickness field" Url="html/568aafc0-6170-089f-fb76-7b3f25c15646.htm" />
+  <HelpKINode Title="handle field">
+    <HelpKINode Title="AngleConstraint.handle Field" Url="html/268c94f3-6378-b41c-73a7-7f459c5fd13a.htm" />
+    <HelpKINode Title="AngleConstraintOverride.handle Field" Url="html/b071ebeb-afa7-1663-f5ca-cb3f5040aa2a.htm" />
+    <HelpKINode Title="BaseDisplay.handle Field" Url="html/0545f23e-f85a-9a0b-97cb-b1cd26df76ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="height field" Url="html/40c5601e-2e51-ca4e-3c69-6fb16092d50d.htm" />
+  <HelpKINode Title="Height property" Url="html/64bdadbb-8163-63d8-bf4b-a97a6293b317.htm" />
+  <HelpKINode Title="heightConsumed field" Url="html/05abe290-91f4-7bb8-b8df-2bc2f1509c5c.htm" />
+  <HelpKINode Title="heightRemaining field" Url="html/a17d039d-e306-d4c7-32e2-9e279d424925.htm" />
+  <HelpKINode Title="highRed field" Url="html/9458df70-bc93-e0ac-7a67-2b54959805b8.htm" />
+  <HelpKINode Title="Histogram class">
+    <HelpKINode Title="Histogram Class" Url="html/47fe934d-5700-3c69-b8d5-cc5b898da22c.htm" />
+    <HelpKINode Title="about Histogram class" Url="html/47fe934d-5700-3c69-b8d5-cc5b898da22c.htm" />
+    <HelpKINode Title="constructor" Url="html/d1825580-c572-b5aa-393d-b2dd406812a5.htm" />
+    <HelpKINode Title="fields" Url="html/abfac11b-198a-121a-401e-857b502328b1.htm" />
+    <HelpKINode Title="methods" Url="html/d8aef528-907b-9a59-ba38-fc9804d956e3.htm" />
+    <HelpKINode Title="properties" Url="html/6d7a2b75-9330-f420-6975-c0624486f4bb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="histogram field" Url="html/d1a198e2-281e-f42a-963a-46032de57a55.htm" />
+  <HelpKINode Title="Histogram.bars field" Url="html/efae06fe-2a2a-ecf7-d5b2-23480c03760e.htm" />
+  <HelpKINode Title="Histogram.barSpacing field" Url="html/872b561f-af69-8127-d7d2-9592f5bdd4f2.htm" />
+  <HelpKINode Title="Histogram.Compute method" Url="html/21656b31-b93f-71b5-ea9b-22f184de7afd.htm" />
+  <HelpKINode Title="Histogram.ComputeActiveElements method" Url="html/57a6c050-3bdc-594f-670a-2b703925102c.htm" />
+  <HelpKINode Title="Histogram.ComputeDecorations method" Url="html/8da8c09b-4780-e45a-9ade-d264b25bb6ea.htm" />
+  <HelpKINode Title="Histogram.ComputeMetrics method" Url="html/4a79e9f9-5d94-52f4-adad-c07d22a1e16a.htm" />
+  <HelpKINode Title="Histogram.Histogram constructor" Url="html/d1825580-c572-b5aa-393d-b2dd406812a5.htm" />
+  <HelpKINode Title="Histogram.max field" Url="html/4bae221d-a510-fc60-abf4-d7a9fa735ebc.htm" />
+  <HelpKINode Title="Histogram.min field" Url="html/741787dd-cf52-bf02-f708-53b1ceb7df8d.htm" />
+  <HelpKINode Title="Histogram.pointCount field" Url="html/253f4dcc-fb0b-a9ac-82cc-0744dfa0cfc1.htm" />
+  <HelpKINode Title="Histogram.SetData method" Url="html/4e62d2a5-5530-6105-6965-ca50f9108206.htm" />
+  <HelpKINode Title="Histogram.Step method" Url="html/9c900ac9-5d2e-2aa2-43dd-ab638971cb74.htm" />
+  <HelpKINode Title="Histogram.xlabel field" Url="html/c4aa46ad-0287-ba0a-a988-47b496517fc1.htm" />
+  <HelpKINode Title="Histogram.ylabel field" Url="html/2bbad7f3-0d45-4dfe-0f0e-5310a6ce6bf8.htm" />
+  <HelpKINode Title="HistogramLimeGreen field" Url="html/78c60b28-3654-7491-e435-b368241f68cc.htm" />
+  <HelpKINode Title="IgnoreVertexList field" Url="html/2c9af885-20c7-2e4c-b519-4ae82e6753ea.htm" />
+  <HelpKINode Title="Immutable property" Url="html/a4e4da9a-196f-c769-5c30-3d34937601a1.htm" />
+  <HelpKINode Title="incomingEdges field" Url="html/f402b21d-adee-13d4-90f1-148faaf9962f.htm" />
+  <HelpKINode Title="increment field" Url="html/ad20ce56-d7d0-ead8-6b6e-4927860fb73f.htm" />
+  <HelpKINode Title="Insilico namespace" Url="html/2edb9b3d-069b-5193-0a35-a0ddf85f3074.htm" />
+  <HelpKINode Title="Insilico.AngleConstraint class" Url="html/be36453b-1c4c-220e-1907-aafa26979950.htm" />
+  <HelpKINode Title="Insilico.AngleConstraintOverride class" Url="html/e1c780dc-4ca2-f285-780a-72d802b7c829.htm" />
+  <HelpKINode Title="Insilico.BaseDisplay class" Url="html/12eac4a5-31bb-2e95-e5e2-346cd4f10b6d.htm" />
+  <HelpKINode Title="Insilico.BaseThread class" Url="html/9915e02c-0a25-be65-03e3-9c7a2ab5c5aa.htm" />
+  <HelpKINode Title="Insilico.BoundingBox class" Url="html/87c7e001-a414-8d88-a0fe-09675920190c.htm" />
+  <HelpKINode Title="Insilico.Cached class" Url="html/5c99628e-9483-67c9-281b-d868127b252c.htm" />
+  <HelpKINode Title="Insilico.CanvasThemeTemplate class" Url="html/ac32bcfe-6009-cf52-a147-2fdaec47e034.htm" />
+  <HelpKINode Title="Insilico.DisplayLayout class" Url="html/f8655c0a-04b0-af0f-1205-a75845cbd269.htm" />
+  <HelpKINode Title="Insilico.Edge class" Url="html/1da165f5-b83b-7bf9-ffc0-fd6d90037128.htm" />
+  <HelpKINode Title="Insilico.EdgeStyleTemplate class" Url="html/44b0f2ac-4fe3-e66e-071a-a19d7d199e80.htm" />
+  <HelpKINode Title="Insilico.EEG class" Url="html/e2977e82-8d24-4260-3939-309586ed2d71.htm" />
+  <HelpKINode Title="Insilico.Engine class" Url="html/dff1731b-0090-e7be-03ed-b8a695489acb.htm" />
+  <HelpKINode Title="Insilico.Engine.UpdateTextCallback delegate" Url="html/1304c2cf-8902-0842-e81f-9f95307198b9.htm" />
+  <HelpKINode Title="Insilico.Graph class" Url="html/70dff725-437e-e671-8c59-e52dd4db3b96.htm" />
+  <HelpKINode Title="Insilico.GraphLayout class" Url="html/9b634c79-eceb-2cf0-fa10-65134d1a97d0.htm" />
+  <HelpKINode Title="Insilico.GraphLayoutType enumeration" Url="html/ba9d04fb-3ad5-77ef-5970-886aac76371b.htm" />
+  <HelpKINode Title="Insilico.Histogram class" Url="html/47fe934d-5700-3c69-b8d5-cc5b898da22c.htm" />
+  <HelpKINode Title="Insilico.Lattice class" Url="html/9d7adb0b-bbba-38db-b125-91578c8e3455.htm" />
+  <HelpKINode Title="Insilico.Layouts class" Url="html/b4a0b784-940b-1c74-c79b-3853ed940333.htm" />
+  <HelpKINode Title="Insilico.LinePlot class" Url="html/03db4a15-fcea-06fe-093b-5c9269baf9a5.htm" />
+  <HelpKINode Title="Insilico.Primitives class" Url="html/751db9f4-c2fe-07a6-d51c-8aeaed70ae4c.htm" />
+  <HelpKINode Title="Insilico.Scheme class" Url="html/19a9b4bb-7fd4-b895-5d29-42a2c395357e.htm" />
+  <HelpKINode Title="Insilico.Styles class" Url="html/541d23c6-8a6f-43cf-38ec-495aab99d50f.htm" />
+  <HelpKINode Title="Insilico.ValueColorScheme class" Url="html/3021d5b3-93aa-3cd5-028e-7ee7f64470d5.htm" />
+  <HelpKINode Title="Insilico.Vertex class" Url="html/e7054e49-d317-660e-8316-c56e9a854ce4.htm" />
+  <HelpKINode Title="Insilico.VertexAnimationTemplate class" Url="html/5b0a3ecd-8b81-e67b-ace7-99ca37f82f4c.htm" />
+  <HelpKINode Title="Insilico.VertexShapeType enumeration" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="Insilico.VertexStyleTemplate class" Url="html/0e936a4c-8d6f-6fd1-4305-437e621867c2.htm" />
+  <HelpKINode Title="Insilico.VitalIndicator class" Url="html/348fe6f8-c434-3fe4-ed41-38660dce9463.htm" />
+  <HelpKINode Title="interiorHeight field" Url="html/5fccaab1-e503-02a4-864f-4fb9a4717691.htm" />
+  <HelpKINode Title="interiorPadding field" Url="html/ed60dd1a-31db-4054-62ee-47ac9ac19802.htm" />
+  <HelpKINode Title="interiorWidth field" Url="html/23474183-4b97-4f51-e6d7-5fdf0075a416.htm" />
+  <HelpKINode Title="IsActive property" Url="html/f520ebc1-3011-73ec-3834-0e0f99ed12b0.htm" />
+  <HelpKINode Title="IsAlive property" Url="html/b34a1d05-82d3-7ae1-20cc-d12bfccadd4b.htm" />
+  <HelpKINode Title="isFree field" Url="html/8accebda-176c-0ea6-896e-8ef9cc0ae32a.htm" />
+  <HelpKINode Title="IsFree property" Url="html/4a0ed827-0dd1-4d4d-bdb4-e5cec92113fa.htm" />
+  <HelpKINode Title="IsPaused method" Url="html/10ebe904-d638-8190-3dff-0406ee955d6b.htm" />
+  <HelpKINode Title="Join method" Url="html/d859bd92-819b-13ae-664f-db0ae7fb7db9.htm" />
+  <HelpKINode Title="label field" Url="html/73e580a5-b6fb-dfdc-211f-d3fd87c73829.htm" />
+  <HelpKINode Title="labelBlock field" Url="html/51524169-cc67-7358-a731-5671e4bbca9c.htm" />
+  <HelpKINode Title="labelBlockSize field" Url="html/e8d254c7-8100-fe69-de78-c5363f0424a1.htm" />
+  <HelpKINode Title="labelColor field" Url="html/79f6a25d-c965-c8d4-4d3b-3df7931b54a3.htm" />
+  <HelpKINode Title="labels field" Url="html/4f4781cb-5f90-5737-b8a7-a6c6521c9724.htm" />
+  <HelpKINode Title="lastClickedVertex field" Url="html/48db5399-77d9-34be-1ac5-a9413187cdbc.htm" />
+  <HelpKINode Title="lastClickPoint field" Url="html/af47d32d-4d64-8d44-923d-85ed3353edfc.htm" />
+  <HelpKINode Title="lastOffset field" Url="html/4c30e7ed-8535-d66f-df98-53fb4b7a3ced.htm" />
+  <HelpKINode Title="lastPoint field" Url="html/bef70a89-b553-f3b2-f925-9543b4087843.htm" />
+  <HelpKINode Title="lastPulse field" Url="html/cc0b9c28-1d9a-f532-0911-9d6e9d74213d.htm" />
+  <HelpKINode Title="Lattice class">
+    <HelpKINode Title="Lattice Class" Url="html/9d7adb0b-bbba-38db-b125-91578c8e3455.htm" />
+    <HelpKINode Title="about Lattice class" Url="html/9d7adb0b-bbba-38db-b125-91578c8e3455.htm" />
+    <HelpKINode Title="constructor" Url="html/bedaac71-eddf-a8d5-1cb9-1b620cb7a21e.htm" />
+    <HelpKINode Title="fields" Url="html/0ff8633a-f154-604d-b98d-e3913ed6fe33.htm" />
+    <HelpKINode Title="methods" Url="html/c3bdc279-c017-cc82-5a66-942d61d9476b.htm" />
+    <HelpKINode Title="properties" Url="html/7d4b04f7-3197-0c42-d3d1-41e6ca66f872.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Lattice.bars field" Url="html/87e22b2e-73fa-0a96-082d-a7ad9d031ee0.htm" />
+  <HelpKINode Title="Lattice.barSpacing field" Url="html/652f90c9-17f1-70d8-1b6b-96fe0654da5c.htm" />
+  <HelpKINode Title="Lattice.Compute method" Url="html/f22d2320-8008-2765-6631-28e4efe9bbd7.htm" />
+  <HelpKINode Title="Lattice.ComputeActiveElements method" Url="html/65268f5e-98ce-b5cb-20ed-d2dbe58919de.htm" />
+  <HelpKINode Title="Lattice.ComputeDecorations method" Url="html/845bfc23-166e-0673-0b93-ec4572655adb.htm" />
+  <HelpKINode Title="Lattice.ComputeMetrics method" Url="html/e51b11d6-7634-f2d9-91c8-0957e61f4d0d.htm" />
+  <HelpKINode Title="Lattice.data field" Url="html/f8e7352b-4c03-93f5-7737-3d3cbca0964f.htm" />
+  <HelpKINode Title="Lattice.elementsCount field" Url="html/ece7c49e-fec9-a020-b841-8dfba3c63412.htm" />
+  <HelpKINode Title="Lattice.Lattice constructor" Url="html/bedaac71-eddf-a8d5-1cb9-1b620cb7a21e.htm" />
+  <HelpKINode Title="Lattice.opacity field" Url="html/39a458d8-287a-9ee2-2afe-48ea7aa30010.htm" />
+  <HelpKINode Title="Lattice.SetData method" Url="html/9911de8d-e97b-b671-0674-1075bac33a3e.htm" />
+  <HelpKINode Title="Lattice.Step method" Url="html/55a1643d-c930-b429-3c9d-fdc354e959e2.htm" />
+  <HelpKINode Title="Lattice.xlabel field" Url="html/341e0ef0-8afb-d481-bee3-014244d644fe.htm" />
+  <HelpKINode Title="Lattice.ylabel field" Url="html/04cbb28e-147c-643e-0bac-f3e9ee05b39e.htm" />
+  <HelpKINode Title="layout field" Url="html/297b26ed-204b-39b0-d33f-b25c83d74616.htm" />
+  <HelpKINode Title="Layout property" Url="html/07f6d00a-2373-63f2-e7db-4107b81554d3.htm" />
+  <HelpKINode Title="Layouts class">
+    <HelpKINode Title="Layouts Class" Url="html/b4a0b784-940b-1c74-c79b-3853ed940333.htm" />
+    <HelpKINode Title="about Layouts class" Url="html/b4a0b784-940b-1c74-c79b-3853ed940333.htm" />
+    <HelpKINode Title="fields" Url="html/e1d2f8e2-d70f-aa1b-1a45-5764dfdedcab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Layouts.DefaultLayout field" Url="html/23fb3156-9ecf-6631-b464-102f67d4aeb2.htm" />
+  <HelpKINode Title="Layouts.HistogramLimeGreen field" Url="html/78c60b28-3654-7491-e435-b368241f68cc.htm" />
+  <HelpKINode Title="Layouts.LinePlotBlue field" Url="html/e358f2f7-ff41-09c9-2762-ac58e20cfb12.htm" />
+  <HelpKINode Title="Layouts.LinePlotLimeGreen field" Url="html/1b7e7523-72b7-fae3-be21-8a37d7ac7e5f.htm" />
+  <HelpKINode Title="Layouts.LinePlotRed field" Url="html/f6cf56be-4735-ae24-40e6-f9077ece8c30.htm" />
+  <HelpKINode Title="Layouts.RadioactiveChocolate field" Url="html/14b38173-8bea-a3a3-cf35-8c13926d4018.htm" />
+  <HelpKINode Title="layoutType field" Url="html/6b2f0be1-5e82-0386-f2e3-27f953b0112f.htm" />
+  <HelpKINode Title="leftDragPrevOffset field" Url="html/2c6f7134-106f-f185-eb2e-390db74b9b4e.htm" />
+  <HelpKINode Title="line field" Url="html/5f5b7395-73a5-79a5-0108-34f33ed25bd6.htm" />
+  <HelpKINode Title="LinearSpacing enumeration member" Url="html/ba9d04fb-3ad5-77ef-5970-886aac76371b.htm" />
+  <HelpKINode Title="lineColor field" Url="html/8f98f04a-263c-8c1c-ad45-bd77e759617a.htm" />
+  <HelpKINode Title="LinePlot class">
+    <HelpKINode Title="LinePlot Class" Url="html/03db4a15-fcea-06fe-093b-5c9269baf9a5.htm" />
+    <HelpKINode Title="about LinePlot class" Url="html/03db4a15-fcea-06fe-093b-5c9269baf9a5.htm" />
+    <HelpKINode Title="constructor" Url="html/8ad6d965-813f-c681-f88b-ca2c4e000408.htm" />
+    <HelpKINode Title="fields" Url="html/964b9b93-a380-3fa6-fc80-794d28cb53e8.htm" />
+    <HelpKINode Title="methods" Url="html/6eb2eb58-6b12-9fb0-f980-e995287e07d0.htm" />
+    <HelpKINode Title="properties" Url="html/521344aa-86b9-b18f-18c6-0bab2f5b0650.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LinePlot.Compute method" Url="html/0cfefb44-6544-08b6-a67a-ad185204f7f4.htm" />
+  <HelpKINode Title="LinePlot.ComputeActiveElements method" Url="html/9a603111-e1fe-a594-50a3-b70748d1085f.htm" />
+  <HelpKINode Title="LinePlot.ComputeDecorations method" Url="html/2edcd531-a7f1-0022-db08-ec1eee244c5c.htm" />
+  <HelpKINode Title="LinePlot.ComputeMetrics method" Url="html/b968dbcf-4723-862e-2eeb-476fa9306b08.htm" />
+  <HelpKINode Title="LinePlot.LinePlot constructor" Url="html/8ad6d965-813f-c681-f88b-ca2c4e000408.htm" />
+  <HelpKINode Title="LinePlot.lines field" Url="html/267367ff-9c50-a186-55cd-d364dbb3fa5f.htm" />
+  <HelpKINode Title="LinePlot.max field" Url="html/0719c481-3e9e-960a-ba4c-a3e16def40d9.htm" />
+  <HelpKINode Title="LinePlot.meanLine field" Url="html/01d06854-0bde-7d25-6e28-6759bdd9bdc2.htm" />
+  <HelpKINode Title="LinePlot.meanLineTB field" Url="html/42f0ab6f-72a6-4b97-3787-f3d4584247dd.htm" />
+  <HelpKINode Title="LinePlot.min field" Url="html/23720903-5923-3cfc-fd3e-1b0acf1c9848.htm" />
+  <HelpKINode Title="LinePlot.opacity field" Url="html/21a630b3-ab2c-2cc7-3782-782247846f5a.htm" />
+  <HelpKINode Title="LinePlot.pointCount field" Url="html/94126cd3-0f28-4540-8e6b-26acd4f179a0.htm" />
+  <HelpKINode Title="LinePlot.points field" Url="html/9d8f62af-c645-eee5-5b56-5843eab36a6d.htm" />
+  <HelpKINode Title="LinePlot.randomFuckingPoint field" Url="html/b4e5ed71-f17f-1821-22dc-36436dfe87b2.htm" />
+  <HelpKINode Title="LinePlot.SetData method" Url="html/77b12907-4e38-c4e5-d63a-a7a0218f40bc.htm" />
+  <HelpKINode Title="LinePlot.Step method" Url="html/1864e105-01f0-6a30-e14a-6b55183762cc.htm" />
+  <HelpKINode Title="LinePlot.xlabel field" Url="html/4cb89637-67da-bff4-0d6e-81aaa42fbad1.htm" />
+  <HelpKINode Title="LinePlot.ylabel field" Url="html/4033bc9a-9c2b-4939-b8c2-10df4da0b5d7.htm" />
+  <HelpKINode Title="LinePlotBlue field" Url="html/e358f2f7-ff41-09c9-2762-ac58e20cfb12.htm" />
+  <HelpKINode Title="LinePlotLimeGreen field" Url="html/1b7e7523-72b7-fae3-be21-8a37d7ac7e5f.htm" />
+  <HelpKINode Title="LinePlotRed field" Url="html/f6cf56be-4735-ae24-40e6-f9077ece8c30.htm" />
+  <HelpKINode Title="linePrimaryColor field" Url="html/7e1bf02a-58d1-db9b-ede2-b78064f0660b.htm" />
+  <HelpKINode Title="lines field" Url="html/267367ff-9c50-a186-55cd-d364dbb3fa5f.htm" />
+  <HelpKINode Title="lineTextColor field" Url="html/9ad423cb-e261-c319-1919-d3583c414fe4.htm" />
+  <HelpKINode Title="lineThickness field">
+    <HelpKINode Title="DisplayLayout.lineThickness Field" Url="html/4479ca61-ae97-01dc-1be4-9e2fb060d9c7.htm" />
+    <HelpKINode Title="EdgeStyleTemplate.lineThickness Field" Url="html/e1c9a944-52ea-0ff7-9aa1-ca9e2b1eaf37.htm" />
+  </HelpKINode>
+  <HelpKINode Title="lowGreen field" Url="html/deb1d03a-db3e-d4f7-8427-65f5613854d0.htm" />
+  <HelpKINode Title="mass field">
+    <HelpKINode Title="Graph.mass Field" Url="html/5632f832-23ca-f3c2-8a26-9b10b45c8846.htm" />
+    <HelpKINode Title="Vertex.mass Field" Url="html/4d29dbca-d242-8c0d-7391-26528f9bdcaf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="masterAngleConstraint field" Url="html/f330c79d-e139-2d71-709d-8665d1987a94.htm" />
+  <HelpKINode Title="max field">
+    <HelpKINode Title="EEG.max Field" Url="html/9ae88b32-ce9d-68f0-392d-c5dd47f9315f.htm" />
+    <HelpKINode Title="Histogram.max Field" Url="html/4bae221d-a510-fc60-abf4-d7a9fa735ebc.htm" />
+    <HelpKINode Title="LinePlot.max Field" Url="html/0719c481-3e9e-960a-ba4c-a3e16def40d9.htm" />
+    <HelpKINode Title="VitalIndicator.max Field" Url="html/752fbef2-9fec-ae78-c90e-ba6f6a820922.htm" />
+  </HelpKINode>
+  <HelpKINode Title="maxAngle field" Url="html/0655c4c6-1ec6-61c1-e6e4-c29ed5291654.htm" />
+  <HelpKINode Title="maxDist field" Url="html/5751f5f8-ba8d-1397-7bef-f91d2092b643.htm" />
+  <HelpKINode Title="maxLabel field" Url="html/d835df96-8ef4-bc5a-313a-7992ca7db599.htm" />
+  <HelpKINode Title="maxrelX field" Url="html/f3a73320-178e-ce88-54bb-b885dce96930.htm" />
+  <HelpKINode Title="maxrelY field" Url="html/9905f325-62fe-897e-d0b3-3f2e0bbf9646.htm" />
+  <HelpKINode Title="maxx field" Url="html/8d45b5e4-b3ec-037b-2cb1-8635284afe00.htm" />
+  <HelpKINode Title="maxX field" Url="html/d20fb0e2-bd84-6ebb-965a-d10d4b789224.htm" />
+  <HelpKINode Title="maxY field" Url="html/4f5b02da-0d08-c484-90f4-a8fc4714b130.htm" />
+  <HelpKINode Title="maxy field" Url="html/18e9ddc2-22e0-2c7e-b9c5-ca5d3c819f9e.htm" />
+  <HelpKINode Title="meanLine field" Url="html/01d06854-0bde-7d25-6e28-6759bdd9bdc2.htm" />
+  <HelpKINode Title="meanLineTB field" Url="html/42f0ab6f-72a6-4b97-3787-f3d4584247dd.htm" />
+  <HelpKINode Title="MeasureString method" Url="html/c89a97cb-19ae-eb0f-7385-5048f043b4a0.htm" />
+  <HelpKINode Title="medYellow field" Url="html/1b8d1eca-b923-f455-e2e7-c1dbbdbbe6b5.htm" />
+  <HelpKINode Title="min field">
+    <HelpKINode Title="EEG.min Field" Url="html/ccd437dd-c2d0-5aed-21ff-3404c3b80c00.htm" />
+    <HelpKINode Title="Histogram.min Field" Url="html/741787dd-cf52-bf02-f708-53b1ceb7df8d.htm" />
+    <HelpKINode Title="LinePlot.min Field" Url="html/23720903-5923-3cfc-fd3e-1b0acf1c9848.htm" />
+    <HelpKINode Title="VitalIndicator.min Field" Url="html/812c0080-69df-7ac7-2ee2-9c8fd38a619a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="minAcc field" Url="html/268ea02e-4cee-17a2-8dfe-b9da6b5e8f7e.htm" />
+  <HelpKINode Title="minAngle field" Url="html/eee951cb-a74e-c7a5-cf1e-f9633058c951.htm" />
+  <HelpKINode Title="minDist field" Url="html/1d107fd7-42da-61b3-e520-607e18e19dce.htm" />
+  <HelpKINode Title="minLabel field" Url="html/8fdbbcbb-f547-4c36-b6a3-f0715dd006e9.htm" />
+  <HelpKINode Title="minLeftPadding field" Url="html/cee235ea-5850-8a3b-d64f-10722db3d921.htm" />
+  <HelpKINode Title="minrelX field" Url="html/2990a22f-ca10-5c30-9488-e349118511f9.htm" />
+  <HelpKINode Title="minrelY field" Url="html/b5bbc6ca-d917-d1bf-b3ca-f6535a03e57f.htm" />
+  <HelpKINode Title="minx field" Url="html/c7110bde-9aea-84aa-f1da-e05c7db7a79c.htm" />
+  <HelpKINode Title="minX field" Url="html/df426654-bd06-eff7-d03a-f79b6ddc865f.htm" />
+  <HelpKINode Title="miny field" Url="html/9d308fe3-6ad2-55b7-ea9d-ac474bc68abe.htm" />
+  <HelpKINode Title="minY field" Url="html/cdd31c5b-d516-de10-ad4d-2172aca2e7ff.htm" />
+  <HelpKINode Title="nData field" Url="html/6181625b-ddb9-9f2d-e149-6ce5c1dd9930.htm" />
+  <HelpKINode Title="neighbors field" Url="html/d0131516-0db7-5a8a-16ab-370086894f9b.htm" />
+  <HelpKINode Title="NewDensitySurvey method" Url="html/17f2ef80-6456-b70a-3eda-ecbf97bb1a26.htm" />
+  <HelpKINode Title="newestValue field" Url="html/22c9b188-efce-f4ad-d2d0-070068a20c8a.htm" />
+  <HelpKINode Title="nodeRadiusFudge field" Url="html/5d19b52f-19c2-ccdd-44ef-b07cad7a0068.htm" />
+  <HelpKINode Title="oData field" Url="html/4107dd9a-63dd-0e80-6365-41180008549b.htm" />
+  <HelpKINode Title="OnClickUp method" Url="html/5a5ee254-0e03-1265-316d-04ecd508625c.htm" />
+  <HelpKINode Title="OnLeftMouseDown method" Url="html/43eb89d2-0598-89d2-0ded-9d73ba5e46fd.htm" />
+  <HelpKINode Title="OnMouseMove method" Url="html/a004853d-2d2d-4e69-6f02-b49743ca297c.htm" />
+  <HelpKINode Title="OnMouseWheel method" Url="html/328461ae-b263-939f-b39c-e45b07f210d5.htm" />
+  <HelpKINode Title="OnRightMouseDown method" Url="html/79c32b70-1704-f9f4-294b-7403ade70461.htm" />
+  <HelpKINode Title="OnSizeChanged method" Url="html/299eeb12-a26b-9cd3-fe5a-d610e593612e.htm" />
+  <HelpKINode Title="opacity field">
+    <HelpKINode Title="Lattice.opacity Field" Url="html/39a458d8-287a-9ee2-2afe-48ea7aa30010.htm" />
+    <HelpKINode Title="LinePlot.opacity Field" Url="html/21a630b3-ab2c-2cc7-3782-782247846f5a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="origin field" Url="html/3c2239cd-3b6c-d266-a847-d72b46d7cfd9.htm" />
+  <HelpKINode Title="outgoingEdges field" Url="html/61506573-7daa-5e37-1c7c-0a90cdc5c10a.htm" />
+  <HelpKINode Title="overlapProbability field" Url="html/39a81005-6d09-8f41-34fa-cd4b3a5e71a9.htm" />
+  <HelpKINode Title="overriddenType field" Url="html/b68d6fa3-63ca-2f38-5dda-a227a78051b9.htm" />
+  <HelpKINode Title="overridingType field" Url="html/1fa4c993-9214-1493-3224-00753c4c28aa.htm" />
+  <HelpKINode Title="Pause method" Url="html/d39c7a44-8196-51af-6715-68bbda000b45.htm" />
+  <HelpKINode Title="pointColor field" Url="html/1b48d6c1-af53-5277-f820-536325ac4d39.htm" />
+  <HelpKINode Title="pointCount field">
+    <HelpKINode Title="EEG.pointCount Field" Url="html/45b76f5a-a13a-5607-4c9c-76857fe0b14e.htm" />
+    <HelpKINode Title="Histogram.pointCount Field" Url="html/253f4dcc-fb0b-a9ac-82cc-0744dfa0cfc1.htm" />
+    <HelpKINode Title="LinePlot.pointCount Field" Url="html/94126cd3-0f28-4540-8e6b-26acd4f179a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="points field" Url="html/9d8f62af-c645-eee5-5b56-5843eab36a6d.htm" />
+  <HelpKINode Title="pointSize field" Url="html/d7f3c544-fa90-5190-5963-46cfbd14bd94.htm" />
+  <HelpKINode Title="pointSpacing field" Url="html/4398359f-87f7-3e2e-ef55-9b49ce7d22ea.htm" />
+  <HelpKINode Title="primaryLine field" Url="html/4d9af40c-1947-2eb0-09d2-266385d698f9.htm" />
+  <HelpKINode Title="Primitives class">
+    <HelpKINode Title="Primitives Class" Url="html/751db9f4-c2fe-07a6-d51c-8aeaed70ae4c.htm" />
+    <HelpKINode Title="about Primitives class" Url="html/751db9f4-c2fe-07a6-d51c-8aeaed70ae4c.htm" />
+    <HelpKINode Title="methods" Url="html/9f95be69-fb30-976e-c852-a0d1d49ec25c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Primitives.CreateBorder method" Url="html/5a88cf83-fcf1-7f05-739a-b9cdd3880cac.htm" />
+  <HelpKINode Title="Primitives.CreateCombinedEllipse method" Url="html/c65683e7-843f-6c6d-76d3-2e166d796b54.htm" />
+  <HelpKINode Title="Primitives.CreateCombinedRectangle method" Url="html/b55b3a22-44fd-be80-8f93-dfc6dc98a551.htm" />
+  <HelpKINode Title="Primitives.CreateEllipse method" Url="html/13cffd8b-42ee-5a19-90e1-cbe4a5ea1503.htm" />
+  <HelpKINode Title="Primitives.CreateRectangle method" Url="html/c6603d41-355a-9e68-fac4-ea664631f36e.htm" />
+  <HelpKINode Title="Primitives.CreateTextBlock method" Url="html/894eed2f-85de-be26-0c3a-ea61942dc67b.htm" />
+  <HelpKINode Title="Primitives.MeasureString method" Url="html/c89a97cb-19ae-eb0f-7385-5048f043b4a0.htm" />
+  <HelpKINode Title="pulseDelayLength field" Url="html/4aa8a455-64ca-58dd-d93b-8ef3d9896ae9.htm" />
+  <HelpKINode Title="pulseHaloColor field" Url="html/fff1da5d-c3de-4944-d2a7-2d4977f93431.htm" />
+  <HelpKINode Title="pulseLength field" Url="html/3f4396aa-91c7-ad5b-8552-9ca718f109ee.htm" />
+  <HelpKINode Title="pulsePrimaryColor field" Url="html/3ea5459a-9648-d4e4-9c27-b9525835aee8.htm" />
+  <HelpKINode Title="pulsePrimaryTextColor field" Url="html/f89d6681-55f0-7710-5a0e-22028839cf8f.htm" />
+  <HelpKINode Title="pulseSecondaryColor field" Url="html/a0015054-cacc-8569-d54f-78d581cfa47e.htm" />
+  <HelpKINode Title="pulseSecondaryTextColor field" Url="html/73eca694-16ae-01e6-36c9-184a55e332bd.htm" />
+  <HelpKINode Title="Purple_VertexStyle field" Url="html/3321946f-2644-8dcb-d98e-ed3e59be8d9d.htm" />
+  <HelpKINode Title="PushDatum method" Url="html/5c830b40-7652-2f38-dd4f-6ff9996bcb9f.htm" />
+  <HelpKINode Title="RadialExpansion enumeration member" Url="html/ba9d04fb-3ad5-77ef-5970-886aac76371b.htm" />
+  <HelpKINode Title="RadialExpansionRules field" Url="html/e9ec1c1f-afca-6036-29cf-9266572a79c2.htm" />
+  <HelpKINode Title="RadioactiveChocolate field" Url="html/14b38173-8bea-a3a3-cf35-8c13926d4018.htm" />
+  <HelpKINode Title="radiusReqFudge field" Url="html/8f110099-2af3-7bf2-b865-f2de93daba93.htm" />
+  <HelpKINode Title="randomFuckingPoint field" Url="html/b4e5ed71-f17f-1821-22dc-36436dfe87b2.htm" />
+  <HelpKINode Title="Rectangle enumeration member" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="Red_EdgeStyle field" Url="html/f48e7b60-3b98-0187-fabc-50b44f328e56.htm" />
+  <HelpKINode Title="regions field" Url="html/cd3da930-d0c2-6737-c815-1155ac003325.htm" />
+  <HelpKINode Title="Remove method" Url="html/c1292687-ed7d-9788-e9c9-1d74736d4465.htm" />
+  <HelpKINode Title="Render method" Url="html/f93b7276-80e2-9aa4-9a7a-7e0350988c7b.htm" />
+  <HelpKINode Title="RenderGraph method" Url="html/c625d2a2-70ba-7a25-9333-e83f63756431.htm" />
+  <HelpKINode Title="reqHeight field" Url="html/4b8536a5-e802-e85e-06d5-ddd179277d23.htm" />
+  <HelpKINode Title="reqRegion field" Url="html/3dc1b9dd-ccd0-b14d-e6c4-eaf1d0436a47.htm" />
+  <HelpKINode Title="RequestCompute method" Url="html/92431c36-814b-070f-f527-652d19ec47d9.htm" />
+  <HelpKINode Title="RequestComputeNoDensity method" Url="html/423da2e7-2ed6-8b9e-873b-5db954587c46.htm" />
+  <HelpKINode Title="RequestRender method" Url="html/082f6288-3bae-07c9-2e64-b13f80da5065.htm" />
+  <HelpKINode Title="RequestSnapBack method" Url="html/7cd52d07-1e57-ba50-e519-7b5af6f6953b.htm" />
+  <HelpKINode Title="requiredHorizonalMargin field" Url="html/65986246-87d2-b826-a8fa-5f2267f9db93.htm" />
+  <HelpKINode Title="requiredVerticalMargin field" Url="html/f9f9c39e-7e47-8702-bf3a-509f26dff40f.htm" />
+  <HelpKINode Title="reqWidth field" Url="html/58ac7398-67a5-5be3-bc96-d704f8034a96.htm" />
+  <HelpKINode Title="Restart method" Url="html/e763ffea-1585-1416-99d7-57f6a145f232.htm" />
+  <HelpKINode Title="Resume method" Url="html/0ab21557-207d-65fe-9726-285438d3df91.htm" />
+  <HelpKINode Title="rightClicked field" Url="html/9a7a86f6-7e12-a289-4ca9-e51b57a22bf4.htm" />
+  <HelpKINode Title="rightDragPrevOffset field" Url="html/8d62d791-b583-f4d6-7839-f36450163f53.htm" />
+  <HelpKINode Title="rnd field" Url="html/c9a98e29-3c18-1abd-cd7c-9bcdd46ba31d.htm" />
+  <HelpKINode Title="Root field" Url="html/dbaf7309-2948-15d4-71fe-8d2fbe8cb55d.htm" />
+  <HelpKINode Title="RoundedRectangle enumeration member" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="RunThread method">
+    <HelpKINode Title="BaseThread.RunThread Method " Url="html/6a01acc0-9b09-ad2e-4fb7-f6c50246ba41.htm" />
+    <HelpKINode Title="Engine.RunThread Method " Url="html/223d067e-ce87-8adc-076e-71c409127222.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scheme class">
+    <HelpKINode Title="Scheme Class" Url="html/19a9b4bb-7fd4-b895-5d29-42a2c395357e.htm" />
+    <HelpKINode Title="about Scheme class" Url="html/19a9b4bb-7fd4-b895-5d29-42a2c395357e.htm" />
+    <HelpKINode Title="fields" Url="html/77ba40d3-a7fe-de1c-b751-f929c452cc3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Scheme.highRed field" Url="html/9458df70-bc93-e0ac-7a67-2b54959805b8.htm" />
+  <HelpKINode Title="Scheme.lowGreen field" Url="html/deb1d03a-db3e-d4f7-8427-65f5613854d0.htm" />
+  <HelpKINode Title="Scheme.medYellow field" Url="html/1b8d1eca-b923-f455-e2e7-c1dbbdbbe6b5.htm" />
+  <HelpKINode Title="Scheme.SimpleRYG field" Url="html/1ce192ab-02da-2939-67eb-25bd2af7bd51.htm" />
+  <HelpKINode Title="scoreColor field" Url="html/a672790b-3e4f-0a71-0963-4eefca0f60d0.htm" />
+  <HelpKINode Title="SendToGUI method" Url="html/5a9ea337-b8ab-d4e0-e500-89f5f6d6751f.htm" />
+  <HelpKINode Title="SetData method">
+    <HelpKINode Title="Histogram.SetData Method " Url="html/4e62d2a5-5530-6105-6965-ca50f9108206.htm" />
+    <HelpKINode Title="Lattice.SetData Method " Url="html/9911de8d-e97b-b671-0674-1075bac33a3e.htm" />
+    <HelpKINode Title="LinePlot.SetData Method " Url="html/77b12907-4e38-c4e5-d63a-a7a0218f40bc.htm" />
+    <HelpKINode Title="VitalIndicator.SetData Method " Url="html/636fb989-033b-6ebe-4f80-f7376a718cf8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleRYG field" Url="html/1ce192ab-02da-2939-67eb-25bd2af7bd51.htm" />
+  <HelpKINode Title="Sleep method" Url="html/0b8c4a91-5ef9-8162-41d1-11d62982a1f8.htm" />
+  <HelpKINode Title="snapBackVertex field" Url="html/50fb660b-2771-c7f0-50dd-ec1296df9a55.htm" />
+  <HelpKINode Title="StandardBorderThickness field" Url="html/709724bb-b166-b9d9-14fa-ad5992f75393.htm" />
+  <HelpKINode Title="StandardCornerRadius field" Url="html/c1f6f2c6-88aa-ce5e-e118-ede827674846.htm" />
+  <HelpKINode Title="StandardDashedLine field" Url="html/bcb2c221-5a3c-1643-b3b2-a32ae77b95ae.htm" />
+  <HelpKINode Title="standardTypeface field" Url="html/5c8458d8-ae55-9a65-7cb6-6cdd0de18553.htm" />
+  <HelpKINode Title="Start method" Url="html/76129ec2-6140-0837-5f52-c93108914ba0.htm" />
+  <HelpKINode Title="startTime field" Url="html/368ad7a5-b10e-bd08-0cdb-4b9cfa2385cb.htm" />
+  <HelpKINode Title="Step method">
+    <HelpKINode Title="EEG.Step Method " Url="html/b845ab25-5cca-d7c7-b37d-460f68db07cf.htm" />
+    <HelpKINode Title="Histogram.Step Method " Url="html/9c900ac9-5d2e-2aa2-43dd-ab638971cb74.htm" />
+    <HelpKINode Title="Lattice.Step Method " Url="html/55a1643d-c930-b429-3c9d-fdc354e959e2.htm" />
+    <HelpKINode Title="LinePlot.Step Method " Url="html/1864e105-01f0-6a30-e14a-6b55183762cc.htm" />
+    <HelpKINode Title="VitalIndicator.Step Method " Url="html/d2eb4b37-df60-cf3b-eb7a-9eeb66f7358d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="stepCount field" Url="html/0001f322-593e-1c12-c89d-06508852cb62.htm" />
+  <HelpKINode Title="stepSize field" Url="html/474213b1-effc-892e-80db-796d16ed6fb8.htm" />
+  <HelpKINode Title="stepsRemaining field" Url="html/e541b8cd-8fc6-9146-6863-4d8b92b07e06.htm" />
+  <HelpKINode Title="stickyDrag field" Url="html/1426f8ce-efaa-dc6f-7210-7215137527b2.htm" />
+  <HelpKINode Title="Stop method" Url="html/59146d26-53ae-c63e-e45d-949b07719ffd.htm" />
+  <HelpKINode Title="StrokeDashArray field" Url="html/1ebb8582-7fc1-d747-881b-2997a55e6ff4.htm" />
+  <HelpKINode Title="style field">
+    <HelpKINode Title="Edge.style Field" Url="html/e4c4a61d-88d2-2465-423b-4d48de25b7a6.htm" />
+    <HelpKINode Title="Vertex.style Field" Url="html/44c4b945-d5c0-ab9a-96e4-65dbd2830e5c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Styles class">
+    <HelpKINode Title="Styles Class" Url="html/541d23c6-8a6f-43cf-38ec-495aab99d50f.htm" />
+    <HelpKINode Title="about Styles class" Url="html/541d23c6-8a6f-43cf-38ec-495aab99d50f.htm" />
+    <HelpKINode Title="fields" Url="html/ee5241c4-b172-b13e-982b-3879630af0c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Styles.Conjunction_EdgeStyle field" Url="html/39703195-449e-9ad2-1a2f-370e4d8348b8.htm" />
+  <HelpKINode Title="Styles.GreenGlass_EdgeStyle field" Url="html/e3bd948f-1017-a386-4b48-17cd13c5d8f1.htm" />
+  <HelpKINode Title="Styles.Green_VertexStyle field" Url="html/abd17bde-dcb4-6110-4491-84ac6db8b49b.htm" />
+  <HelpKINode Title="Styles.Purple_VertexStyle field" Url="html/3321946f-2644-8dcb-d98e-ed3e59be8d9d.htm" />
+  <HelpKINode Title="Styles.Red_EdgeStyle field" Url="html/f48e7b60-3b98-0187-fabc-50b44f328e56.htm" />
+  <HelpKINode Title="textColor field" Url="html/de769cfb-d46d-e0b8-0edd-945b7f49411e.htm" />
+  <HelpKINode Title="theta field" Url="html/61dd3662-fa97-f21e-80fa-53e251a425e3.htm" />
+  <HelpKINode Title="threadBridge field" Url="html/7ed128c1-f986-8c8e-16cb-30d2bbb7722e.htm" />
+  <HelpKINode Title="ToCenteredCoords method" Url="html/45facd54-d244-ca8e-f2c2-e5be034abece.htm" />
+  <HelpKINode Title="tooltip field">
+    <HelpKINode Title="Edge.tooltip Field" Url="html/ac69a1bd-36c2-4bad-1d97-d287315ea5f7.htm" />
+    <HelpKINode Title="Vertex.tooltip Field" Url="html/1be48f68-f7f6-1230-b0bf-38afb4dcc34e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="tooltipTemplate field" Url="html/fdbd6f13-be4e-05f9-0d24-66d5a9da244b.htm" />
+  <HelpKINode Title="topLevelVertices field" Url="html/72bf5d38-e1b0-5e8b-1ffd-4132657fcf16.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="AngleConstraint.ToString Method " Url="html/c566905b-89c5-85a6-b780-2c1db819303d.htm" />
+    <HelpKINode Title="AngleConstraintOverride.ToString Method " Url="html/9f21fdfd-4c17-2119-60a3-9d23204ec6c3.htm" />
+    <HelpKINode Title="Vertex.ToString Method " Url="html/2b2714a9-7b0c-3046-0231-d3ff2914d7a3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="totalMultiplier field" Url="html/bce016f5-1b9c-2c37-9848-5b9838238d8c.htm" />
+  <HelpKINode Title="toType field" Url="html/5c6c4741-f2c2-b40c-d491-be5af6a668b1.htm" />
+  <HelpKINode Title="ToWPFCoords method" Url="html/f59134f1-97e8-e8fc-1c89-6de62520972e.htm" />
+  <HelpKINode Title="transCoords field" Url="html/d6ac4027-0aec-b8e4-c10f-97e6c7aa623b.htm" />
+  <HelpKINode Title="TransformSubtree method" Url="html/31bb225e-f771-fd14-206a-c02ef26ccc3a.htm" />
+  <HelpKINode Title="TranslateSubtree method" Url="html/23ebebd0-3f25-7bb5-a7e6-1b6921797cbc.htm" />
+  <HelpKINode Title="type field">
+    <HelpKINode Title="Edge.type Field" Url="html/476167cf-be39-2888-a646-57a0fb913c75.htm" />
+    <HelpKINode Title="Vertex.type Field" Url="html/25e9a1d4-dd09-915f-5dfc-076d5ea7f60b.htm" />
+    <HelpKINode Title="VertexStyleTemplate.type Field" Url="html/8f06b27d-5bbe-c389-0a77-2212e8e106e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="typeface field" Url="html/d0a497eb-c818-ae8e-dc6e-332273d0a581.htm" />
+  <HelpKINode Title="value field" Url="html/4ea5e156-2b8b-03b9-c0bd-1eb6771a5eb4.htm" />
+  <HelpKINode Title="valueColor field" Url="html/b7c00db8-108b-5d13-e1dc-139748b2f269.htm" />
+  <HelpKINode Title="ValueColorScheme class">
+    <HelpKINode Title="ValueColorScheme Class" Url="html/3021d5b3-93aa-3cd5-028e-7ee7f64470d5.htm" />
+    <HelpKINode Title="about ValueColorScheme class" Url="html/3021d5b3-93aa-3cd5-028e-7ee7f64470d5.htm" />
+    <HelpKINode Title="constructor" Url="html/a8db0595-20f2-e6f4-5d6f-27fda6692cf0.htm" />
+    <HelpKINode Title="fields" Url="html/13719fc7-9b07-8eca-00b6-ace53b0019ec.htm" />
+    <HelpKINode Title="methods" Url="html/f04f236a-5843-e5b0-f080-ec769cb4091a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="valueColorScheme field" Url="html/81bd5a94-1a23-6f36-3373-6e3ba89ce715.htm" />
+  <HelpKINode Title="ValueColorScheme.GetColor method" Url="html/20e3f823-a740-39ee-1175-9021d3cc8fa2.htm" />
+  <HelpKINode Title="ValueColorScheme.regions field" Url="html/cd3da930-d0c2-6737-c815-1155ac003325.htm" />
+  <HelpKINode Title="ValueColorScheme.ValueColorScheme constructor" Url="html/a8db0595-20f2-e6f4-5d6f-27fda6692cf0.htm" />
+  <HelpKINode Title="valueLabel field" Url="html/241cef28-ca28-1467-22e2-67c3469530c6.htm" />
+  <HelpKINode Title="Vertex class">
+    <HelpKINode Title="Vertex Class" Url="html/e7054e49-d317-660e-8316-c56e9a854ce4.htm" />
+    <HelpKINode Title="about Vertex class" Url="html/e7054e49-d317-660e-8316-c56e9a854ce4.htm" />
+    <HelpKINode Title="constructor" Url="html/8bc36833-771b-c5df-6012-c8357227a2c2.htm" />
+    <HelpKINode Title="fields" Url="html/d884d6fd-4af7-8c45-ebf7-596f44e36a4e.htm" />
+    <HelpKINode Title="methods" Url="html/609fe7f9-29ba-8d41-02ef-f7ba22e7a642.htm" />
+  </HelpKINode>
+  <HelpKINode Title="vertex field" Url="html/706663ef-8e25-3fbf-71c5-13676682c83a.htm" />
+  <HelpKINode Title="Vertex.adding field" Url="html/be4d171d-4c76-0a51-d456-889286227c65.htm" />
+  <HelpKINode Title="Vertex.animation field" Url="html/8defcb19-562d-a1d3-9ac7-ff05cd4039e2.htm" />
+  <HelpKINode Title="Vertex.attachedDisplay field" Url="html/40e8540f-0038-8823-30ac-a9ff3b21f742.htm" />
+  <HelpKINode Title="Vertex.bIsolated field" Url="html/e7741be9-33d3-d61c-a9f1-097838313b64.htm" />
+  <HelpKINode Title="Vertex.box field" Url="html/06531492-b334-dcdb-a270-f858d9cf6812.htm" />
+  <HelpKINode Title="Vertex.bTopLevel field" Url="html/4ace8055-ab41-d3a6-6d6e-9cf033363a23.htm" />
+  <HelpKINode Title="Vertex.charge field" Url="html/ba3ff71d-6d16-84e4-f9d5-ca4ea5727042.htm" />
+  <HelpKINode Title="Vertex.children field" Url="html/0ef3e057-cd9c-e869-19af-ea9f5488b47b.htm" />
+  <HelpKINode Title="Vertex.coordinates field" Url="html/de0352ae-eb6e-c9b5-9974-026cd7ebb293.htm" />
+  <HelpKINode Title="Vertex.coordLabel field" Url="html/b2e06811-d5c8-cbae-a60a-0b8e0344ab5c.htm" />
+  <HelpKINode Title="Vertex.dxoff field" Url="html/65e0dd9d-b88f-3c81-e556-b56bdbe58d5d.htm" />
+  <HelpKINode Title="Vertex.dyoff field" Url="html/be1b1cee-2fc5-2f20-fa04-a5859f7d664c.htm" />
+  <HelpKINode Title="Vertex.incomingEdges field" Url="html/f402b21d-adee-13d4-90f1-148faaf9962f.htm" />
+  <HelpKINode Title="Vertex.label field" Url="html/73e580a5-b6fb-dfdc-211f-d3fd87c73829.htm" />
+  <HelpKINode Title="Vertex.labelBlock field" Url="html/51524169-cc67-7358-a731-5671e4bbca9c.htm" />
+  <HelpKINode Title="Vertex.labelBlockSize field" Url="html/e8d254c7-8100-fe69-de78-c5363f0424a1.htm" />
+  <HelpKINode Title="Vertex.mass field" Url="html/4d29dbca-d242-8c0d-7391-26528f9bdcaf.htm" />
+  <HelpKINode Title="Vertex.maxrelX field" Url="html/f3a73320-178e-ce88-54bb-b885dce96930.htm" />
+  <HelpKINode Title="Vertex.maxrelY field" Url="html/9905f325-62fe-897e-d0b3-3f2e0bbf9646.htm" />
+  <HelpKINode Title="Vertex.maxx field" Url="html/8d45b5e4-b3ec-037b-2cb1-8635284afe00.htm" />
+  <HelpKINode Title="Vertex.maxy field" Url="html/18e9ddc2-22e0-2c7e-b9c5-ca5d3c819f9e.htm" />
+  <HelpKINode Title="Vertex.minrelX field" Url="html/2990a22f-ca10-5c30-9488-e349118511f9.htm" />
+  <HelpKINode Title="Vertex.minrelY field" Url="html/b5bbc6ca-d917-d1bf-b3ca-f6535a03e57f.htm" />
+  <HelpKINode Title="Vertex.minx field" Url="html/c7110bde-9aea-84aa-f1da-e05c7db7a79c.htm" />
+  <HelpKINode Title="Vertex.miny field" Url="html/9d308fe3-6ad2-55b7-ea9d-ac474bc68abe.htm" />
+  <HelpKINode Title="Vertex.neighbors field" Url="html/d0131516-0db7-5a8a-16ab-370086894f9b.htm" />
+  <HelpKINode Title="Vertex.outgoingEdges field" Url="html/61506573-7daa-5e37-1c7c-0a90cdc5c10a.htm" />
+  <HelpKINode Title="Vertex.reqHeight field" Url="html/4b8536a5-e802-e85e-06d5-ddd179277d23.htm" />
+  <HelpKINode Title="Vertex.reqRegion field" Url="html/3dc1b9dd-ccd0-b14d-e6c4-eaf1d0436a47.htm" />
+  <HelpKINode Title="Vertex.reqWidth field" Url="html/58ac7398-67a5-5be3-bc96-d704f8034a96.htm" />
+  <HelpKINode Title="Vertex.style field" Url="html/44c4b945-d5c0-ab9a-96e4-65dbd2830e5c.htm" />
+  <HelpKINode Title="Vertex.tooltip field" Url="html/1be48f68-f7f6-1230-b0bf-38afb4dcc34e.htm" />
+  <HelpKINode Title="Vertex.ToString method" Url="html/2b2714a9-7b0c-3046-0231-d3ff2914d7a3.htm" />
+  <HelpKINode Title="Vertex.transCoords field" Url="html/d6ac4027-0aec-b8e4-c10f-97e6c7aa623b.htm" />
+  <HelpKINode Title="Vertex.type field" Url="html/25e9a1d4-dd09-915f-5dfc-076d5ea7f60b.htm" />
+  <HelpKINode Title="Vertex.Vertex constructor" Url="html/8bc36833-771b-c5df-6012-c8357227a2c2.htm" />
+  <HelpKINode Title="VertexAnimationTemplate class">
+    <HelpKINode Title="VertexAnimationTemplate Class" Url="html/5b0a3ecd-8b81-e67b-ace7-99ca37f82f4c.htm" />
+    <HelpKINode Title="about VertexAnimationTemplate class" Url="html/5b0a3ecd-8b81-e67b-ace7-99ca37f82f4c.htm" />
+    <HelpKINode Title="constructor" Url="html/a758357f-2e87-6a2a-5663-ebf6eebab89b.htm" />
+    <HelpKINode Title="fields" Url="html/fd91dea3-fea0-688f-9c80-6a0861948d12.htm" />
+    <HelpKINode Title="methods" Url="html/e9e23583-6c3b-8b79-807b-8651cf54f715.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VertexAnimationTemplate.bPulseOn field" Url="html/e7a81b05-a00a-417c-2eba-944e2add88c7.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.lastPulse field" Url="html/cc0b9c28-1d9a-f532-0911-9d6e9d74213d.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulseDelayLength field" Url="html/4aa8a455-64ca-58dd-d93b-8ef3d9896ae9.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulseHaloColor field" Url="html/fff1da5d-c3de-4944-d2a7-2d4977f93431.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulseLength field" Url="html/3f4396aa-91c7-ad5b-8552-9ca718f109ee.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulsePrimaryColor field" Url="html/3ea5459a-9648-d4e4-9c27-b9525835aee8.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulsePrimaryTextColor field" Url="html/f89d6681-55f0-7710-5a0e-22028839cf8f.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulseSecondaryColor field" Url="html/a0015054-cacc-8569-d54f-78d581cfa47e.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.pulseSecondaryTextColor field" Url="html/73eca694-16ae-01e6-36c9-184a55e332bd.htm" />
+  <HelpKINode Title="VertexAnimationTemplate.VertexAnimationTemplate constructor" Url="html/a758357f-2e87-6a2a-5663-ebf6eebab89b.htm" />
+  <HelpKINode Title="vertexColor field" Url="html/b22e8c0f-4214-a7f0-4ba2-e54fbdc63d2e.htm" />
+  <HelpKINode Title="vertexFontWeight field" Url="html/65b87835-0112-9c52-4803-ef985ff44137.htm" />
+  <HelpKINode Title="vertexOpacity field" Url="html/e74d9172-13ad-1ceb-d025-36b234a8412b.htm" />
+  <HelpKINode Title="vertexRadius field" Url="html/cb03b80c-9759-6f20-111c-8a0b95486c8f.htm" />
+  <HelpKINode Title="VertexShapeType enumeration" Url="html/7483ac74-8b37-5b69-9cdf-973fd4d47464.htm" />
+  <HelpKINode Title="VertexStyleRules field" Url="html/0400e690-1edf-a432-abff-fe2a6906e7a8.htm" />
+  <HelpKINode Title="VertexStyleTemplate class">
+    <HelpKINode Title="VertexStyleTemplate Class" Url="html/0e936a4c-8d6f-6fd1-4305-437e621867c2.htm" />
+    <HelpKINode Title="about VertexStyleTemplate class" Url="html/0e936a4c-8d6f-6fd1-4305-437e621867c2.htm" />
+    <HelpKINode Title="constructor" Url="html/2ccff380-8a21-74bb-8381-0b432a38c016.htm" />
+    <HelpKINode Title="fields" Url="html/fbbee679-2e4d-48d5-6ca5-860922a83192.htm" />
+    <HelpKINode Title="methods" Url="html/71beb790-a4ef-640f-9405-e24fcbfdb764.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VertexStyleTemplate.bRoundedRectangleCorners field" Url="html/54ab643d-e04a-7442-af3e-2eba50763573.htm" />
+  <HelpKINode Title="VertexStyleTemplate.bShowExtraHalo field" Url="html/af46737d-260e-6f48-4893-035444af57ba.htm" />
+  <HelpKINode Title="VertexStyleTemplate.bShowHalo field" Url="html/eb6a0208-5899-9492-1b5a-fa2dc9322aea.htm" />
+  <HelpKINode Title="VertexStyleTemplate.bShowLabel field" Url="html/16f24224-c544-a6b3-46ed-691210d5e40e.htm" />
+  <HelpKINode Title="VertexStyleTemplate.fontFamily field" Url="html/93feefb5-a06f-ba77-9fac-0089a3fad2aa.htm" />
+  <HelpKINode Title="VertexStyleTemplate.haloColor field" Url="html/5ed891cf-94d8-b377-e18e-7c890a6ea610.htm" />
+  <HelpKINode Title="VertexStyleTemplate.haloOpacity field" Url="html/e81f4f91-50d9-211c-17be-2bccc6bf3310.htm" />
+  <HelpKINode Title="VertexStyleTemplate.haloThickness field" Url="html/568aafc0-6170-089f-fb76-7b3f25c15646.htm" />
+  <HelpKINode Title="VertexStyleTemplate.tooltipTemplate field" Url="html/fdbd6f13-be4e-05f9-0d24-66d5a9da244b.htm" />
+  <HelpKINode Title="VertexStyleTemplate.type field" Url="html/8f06b27d-5bbe-c389-0a77-2212e8e106e0.htm" />
+  <HelpKINode Title="VertexStyleTemplate.vertexColor field" Url="html/b22e8c0f-4214-a7f0-4ba2-e54fbdc63d2e.htm" />
+  <HelpKINode Title="VertexStyleTemplate.vertexFontWeight field" Url="html/65b87835-0112-9c52-4803-ef985ff44137.htm" />
+  <HelpKINode Title="VertexStyleTemplate.vertexOpacity field" Url="html/e74d9172-13ad-1ceb-d025-36b234a8412b.htm" />
+  <HelpKINode Title="VertexStyleTemplate.vertexRadius field" Url="html/cb03b80c-9759-6f20-111c-8a0b95486c8f.htm" />
+  <HelpKINode Title="VertexStyleTemplate.VertexStyleTemplate constructor" Url="html/2ccff380-8a21-74bb-8381-0b432a38c016.htm" />
+  <HelpKINode Title="VertexStyleTemplate.vertexTextColor field" Url="html/b20fa29c-e77f-d31c-eaa6-e0b505f971b7.htm" />
+  <HelpKINode Title="VertextAngleOverrideRules field" Url="html/dc18d913-f23d-d20a-8db3-6f291aa6c4ef.htm" />
+  <HelpKINode Title="vertexTextColor field" Url="html/b20fa29c-e77f-d31c-eaa6-e0b505f971b7.htm" />
+  <HelpKINode Title="vertices field" Url="html/2d3abdba-4fdf-3f92-cd88-1b0c8ac1ed71.htm" />
+  <HelpKINode Title="VitalIndicator class">
+    <HelpKINode Title="VitalIndicator Class" Url="html/348fe6f8-c434-3fe4-ed41-38660dce9463.htm" />
+    <HelpKINode Title="about VitalIndicator class" Url="html/348fe6f8-c434-3fe4-ed41-38660dce9463.htm" />
+    <HelpKINode Title="constructor" Url="html/79160eaa-6b59-3309-5cbc-987e758fa5d4.htm" />
+    <HelpKINode Title="fields" Url="html/14266fb0-0753-52ef-4b71-a153ab062815.htm" />
+    <HelpKINode Title="methods" Url="html/626429bb-b7e3-486c-53ea-d699b69c1e4f.htm" />
+    <HelpKINode Title="properties" Url="html/e55d00d1-72e1-d22c-5143-5a096ad05650.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VitalIndicator.Compute method" Url="html/cce9ce37-46ef-af6a-46f2-174aabd72bfe.htm" />
+  <HelpKINode Title="VitalIndicator.ComputeActiveElements method" Url="html/6b59e14f-a928-d4ac-ffb5-0448abc884ec.htm" />
+  <HelpKINode Title="VitalIndicator.ComputeDecorations method" Url="html/d1a06ad7-bec1-d6f6-8dc0-6d4e3f147de1.htm" />
+  <HelpKINode Title="VitalIndicator.ComputeMetrics method" Url="html/a8c88845-157e-14c4-adb5-12adbacbd855.htm" />
+  <HelpKINode Title="VitalIndicator.cursor field" Url="html/836e953c-30d6-1b49-967d-c7d3bb823db3.htm" />
+  <HelpKINode Title="VitalIndicator.max field" Url="html/752fbef2-9fec-ae78-c90e-ba6f6a820922.htm" />
+  <HelpKINode Title="VitalIndicator.maxLabel field" Url="html/d835df96-8ef4-bc5a-313a-7992ca7db599.htm" />
+  <HelpKINode Title="VitalIndicator.min field" Url="html/812c0080-69df-7ac7-2ee2-9c8fd38a619a.htm" />
+  <HelpKINode Title="VitalIndicator.minLabel field" Url="html/8fdbbcbb-f547-4c36-b6a3-f0715dd006e9.htm" />
+  <HelpKINode Title="VitalIndicator.primaryLine field" Url="html/4d9af40c-1947-2eb0-09d2-266385d698f9.htm" />
+  <HelpKINode Title="VitalIndicator.SetData method" Url="html/636fb989-033b-6ebe-4f80-f7376a718cf8.htm" />
+  <HelpKINode Title="VitalIndicator.Step method" Url="html/d2eb4b37-df60-cf3b-eb7a-9eeb66f7358d.htm" />
+  <HelpKINode Title="VitalIndicator.value field" Url="html/4ea5e156-2b8b-03b9-c0bd-1eb6771a5eb4.htm" />
+  <HelpKINode Title="VitalIndicator.valueLabel field" Url="html/241cef28-ca28-1467-22e2-67c3469530c6.htm" />
+  <HelpKINode Title="VitalIndicator.VitalIndicator constructor" Url="html/79160eaa-6b59-3309-5cbc-987e758fa5d4.htm" />
+  <HelpKINode Title="vSpace field" Url="html/a36b413c-940e-45b9-a400-e413945c0b8a.htm" />
+  <HelpKINode Title="width field" Url="html/55b51538-26f3-f649-c687-37f8cfdfbebd.htm" />
+  <HelpKINode Title="Width property" Url="html/0e84bf28-6a0a-1b27-56de-6fe9233b0c52.htm" />
+  <HelpKINode Title="widthConsumed field" Url="html/94690302-d5ca-8a35-1ea1-d296ba463ee2.htm" />
+  <HelpKINode Title="widthRemaining field" Url="html/6c520372-e0d8-1d6e-8ce9-72cea8599340.htm" />
+  <HelpKINode Title="xlabel field">
+    <HelpKINode Title="EEG.xlabel Field" Url="html/b98ffcc9-edd5-4c78-ce47-9ed14dc018f3.htm" />
+    <HelpKINode Title="Histogram.xlabel Field" Url="html/c4aa46ad-0287-ba0a-a988-47b496517fc1.htm" />
+    <HelpKINode Title="Lattice.xlabel Field" Url="html/341e0ef0-8afb-d481-bee3-014244d644fe.htm" />
+    <HelpKINode Title="LinePlot.xlabel Field" Url="html/4cb89637-67da-bff4-0d6e-81aaa42fbad1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="xo field" Url="html/cf968b5b-e16d-588b-1bd9-5f004dd28e07.htm" />
+  <HelpKINode Title="ylabel field">
+    <HelpKINode Title="EEG.ylabel Field" Url="html/a1e0e666-2db9-7899-1205-0bb70f8710b2.htm" />
+    <HelpKINode Title="Histogram.ylabel Field" Url="html/2bbad7f3-0d45-4dfe-0f0e-5310a6ce6bf8.htm" />
+    <HelpKINode Title="Lattice.ylabel Field" Url="html/04cbb28e-147c-643e-0bac-f3e9ee05b39e.htm" />
+    <HelpKINode Title="LinePlot.ylabel Field" Url="html/4033bc9a-9c2b-4939-b8c2-10df4da0b5d7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="yo field" Url="html/01504437-5662-78f7-d491-4281c31cca96.htm" />
+  <HelpKINode Title="ZeroPoint field" Url="html/56215fc3-38d7-b75d-5dc8-510efc8164aa.htm" />
+  <HelpKINode Title="zOrder field" Url="html/35a03216-e194-a4fe-38ee-9c4f8ae09dd2.htm" />
+  <HelpKINode Title="_shouldPause field" Url="html/4f5b7f2c-a115-238f-f194-1d8c12fc852d.htm" />
+  <HelpKINode Title="_shouldRestart field" Url="html/36db208e-1abb-fab7-5907-d9e79bbf4297.htm" />
+  <HelpKINode Title="_shouldSleep field" Url="html/0cf236ba-4209-cdd7-f48d-514b03162318.htm" />
+  <HelpKINode Title="_shouldStop field" Url="html/5c883af2-ce74-f2d5-5993-5b8f0c8a068d.htm" />
+  <HelpKINode Title="_sleepTime field" Url="html/71b98461-0721-b061-dd50-69944cc5a0b0.htm" />
+</HelpKI>

@@ -35,8 +35,8 @@ namespace Insilico {
         public override void Compute() {
             if (data != null && data.Length > 0) {
                 bars.Clear();
-                float barWidthMax = (width - (leftMargin + rightMargin)) / (data.Length);
-                float barHeightMax = height - (topMargin + bottomMargin);
+                float barWidthMax = width  / (data.Length);
+                float barHeightMax = height;
 
                 float max = data.Max();
                 max = float.IsNaN(max) ? 1 : max;
