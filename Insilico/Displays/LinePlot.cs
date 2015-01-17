@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public class LinePlot: Display {
+    public class LinePlot: BaseDisplay {
         #region Parameters
 
         public float min = 0;

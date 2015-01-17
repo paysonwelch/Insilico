@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public class EEG: Display {
+    public class EEG: BaseDisplay {
         #region Parameters
         public float min = 0;
         public float max = 1;

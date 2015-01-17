@@ -18,7 +18,7 @@ namespace Insilico {
 
     // Generic vertex object
     public class Vertex {
-        public Display attachedDisplay;
+        public BaseDisplay attachedDisplay;
         public float dxoff;
         public float dyoff;
 

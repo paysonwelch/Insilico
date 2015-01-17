@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public class Histogram : Display {
+    public class Histogram : BaseDisplay {
         #region Parameters
         public float min = 0;
         public float max = 50;
@@ -70,7 +70,6 @@ namespace Insilico {
 
                 for (int i = 0; i < oData.Count(); i++) {
                     float x = (i * (barWidthMax + barSpacing));
-                    float y = 0;
                     float percentage = (float)(oData[i] / max);
                     float thisBarHeight = percentage * barHeightMax;
                     //SolidColorBrush barColor = displayLayout.valueColorScheme.GetColor(percentage);

@@ -46,7 +46,7 @@ namespace SuperSimpleDemo {
         #region Mouse Events (if you need them)
         private void LeftMouseDown(object sender, MouseButtonEventArgs e) { insilico.OnLeftMouseDown(sender, e); }
         private void RightMouseDown(object sender, MouseButtonEventArgs e) { insilico.OnRightMouseDown(sender, e); }
-        private void MouseMove(object sender, MouseEventArgs e) { insilico.OnMouseMove(sender, e); }
+        private void MoveMouse(object sender, MouseEventArgs e) { insilico.OnMouseMove(sender, e); }
         private void ClickUp(object sender, RoutedEventArgs e) { insilico.OnClickUp(sender, e); }
         private void OnSizeChanged(object sender, RoutedEventArgs e) { insilico.OnSizeChanged(sender, e); }
         private void OnMouseWheel(object sender, MouseWheelEventArgs e) { insilico.OnMouseWheel(sender, e); }

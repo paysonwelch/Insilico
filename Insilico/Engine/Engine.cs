@@ -23,7 +23,7 @@ namespace Insilico {
         public Histogram histogram;
         public Canvas canvas;
 
-        public List<Display> displays = new List<Display>();
+        public List<BaseDisplay> displays = new List<BaseDisplay>();
 
         public bool bPrintEdgeNode = true;              // Print the quasi-vertex in the midpoint of an edge
         public bool bSizeVertexToText = true;           // Automatically resize vertices so text will fit
@@ -83,7 +83,7 @@ namespace Insilico {
             if (bShowAnimations) {
 
                 if (displays.Any()) {
-                    foreach (Display disp in displays) {
+                    foreach (BaseDisplay disp in displays) {
                         if (disp.IsActive) {
                             TimeSpan ts = DateTime.Now - Cached.startTime;
                             double ticker = ts.TotalMilliseconds;

@@ -6,25 +6,12 @@ using System.Threading.Tasks;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public class Lattice : Display {
+    public class Lattice : BaseDisplay {
         #region Parameters
         public float[] data;
-        public int xo;
-        public int yo;
-        public int width = 800;
-        public int height = 400;
-        public int leftMargin = 10;
-        public int rightMargin = 10;
-        public int topMargin = 10;
-        public int bottomMargin = 10;
         public float opacity = 0.5f;
-
-        public int elements;
-
+        public int elementsCount;
         public int barSpacing = 10;
-        public float stepCount = 20;
-        public float stepsRemaining = 0;
-
         public string xlabel = "x-axis";
         public string ylabel = "y-axis";
         #endregion
@@ -34,9 +21,9 @@ namespace Insilico {
         #endregion
 
         public Lattice(int numElements) {
-            elements = numElements;
-            data = new float[elements];
-            for (int i = 0; i < elements; i++) {
+            elementsCount = numElements;
+            data = new float[elementsCount];
+            for (int i = 0; i < elementsCount; i++) {
                 data[i] = 0;
             }
         }
@@ -57,17 +44,13 @@ namespace Insilico {
 
                 for (int i = 0; i < data.Count(); i++) {
                     float x = (i * (barWidthMax + barSpacing));
-                    float y = 50;
+                    //float y = 50;
                     float thisBarHeight = (float)((data[i] / max) * 100.0);
                     thisBarHeight = float.IsNaN(thisBarHeight) ? 1 : thisBarHeight;
-
                     //bars.Add(Helpers.GenerateNewRectangle(x + xo, y + yo, barWidthMax, thisBarHeight, Shared.BrushLimeGreen, opacity, false, ""));
                 }
             }
         }
-
-        public float[] nData;
-        public float[] dData;
 
         public bool SetData(float[] newData) {
             if (data != null && data.Length == newData.Length) {

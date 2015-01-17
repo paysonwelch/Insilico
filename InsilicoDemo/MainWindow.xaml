@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="800" Width="1100" Background="Black">
     <Grid>
-        <Canvas Name="canvas" Background="BurlyWood" MouseLeftButtonDown="LeftMouseDown" MouseRightButtonDown="RightMouseDown" MouseMove="MouseMove" HorizontalAlignment="Stretch" Height="Auto" Margin="10" VerticalAlignment="Stretch" Width="Auto"/>
+        <Canvas Name="canvas" Background="BurlyWood" MouseLeftButtonDown="LeftMouseDown" MouseRightButtonDown="RightMouseDown" MouseMove="MoveMouse" HorizontalAlignment="Stretch" Height="Auto" Margin="10" VerticalAlignment="Stretch" Width="Auto"/>
 
     </Grid>
 </Window>

@@ -9,7 +9,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public abstract class Display {
+    public abstract class BaseDisplay {
         public int zOrder = 0;
         public string handle;
 

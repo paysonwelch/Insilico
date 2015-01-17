@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 
 namespace Insilico {
-    public class Graph : Display {
+    public class Graph : BaseDisplay {
 
         public ConcurrentDictionary<string, Vertex> vertices;
         public List<Edge> edges;
@@ -24,15 +24,7 @@ namespace Insilico {
             zOrder = 10;
             vertices = n != null ? n.vertices : new ConcurrentDictionary<string, Vertex>();
             edges = n != null ? n.edges : new List<Edge>();
-
-
-            //Create a new instance:
-            tree = new RTree.RTree<Vertex>();
         }
-
-        RTree.RTree<Vertex> tree;
-
-
 
         public float forceConstant = 20;
         public float minDist = 6;
@@ -43,7 +35,6 @@ namespace Insilico {
 
         List<Vertex> v;
         HashSet<int> pairs = new HashSet<int>();
-
 
         public static int factorial(int i) {
             return ((i <= 1) ? 1 : (i * factorial(i - 1)));
@@ -58,16 +49,9 @@ namespace Insilico {
             return Result;
         }
 
-
         public override void ComputeMetrics() { }
 
         public override void Compute() {
-
-
-            
-            
-
-
             /*
             //Check which objects are inside the rectangle:
             var objects = tree.Contains(rect);
@@ -134,8 +118,6 @@ namespace Insilico {
             //float percentageSkipped = (float)actualCount / (float)count;
         }
 
-
-
         public void ComputePairInteraction(Vertex a, Vertex b) {
             
                 float ax;
@@ -201,8 +183,6 @@ namespace Insilico {
                     }
                 }
             }
-
-
 
 
         public Vertex GetRandom() {
@@ -291,6 +271,5 @@ namespace Insilico {
             }
             return false;
         }
-
     }
 }

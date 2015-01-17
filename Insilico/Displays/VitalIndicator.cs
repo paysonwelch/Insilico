@@ -8,12 +8,12 @@ using System.Windows.Controls;
 using System.Windows.Shapes;
 
 namespace Insilico {
-    public class VitalIndicator: Display {
+    public class VitalIndicator: BaseDisplay {
 
         public Line primaryLine;
         List<TextBlock> labels = new List<TextBlock>();
 
-        int numLabels = 2;
+        //int numLabels = 2;
         public double min = 0;
         public double max = 1;
         public double value = 0.7;
