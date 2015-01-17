@@ -12,7 +12,7 @@ using System.Windows.Shapes;
 namespace Insilico {
     public static class Primitives {
 
-        public static Ellipse FastEllipse(double x, double y, double width, double height, SolidColorBrush color, double opacity, string tooltip = "") {
+        public static Ellipse CreateEllipse(double x, double y, double width, double height, SolidColorBrush color, double opacity = 1, string tooltip = "") {
             Ellipse myEllipse = new Ellipse();
             myEllipse.Fill = color;
             myEllipse.StrokeThickness = 2;
@@ -30,22 +30,8 @@ namespace Insilico {
             return myEllipse;
         }
 
-        public static Ellipse FastestEllipse(double x, double y, double width, double height, SolidColorBrush color) {
-            Ellipse myEllipse = new Ellipse();
-            myEllipse.Fill = color;
-            myEllipse.StrokeThickness = 2;
-            myEllipse.Stroke = color;
-            myEllipse.Width = width;
-            myEllipse.Height = height;
-            double left = x - (myEllipse.Width / 2);
-            double top = y - (myEllipse.Height / 2);
-            Canvas.SetTop(myEllipse, top);
-            Canvas.SetLeft(myEllipse, left);
-            return myEllipse;
-        }
-
         // Creates a grid with ellipse and text encapsulated (text doesn't work)
-        public static Grid GenerateCombinedEllipse(TextBlock text, double x, double y, double width, double height, SolidColorBrush fillColor, SolidColorBrush borderColor, double opacity, string tooltip = "") {
+        public static Grid CreateCombinedEllipse(TextBlock text, double x, double y, double width, double height, SolidColorBrush fillColor, SolidColorBrush borderColor, double opacity, string tooltip = "") {
             var grid = new Grid();
             var myEllipse = new Ellipse();
             myEllipse.Fill = fillColor;
@@ -69,7 +55,7 @@ namespace Insilico {
         }
 
         // Creates a border containing a textbox
-        public static Border GenerateCombinedRectangle(TextBlock text, double x, double y, double width, double height, SolidColorBrush color, double opacity, double haloOpacity, SolidColorBrush borderColor, CornerRadius radius, Border cachedBorder, string tooltip = "") {
+        public static Border CreateCombinedRectangle(TextBlock text, double x, double y, double width, double height, SolidColorBrush color, double opacity, double haloOpacity, SolidColorBrush borderColor, CornerRadius radius, Border cachedBorder, string tooltip = "") {
             // Attempt to use a cached Border before creating a new one
             Border border;
             if (cachedBorder == null) border = new Border();
@@ -91,25 +77,7 @@ namespace Insilico {
             return border;
         }
 
-        public static Border GenerateNewCombinedRectangle(TextBlock text, SolidColorBrush color, double opacity, double haloOpacity, SolidColorBrush borderColor, Border cachedBorder, string tooltip) {
-            // Attempt to use a cached Border before creating a new one
-            Border border;
-            if (cachedBorder == null) border = new Border();
-            else border = cachedBorder;
-            border.Background = color;
-            border.BorderThickness = new Thickness(1, 1, 1, 1);
-            border.BorderBrush = borderColor;
-            //border.Opacity = opacity;
-            border.VerticalAlignment = VerticalAlignment.Center;
-            border.HorizontalAlignment = HorizontalAlignment.Center;
-            border.Child = text;
-            text.ToolTip = tooltip;
-            border.ToolTip = tooltip;
-            return border;
-        }
-
-
-        public static Rectangle FastRectangle(double x, double y, double width, double height, SolidColorBrush color, double opacity, bool bRoundedRectangleCorners = false, string tooltip = "") {
+        public static Rectangle CreateRectangle(double x, double y, double width, double height, SolidColorBrush color, double opacity, bool bRoundedRectangleCorners = false, string tooltip = "") {
             Rectangle myRectangle = new Rectangle();
             myRectangle.Fill = color;
             myRectangle.StrokeThickness = 0;
@@ -139,7 +107,7 @@ namespace Insilico {
             return myRectangle;
         }
 
-        public static Rectangle FastestRectangle(double x, double y, double width, double height, SolidColorBrush color) {
+        public static Rectangle CreateRectangle(double x, double y, double width, double height, SolidColorBrush color) {
             Rectangle rect = new Rectangle();
             rect.Width = width;
             rect.Height = height;
@@ -149,7 +117,7 @@ namespace Insilico {
             return rect;
         }
 
-        public static Rectangle FastestBorder(double x, double y, double width, double height, SolidColorBrush color) {
+        public static Rectangle CreateBorder(double x, double y, double width, double height, SolidColorBrush color) {
             Rectangle rect = new Rectangle();
             rect.Width = width;
             rect.Height = height;
@@ -158,7 +126,7 @@ namespace Insilico {
             return rect;
         }
 
-        public static TextBlock GenerateTextBlock(string msg, Typeface typeface, int sz, SolidColorBrush foregroundColor, SolidColorBrush backgroundColor, double x, double y, bool centeredOnPoint = false, string tooltip = "") {
+        public static TextBlock CreateTextBlock(string msg, Typeface typeface, int sz, SolidColorBrush foregroundColor, SolidColorBrush backgroundColor, double x, double y, bool centeredOnPoint = false, string tooltip = "") {
             TextBlock textBlock = new TextBlock();
             textBlock.Text = msg;
             textBlock.FontFamily = typeface.FontFamily;
@@ -179,7 +147,12 @@ namespace Insilico {
             return textBlock;
         }
 
-        // Measures the *actual* size of a rendered label taking into consideration the font size, family, etc
+        /// <summary>
+        /// Measures the actual size of a rendered label taking into consideration the font size, family, etc
+        /// </summary>
+        /// <param name="tb"></param>
+        /// <param name="typeface"></param>
+        /// <returns></returns>
         public static Size MeasureString(TextBlock tb, Typeface typeface) {
             var formattedText = new FormattedText(
                 tb.Text,

@@ -34,7 +34,7 @@ namespace Insilico {
                 float x = xo + (requiredHorizonalMargin / 2.0f) + (i * pointSpacing);
                 float y = yo + height;
                 if (displayLayout.bShowPoints) {
-                    Ellipse newPoint = Primitives.FastestEllipse(x, 0, displayLayout.pointSize, displayLayout.pointSize, this.displayLayout.pointColor);
+                    Ellipse newPoint = Primitives.CreateEllipse(x, 0, displayLayout.pointSize, displayLayout.pointSize, this.displayLayout.pointColor);
                     points.Add(newPoint);
                     elements.Add(newPoint);
                 }

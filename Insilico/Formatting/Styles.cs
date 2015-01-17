@@ -35,21 +35,6 @@ namespace Insilico {
             bShowHalo = true
         };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         public static EdgeStyleTemplate GreenGlass_EdgeStyle = new EdgeStyleTemplate {
             edgeNodeColor = Cached.BrushBlack,
             edgeNodeTextColor = Cached.BrushWhite,

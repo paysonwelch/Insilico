@@ -52,7 +52,7 @@ namespace Insilico {
                 //barColor = barColor == null ? displayLayout.barColor : barColor;
                 thisBarHeight = float.IsNaN(thisBarHeight) ? 1 : thisBarHeight;
                 if (bars.Count() != pointCount) {
-                    Rectangle newBar = Primitives.FastestRectangle(xo + x, y + height, barWidthMax, 1, displayLayout.barColor);
+                    Rectangle newBar = Primitives.CreateRectangle(xo + x, y + height, barWidthMax, 1, displayLayout.barColor);
                     elements.Add(newBar);
                     Canvas.SetZIndex(newBar, zOrder);
                     bars.Add(newBar);
@@ -77,7 +77,7 @@ namespace Insilico {
                     thisBarHeight = float.IsNaN(thisBarHeight) ? 1 : thisBarHeight;
 
                     if (bars.Count() != pointCount) {
-                        Rectangle newBar = Primitives.FastestRectangle(xo + x, yo + height - this.displayLayout.interiorPadding * 2, barWidthMax, 1, displayLayout.barColor);
+                        Rectangle newBar = Primitives.CreateRectangle(xo + x, yo + height - this.displayLayout.interiorPadding * 2, barWidthMax, 1, displayLayout.barColor);
                         elements.Add(newBar);
                         Canvas.SetZIndex(newBar, zOrder);
                         bars.Add(newBar);

@@ -57,7 +57,7 @@ namespace Insilico {
                     meanLine.Y2 = yo + yVal;
 
                     if (meanLineTB == null) {
-                        meanLineTB = Primitives.GenerateTextBlock(Math.Round(yVal, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, 0, 0);
+                        meanLineTB = Primitives.CreateTextBlock(Math.Round(yVal, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, 0, 0);
                         elements.Add(meanLineTB);
                         Canvas.SetZIndex(meanLineTB, zOrder);
                     }
@@ -95,7 +95,7 @@ namespace Insilico {
                             elements.Add(line);
                             
                         }
-                        Ellipse point = Primitives.FastEllipse(0, 0, displayLayout.pointSize, displayLayout.pointSize, displayLayout.lineColor, 1.0);
+                        Ellipse point = Primitives.CreateEllipse(0, 0, displayLayout.pointSize, displayLayout.pointSize, displayLayout.lineColor, 1.0);
                         points.Add(point);
                         elements.Add(point);
                     }

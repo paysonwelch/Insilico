@@ -288,7 +288,7 @@ namespace Insilico {
                 Point p = v.transCoords.X == 0.0 && v.transCoords.Y == 0.0 ? v.coordinates : v.transCoords;
 
                 Typeface typeface = new Typeface(v.style.fontFamily, FontStyles.Normal, v.style.vertexFontWeight, FontStretches.Normal); // FIXME possibly cache various sized typefaces?
-                v.labelBlock = Primitives.GenerateTextBlock(v.label, typeface, fSize, v.style.vertexTextColor, v.style.vertexColor, p.X, p.Y, true, v.tooltip);
+                v.labelBlock = Primitives.CreateTextBlock(v.label, typeface, fSize, v.style.vertexTextColor, v.style.vertexColor, p.X, p.Y, true, v.tooltip);
                 v.labelBlock.Background = Cached.BrushTransparent;
                 labels.Add(v.labelBlock);
 
@@ -462,7 +462,7 @@ namespace Insilico {
                     float y = (float)(v.coordinates.Y + (1.0 / 2.0) * Math.Abs(v.minrelY - v.maxrelY));
                     float w = Math.Abs(v.minrelX - v.maxrelX);
                     float h = Math.Abs(v.minrelY - v.maxrelY);
-                    v.reqRegion = Primitives.FastRectangle(x + v.minrelX, y + v.minrelY, w, h, Cached.BrushLimeGreen, 0.25, false, "");
+                    v.reqRegion = Primitives.CreateRectangle(x + v.minrelX, y + v.minrelY, w, h, Cached.BrushLimeGreen, 0.25, false, "");
                 }
             }
             #endregion

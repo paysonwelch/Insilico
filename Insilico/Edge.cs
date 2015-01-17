@@ -26,6 +26,7 @@ namespace Insilico {
             this.tooltip = tooltip;
         }
 
+        // FIXME: This method should be replaced
         public void ComputeArrow(double headWidth, double headHeight) {
             float X1 = (float)line.X1;
             float X2 = (float)line.X2;

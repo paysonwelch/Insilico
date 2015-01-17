@@ -13,8 +13,6 @@ namespace Insilico {
         public int zOrder = 0;
         public string handle;
 
-        //public SolidColorBrush elementColor = Cached.BrushWhite;
-        //public SolidColorBrush textColor = Cached.BrushWhite;
         public Rectangle border;
         public Rectangle background;
         public HashSet<UIElement> elements = new HashSet<UIElement>();
@@ -64,13 +62,13 @@ namespace Insilico {
         // Generates borders and backgrounds
         public void ComputeDisplayContainer() {
             if (this.displayLayout.bShowBackground) {
-                background = Primitives.FastestRectangle(xo, yo, width, height, this.displayLayout.backgroundColor);
+                background = Primitives.CreateRectangle(xo, yo, width, height, this.displayLayout.backgroundColor);
                 background.Opacity = 0.2;
                 elements.Add(background);
                 Canvas.SetZIndex(background, zOrder);
             }
             if (this.displayLayout.bShowBorder) {
-                border = Primitives.FastestBorder(xo, yo, width, height, this.displayLayout.backgroundColor);
+                border = Primitives.CreateBorder(xo, yo, width, height, this.displayLayout.backgroundColor);
                 border.StrokeThickness = this.displayLayout.borderThickness;
                 border.Stroke = this.displayLayout.borderColor;
                 border.Fill = Cached.BrushTransparent;

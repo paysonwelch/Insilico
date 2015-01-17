@@ -12,11 +12,9 @@ namespace InsilicoDemo {
 
         public float canvasWidth;
         public float canvasHeight;
-
         public Insilico.Graph graph;
         public Insilico.Histogram histogram;
         public Insilico.LinePlot lineplot;
-
         Random rand = new Random(); 
 
         public override void RunThread() {

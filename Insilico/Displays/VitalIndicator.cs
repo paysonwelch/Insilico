@@ -45,18 +45,18 @@ namespace Insilico {
             elements.Add(primaryLine);
 
             float yVal = (float)((value / max) * height);
-            cursor = Primitives.FastestRectangle(xo + 7, yo - yVal, 10, 10, displayLayout.pointColor);
+            cursor = Primitives.CreateRectangle(xo + 7, yo - yVal, 10, 10, displayLayout.pointColor);
             elements.Add(cursor);
 
-            minLabel = Primitives.GenerateTextBlock(Math.Round(min, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo-10, yo-10 + height);
+            minLabel = Primitives.CreateTextBlock(Math.Round(min, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo-10, yo-10 + height);
             elements.Add(minLabel);
             Canvas.SetZIndex(minLabel, zOrder);
 
-            maxLabel = Primitives.GenerateTextBlock(Math.Round(max, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo - 10, yo);
+            maxLabel = Primitives.CreateTextBlock(Math.Round(max, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo - 10, yo);
             elements.Add(maxLabel);
             Canvas.SetZIndex(maxLabel, zOrder);
 
-            valueLabel = Primitives.GenerateTextBlock(Math.Round(value, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo + 20, yo - yVal + height - 2);
+            valueLabel = Primitives.CreateTextBlock(Math.Round(value, 2) + "", Cached.typeface, 12, displayLayout.textColor, Cached.BrushTransparent, xo + 20, yo - yVal + height - 2);
             elements.Add(valueLabel);
             Canvas.SetZIndex(valueLabel, zOrder);
         }

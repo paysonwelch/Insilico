@@ -43,14 +43,14 @@ namespace Insilico {
                         "min[" + Math.Round(v.minrelX, 0) + ", " + Math.Round(v.minrelY, 0) + "]\n" + "max[" + Math.Round(v.maxrelX, 0) + ", " + Math.Round(v.maxrelY, 0) + "]\n" + "(" + Math.Round(c.X + xo, 0) + ", " + Math.Round(c.Y + yo, 0) + ")" :
                         "(" + Math.Round(c.X + xo, 0) + ", " + Math.Round(c.Y + yo, 0) + ")";
 
-                    v.coordLabel = Primitives.GenerateTextBlock(coordString, typeface, 10, Cached.BrushDarkGreen, Cached.BrushTransparent, c.X + (v.labelBlockSize.Width * 0.7) + xo, c.Y - (v.labelBlockSize.Height * 0.75) + yo, false);
+                    v.coordLabel = Primitives.CreateTextBlock(coordString, typeface, 10, Cached.BrushDarkGreen, Cached.BrushTransparent, c.X + (v.labelBlockSize.Width * 0.7) + xo, c.Y - (v.labelBlockSize.Height * 0.75) + yo, false);
                     if (!canvas.Children.Contains(v.coordLabel)) canvas.Children.Add(v.coordLabel);
                 }
 
                 if (v.style.type == VertexShapeType.CombinedEllipse) {
                     if (v.box == null) {
                         float radius = (float)Math.Max(v.labelBlockSize.Width, v.labelBlockSize.Height)+10;
-                        v.box = Primitives.GenerateCombinedEllipse(new TextBlock(),
+                        v.box = Primitives.CreateCombinedEllipse(new TextBlock(),
                             c.X + xo,
                             c.Y + yo,
                             radius,
@@ -80,7 +80,7 @@ namespace Insilico {
                 // COMBINED RECTANGLE
                 if (v.style.type == VertexShapeType.CombinedRectangle) {
                     if (v.box == null) {
-                        v.box = Primitives.GenerateCombinedRectangle(v.labelBlock, c.X + xo, c.Y + yo,
+                        v.box = Primitives.CreateCombinedRectangle(v.labelBlock, c.X + xo, c.Y + yo,
                         (v.labelBlockSize.Width + 10), (v.labelBlockSize.Height + 10),
                         vertexColor, v.style.vertexOpacity, v.style.haloOpacity, haloColor, Cached.StandardCornerRadius, Cached.cachedBorders[cachBorderIdx], v.tooltip);
                     }
