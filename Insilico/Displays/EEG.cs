@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
+
+    /// <summary>EEG-style display object</summary>
     public class EEG: BaseDisplay {
         #region Parameters
         public float min = 0;
@@ -23,6 +25,10 @@ namespace Insilico {
         List<Ellipse> points = new List<Ellipse>();
         #endregion
         
+        /// <summary>
+        /// Constructor. Designates the number of data points for the EEG
+        /// </summary>
+        /// <param name="numElements"></param>
         public EEG(int numElements) {
             pointCount = numElements;
         }
@@ -32,7 +38,8 @@ namespace Insilico {
             for (int i = 0; i < pointCount; i++) {
                 oData[i] = 0;
                 float x = xo + (requiredHorizonalMargin / 2.0f) + (i * pointSpacing);
-                float y = yo + height;
+                float y = yo + height; 
+                y = float.IsNaN(y) ? 0 : y;
                 if (displayLayout.bShowPoints) {
                     Ellipse newPoint = Primitives.CreateEllipse(x, 0, displayLayout.pointSize, displayLayout.pointSize, this.displayLayout.pointColor);
                     points.Add(newPoint);
@@ -74,10 +81,11 @@ namespace Insilico {
             for (int i = 0; i < pointCount; i++) {
                 float yVal = ((oData[i] / range) * height);
                 float y = yo + height - yVal - (displayLayout.pointSize / 2.0f) - +((height) / 2.0f);
+                y = float.IsNaN(y) ? 0 : y;
                 if(displayLayout.bShowPoints) Canvas.SetTop(points[i], y);
                 if (i > 0 && i < pointCount) {
                     lines[i-1].Y1 = last_y;
-                    lines[i-1].Y2 = y;
+                    lines[i - 1].Y2 = y; ;
                 }
                 last_y = y;
             }

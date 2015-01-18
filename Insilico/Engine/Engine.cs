@@ -61,8 +61,12 @@ namespace Insilico {
         public double increment = 0.05;
         public double totalMultiplier = 0;
         public double theta = Math.PI*2;
+        public bool bEnableSimulatedData = false;
 
-
+        /// <summary>
+        /// Main engine render cycle. This is called from the overridden Engine.RunThread() method.
+        /// </summary>
+        /// <param name="text"></param>
         public void SendToGUI(string text) {
             #region Process render/computation requests
             if (bRequestCompute) {
@@ -91,24 +95,24 @@ namespace Insilico {
                             // EEG
                             if (disp is EEG) {
                                 EEG eeg = (EEG)disp;
-                                //if (Math.Round(ticker, 0) % 2 == 0) {
-                                    //eeg.PushDatum((float)rand.NextDouble());
 
+
+
+                                if (bEnableSimulatedData) {
                                     if (totalMultiplier >= 2) {
                                         totalMultiplier = 0;
                                     }
                                     else {
                                         totalMultiplier += increment;
                                     }
-
                                     float divisor = 1;
-
                                     if (eeg.handle == "test") {
                                         divisor = (float)rand.Next(1, 5);
                                     }
-
                                     eeg.PushDatum((float)Math.Cos(Math.PI * totalMultiplier) / divisor);
-                                //}
+                                }
+
+
                                 eeg.Compute();
                                 eeg.Render(canvas);
                             }
@@ -116,9 +120,15 @@ namespace Insilico {
                             // VITAL INDICATOR
                             if (disp is VitalIndicator) {
                                 VitalIndicator vital = (VitalIndicator)disp;
-                                if (Math.Round(ticker, 0) % 9 == 0) {
-                                    vital.SetData(rand.NextDouble());
+
+
+                                if (bEnableSimulatedData) {
+                                    if (Math.Round(ticker, 0) % 9 == 0) {
+                                        vital.SetData(rand.NextDouble());
+                                    }
                                 }
+
+
                                 if (vital.stepsRemaining > 0) {
                                     vital.Step();
                                     vital.Compute();
@@ -177,9 +187,15 @@ namespace Insilico {
                                     hist.Render(canvas);
                                 }
                                 if (hist.stepsRemaining == 0) {
-                                    List<float> newSeries = new List<float>();
-                                    for (int i = 0; i < hist.pointCount; i++) { newSeries.Add(rand.Next(0, 100)); }
-                                    hist.SetData(newSeries.ToArray());
+
+
+                                    if (bEnableSimulatedData) {
+                                        List<float> newSeries = new List<float>();
+                                        for (int i = 0; i < hist.pointCount; i++) { newSeries.Add(rand.Next(0, 100)); }
+                                        hist.SetData(newSeries.ToArray());
+                                    }
+
+
                                 }
                             }
 
@@ -192,9 +208,15 @@ namespace Insilico {
                                     hist.Render(canvas);
                                 }
                                 if (hist.stepsRemaining == 0) {
-                                    List<float> newSeries = new List<float>();
-                                    for (int i = 0; i < hist.pointCount; i++) { newSeries.Add(rand.Next(0, 100)); }
-                                    hist.SetData(newSeries.ToArray());
+
+
+                                    if (bEnableSimulatedData) {
+                                        List<float> newSeries = new List<float>();
+                                        for (int i = 0; i < hist.pointCount; i++) { newSeries.Add(rand.Next(0, 100)); }
+                                        hist.SetData(newSeries.ToArray());
+                                    }
+
+
                                 }
                             }
                         }

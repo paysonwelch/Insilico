@@ -9,6 +9,10 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 namespace Insilico {
+
+    /// <summary>
+    /// Class containing commonly-used UIElements or objects. Prevents us from having to recreate them in runtime.
+    /// </summary>
     public static partial class Cached {
 
         #region Vars

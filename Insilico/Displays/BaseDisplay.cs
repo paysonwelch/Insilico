@@ -10,9 +10,7 @@ using System.Windows.Shapes;
 
 namespace Insilico {
 
-    /// <summary>
-    /// Base class for all display types
-    /// </summary>
+    /// <summary>Base class for all display types</summary>
     public abstract class BaseDisplay {
         public int zOrder = 0;
         public string handle;
@@ -73,9 +71,16 @@ namespace Insilico {
         /// <summary>Returns whether this display is currently active</summary>
         public bool IsActive { get { return bActive; } }
 
-        public abstract void ComputeMetrics();          // Determine the value of important parameters
-        public abstract void ComputeActiveElements();   // Assemble our initial set of data-driven UIElements
-        public abstract void ComputeDecorations();      // Mean-lines, labels, backgrounds, etc
+        /// <summary>Determine the value of important parameters</summary>
+        public abstract void ComputeMetrics();          // 
+
+        /// <summary>Assemble our initial set of data-driven UIElements</summary>
+        public abstract void ComputeActiveElements();
+
+        /// <summary>Restarts the thread</summary>
+        public abstract void ComputeDecorations();
+
+        /// <summary>Mean-lines, labels, backgrounds, etc</summary>
         public abstract void Compute();
 
         /// <summary>Generates borders and backgrounds for the display</summary>
@@ -121,8 +126,11 @@ namespace Insilico {
         }
         #endregion
 
+        /// <summary>Number of animation steps per value change</summary>
         public float stepCount = 35;
+        /// <summary>How many steps are remaining in the current value change</summary>
         public float stepsRemaining = 0; // Make accessor
+        /// <summary>A value calculated from the range and stepCount</summary>
         protected float stepSize;
 
         public float widthConsumed;

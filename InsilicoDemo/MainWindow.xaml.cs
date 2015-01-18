@@ -65,6 +65,7 @@ namespace InsilicoDemo {
             insilico.bCompressLeaves = false;
             insilico.bShowEdges = true;
 
+            insilico.bEnableSimulatedData = true; // <------------------ Enable/Disable simulated data here
             insilico.Start();
             #endregion
 
@@ -84,7 +85,7 @@ namespace InsilicoDemo {
             vital1.Width = 20;
             vital1.yo = 300;
             vital1.xo = 110;
-            //vital1.elementColor = Cached.BrushLimeGreen;
+            vital1.Layout = Layouts.DefaultLayout;
             vital1.Activate();
             
             VitalIndicator vital2 = new VitalIndicator();
@@ -93,11 +94,9 @@ namespace InsilicoDemo {
             vital2.Width = 20;
             vital2.yo = 300;
             vital2.xo = 170;
-            //vital2.elementColor = Cached.BrushDodgerBlue;
             vital2.Activate();
             
             LinePlot lp1 = new LinePlot(10);
-            //lp1.Layout.valueColorScheme = Scheme.SimpleRYG;
             insilico.displays.Add(lp1);
             lp1.Height = 200;
             lp1.Width = 300;
@@ -106,8 +105,7 @@ namespace InsilicoDemo {
             lp1.Activate();
 
             LinePlot lp2 = new LinePlot(10);
-            //lp2.Layout = Layouts.LinePlotBlue;
-            //lp2.Layout.valueColorScheme = Scheme.SimpleRYG;
+            lp2.Layout = Layouts.LinePlotBlue;
             insilico.displays.Add(lp2);
             lp2.Height = 200;
             lp2.Width = 600;
@@ -116,7 +114,6 @@ namespace InsilicoDemo {
             lp2.Activate();
 
             Histogram h3 = new Histogram(25);
-            //h3.Layout.valueColorScheme = Scheme.SimpleRYG;
             h3.Height = 200;
             h3.Width = 300;
             h3.xo = 400;
@@ -154,6 +151,7 @@ namespace InsilicoDemo {
             e2.yo = 750;
             insilico.displays.Add(e2);
             e2.Layout.bShowPoints = false;
+            e2.Layout.lineColor = Cached.BrushRed;
             e2.stepCount = 400;
             e2.min = -1;
             e2.Activate();

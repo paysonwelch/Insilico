@@ -27,9 +27,11 @@ namespace SuperSimpleDemo {
             this.Title = "SuperSimpleDemo";
 
             #region Engine setup
-            insilico.canvas = MyCanvas;         // Tell the library where to draw
-            insilico.bShowAnimations = true;    // Enable node-physics and smooth display transitions
-            insilico.Start();                   // Start the background thread (for animations and physics)
+            insilico.canvas = MyCanvas;             // Tell the library where to draw
+            insilico.bShowAnimations = true;        // Enable node-physics and smooth display transitions
+            insilico.Start();                       // Start the background thread (for animations and physics)
+
+            insilico.bEnableSimulatedData = true;   // <------------------ Enable/Disable simulated data here
             #endregion
 
             #region Display Objects (LinePlots, Histograms, VitalIndicators, EEGs, Networks, etc)

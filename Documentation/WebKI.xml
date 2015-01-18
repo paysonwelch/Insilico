@@ -124,6 +124,7 @@
   <HelpKINode Title="BaseThread._shouldStop field" Url="html/5c883af2-ce74-f2d5-5993-5b8f0c8a068d.htm" />
   <HelpKINode Title="BaseThread._sleepTime field" Url="html/71b98461-0721-b061-dd50-69944cc5a0b0.htm" />
   <HelpKINode Title="bCompressLeaves field" Url="html/2c8a0b65-373a-382f-181e-1474e5a5ed5b.htm" />
+  <HelpKINode Title="bEnableSimulatedData field" Url="html/41828679-7db2-779e-2897-937453b03744.htm" />
   <HelpKINode Title="bHorizontalFlip field" Url="html/c89a9382-13a5-8c51-74b8-6d448ea0fb17.htm" />
   <HelpKINode Title="bIsolated field" Url="html/e7741be9-33d3-d61c-a9f1-097838313b64.htm" />
   <HelpKINode Title="border field" Url="html/ce870476-5394-11ca-e55e-8023852bd155.htm" />
@@ -515,6 +516,7 @@
     <HelpKINode Title="properties" Url="html/b789fbe0-954e-20fe-f1f1-2236e9b745b8.htm" />
   </HelpKINode>
   <HelpKINode Title="Engine.bCompressLeaves field" Url="html/2c8a0b65-373a-382f-181e-1474e5a5ed5b.htm" />
+  <HelpKINode Title="Engine.bEnableSimulatedData field" Url="html/41828679-7db2-779e-2897-937453b03744.htm" />
   <HelpKINode Title="Engine.bPrintEdgeNode field" Url="html/fca3a048-6f07-b7cd-9e48-d00c2d7ca6b2.htm" />
   <HelpKINode Title="Engine.bRequestSnapBack field" Url="html/3b91e771-8baf-7b49-d111-c63a8f3ac20b.htm" />
   <HelpKINode Title="Engine.bShowAnimations field" Url="html/8ddcc0a2-5964-3d45-2130-c96561421758.htm" />
