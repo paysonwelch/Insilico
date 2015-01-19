@@ -71,6 +71,20 @@ namespace InsilicoDemo {
             #endregion
 
             #region Displays
+
+            Graph graph = new Graph();
+            graph.TargetCanvas = canvas;
+            graph.DefaultVertexStyleTemplate = Styles.Green_VertexStyle;
+            graph.DefaultEdgeStyleTemplate = Styles.GreenGlass_EdgeStyle;
+            graph.DefaultVertexStyleTemplate.vertexColor = Cached.BrushLimeGreen;
+            graph.DefaultVertexStyleTemplate.vertexOpacity = 0.7;
+            insilico.displays.Add(graph);
+            graph.Height = 400;
+            graph.Width = 250;
+            graph.yo = 300;
+            graph.xo = 650;
+            graph.Activate();
+
             VitalIndicator vital0 = new VitalIndicator();
             insilico.displays.Add(vital0);
             vital0.TargetCanvas = canvas;
@@ -143,8 +157,8 @@ namespace InsilicoDemo {
             EEG e1 = new EEG(100);
             e1.TargetCanvas = canvas;
             e1.Height = 400;
-            e1.Width = 700;
-            e1.xo = 650;
+            e1.Width = 400;
+            e1.xo = 950;
             e1.yo = 300;
             insilico.displays.Add(e1);
             e1.Layout.bShowPoints = false;

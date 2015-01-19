@@ -126,28 +126,20 @@ namespace Insilico {
                     #region Graph
                     if (currDisplay is Graph) {
                         Graph gr = (Graph)currDisplay;
-                        //GenerateLabels();
                         gr.Compute();
-                        //GenerateLabels();
-
-                        /*
+                        gr.Render(gr.TargetCanvas);
                         if (Math.Round(ticker, 0) % 9 == 0) {
-                            //int toDelete = rand.Next(0, gr.vertices.Count - 1);
-                            //gr.Remove(gr.vertices.Values.ToList()[toDelete]); 
-                                        
                             Vertex newVertex = new Vertex();
                             newVertex.style = Styles.Green_VertexStyle;
-                            newVertex.type = 5;
                             newVertex.label = "" + Math.Round(ticker, 0);
-                            newVertex.coordinates = ToWPFCoords(new Point(rand.Next(-50, 50), rand.Next(-50, 50)), (float)canvas.ActualWidth, (float)canvas.ActualHeight);
-                            //newVertex.enabled = rand.Next(0, 100);
-                            gr.forceConstant += rand.Next(-3, 3);
+                            newVertex.coordinates = ToWPFCoords(new Point(rand.Next(-50, 50), rand.Next(-50, 50)), (float)gr.TargetCanvas.ActualWidth, (float)gr.TargetCanvas.ActualHeight);
+                            newVertex.box = Primitives.CreateEllipse(newVertex.coordinates.X, newVertex.coordinates.Y, 20, 20, newVertex.style.vertexColor);
+                            newVertex.box.Opacity = newVertex.style.vertexOpacity;
+                            gr.elements.Add(newVertex.box);
+                            gr.CreateUnidirectionalEdge(newVertex, gr.GetRandomVertex());
                             gr.Add(newVertex);
-                            gr.CreateUnidirectionalEdge(newVertex, gr.GetRandom(), DefaultEdgeStyleTemplate);
-
-                            GenerateLabel(newVertex);
                         }
-                        * */
+                        
 
                         // Vertex animations
                         /*

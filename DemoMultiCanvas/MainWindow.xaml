@@ -7,7 +7,7 @@
         <Canvas Name="RedCanvas" Background="DarkRed" HorizontalAlignment="Left" Height="277" Margin="10,10,0,0" VerticalAlignment="Top" Width="426"/>
         <Canvas Name="YellowCanvas" Background="DarkOrange" HorizontalAlignment="Left" Height="216" Margin="395,147,0,0" VerticalAlignment="Top" Width="315"/>
         <Canvas Name="GreenCanvas" Background="DarkGreen" HorizontalAlignment="Left" Height="339" Margin="761,109,0,0" VerticalAlignment="Top" Width="76"/>
-        <Canvas Name="BlackCanvas" Background="Black" HorizontalAlignment="Left" Height="238" Margin="91,199,0,0" VerticalAlignment="Top" Width="261"/>
+        <Canvas Name="BlackCanvas" Background="Transparent" HorizontalAlignment="Left" Height="238" Margin="91,199,0,0" VerticalAlignment="Top" Width="261"/>
 
     </Grid>
 </Window>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoEvolution", "DemoEvolut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMultiCanvas", "DemoMultiCanvas\DemoMultiCanvas.csproj", "{9D5666F6-23EE-4A93-BEBD-D690D60E37DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGraph", "DemoGraph\DemoGraph.csproj", "{6B8744D0-6EC1-40D7-A5D8-C04B96384DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9D5666F6-23EE-4A93-BEBD-D690D60E37DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D5666F6-23EE-4A93-BEBD-D690D60E37DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D5666F6-23EE-4A93-BEBD-D690D60E37DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8744D0-6EC1-40D7-A5D8-C04B96384DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8744D0-6EC1-40D7-A5D8-C04B96384DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8744D0-6EC1-40D7-A5D8-C04B96384DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8744D0-6EC1-40D7-A5D8-C04B96384DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

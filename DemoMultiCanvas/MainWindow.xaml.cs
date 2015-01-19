@@ -50,18 +50,16 @@ namespace MultiCanvasDemo {
             eeg0.max = 10;
             eeg0.min = 0;
             eeg0.Activate();
-            
-            
 
-            
-            
-            EEG eeg2 = new EEG(70);
-            eeg2.TargetCanvas = BlackCanvas;
-            eeg2.Layout = Layouts.Spartan;
-            insilico.displays.Add(eeg2);
-            eeg2.max = 20;
-            eeg2.min = 0;
-            eeg2.Activate();
+
+            Graph graph = new Graph();
+            graph.TargetCanvas = BlackCanvas;
+            graph.DefaultVertexStyleTemplate = Styles.Green_VertexStyle;
+            graph.DefaultEdgeStyleTemplate = Styles.GreenGlass_EdgeStyle;
+            graph.DefaultVertexStyleTemplate.vertexColor = Cached.BrushLimeGreen;
+            graph.DefaultVertexStyleTemplate.vertexOpacity = 0.7;
+            insilico.displays.Add(graph);
+            graph.Activate();
 
 
             EEG eeg3 = new EEG(30);

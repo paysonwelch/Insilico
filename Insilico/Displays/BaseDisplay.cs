@@ -133,7 +133,7 @@ namespace Insilico {
         public void Render(Canvas c) {
             if (c != null) {
                 foreach (UIElement e in this.elements) {
-                    if (!c.Children.Contains(e)) c.Children.Add(e);
+                    if (e != null && !c.Children.Contains(e)) c.Children.Add(e);
                 }
             }
         }
