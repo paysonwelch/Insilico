@@ -26,7 +26,6 @@ namespace Insilico {
         public static Point leftDragPrevOffset;
         public static Point ZeroPoint = new Point(0, 0);
         public static Vertex lastClickedVertex;
-        public static Graph graph;
         public static float edgeLengthFudge = 1.0f;
         public static float arcLengthSpacingFudge = 10.0f;
         public static float nodeRadiusFudge = 1.0f;

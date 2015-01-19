@@ -1,0 +1,13 @@
+﻿<Window x:Class="MultiCanvasDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="485" Width="855">
+    <Grid>
+        <Canvas Name="BlueCanvas" Background="DarkBlue" HorizontalAlignment="Left" Height="94" Margin="446,10,0,0" VerticalAlignment="Top" Width="391"/>
+        <Canvas Name="RedCanvas" Background="DarkRed" HorizontalAlignment="Left" Height="277" Margin="10,10,0,0" VerticalAlignment="Top" Width="426"/>
+        <Canvas Name="YellowCanvas" Background="DarkOrange" HorizontalAlignment="Left" Height="216" Margin="395,147,0,0" VerticalAlignment="Top" Width="315"/>
+        <Canvas Name="GreenCanvas" Background="DarkGreen" HorizontalAlignment="Left" Height="339" Margin="761,109,0,0" VerticalAlignment="Top" Width="76"/>
+        <Canvas Name="BlackCanvas" Background="Black" HorizontalAlignment="Left" Height="238" Margin="91,199,0,0" VerticalAlignment="Top" Width="261"/>
+
+    </Grid>
+</Window>

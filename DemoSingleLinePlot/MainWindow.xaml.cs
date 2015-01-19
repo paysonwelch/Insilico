@@ -24,10 +24,9 @@ namespace SuperSimpleDemo {
 
         public MainWindow() {
             InitializeComponent();
-            this.Title = "SuperSimpleDemo";
+            this.Title = "SingleLinePlotDemo";
 
             #region Engine setup
-            insilico.canvas = MyCanvas;             // Tell the library where to draw
             insilico.bShowAnimations = true;        // Enable node-physics and smooth display transitions
             insilico.Start();                       // Start the background thread (for animations and physics)
 
@@ -37,6 +36,7 @@ namespace SuperSimpleDemo {
             #region Display Objects (LinePlots, Histograms, VitalIndicators, EEGs, Networks, etc)
             LinePlot lp1 = new LinePlot(10);
             insilico.displays.Add(lp1);
+            lp1.TargetCanvas = MyCanvas;
             lp1.Height = 400;
             lp1.Width = 400;
             lp1.yo = 30;

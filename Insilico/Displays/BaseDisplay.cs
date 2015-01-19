@@ -12,8 +12,36 @@ namespace Insilico {
 
     /// <summary>Base class for all display types</summary>
     public abstract class BaseDisplay {
+
         public int zOrder = 0;
         public string handle;
+        public bool bResizeToFitCanvas = true;
+        public bool bDrawWithinCanvas = true;
+
+        protected Canvas targetCanvas;
+        public Canvas TargetCanvas {
+            get {
+                return targetCanvas;
+            }
+            set {
+                targetCanvas = value;
+                // Size plot to match canvas size
+                if (bResizeToFitCanvas) {
+                    targetCanvas.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
+                    targetCanvas.Arrange(new Rect(0, 0, targetCanvas.DesiredSize.Width, targetCanvas.DesiredSize.Height));
+                    height = (int)targetCanvas.ActualHeight;
+                    width = (int)targetCanvas.ActualWidth;
+                    // Position plot to match canvas
+                    Thickness newMargin = targetCanvas.Margin;
+                    //xo = (int)newMargin.Left;
+                    //yo = (int)newMargin.Top;
+                }
+                // Only draw within the specified canvas
+                if (bDrawWithinCanvas) {
+                    targetCanvas.ClipToBounds = true;
+                }
+            }
+        }
 
         public Rectangle border;
         public Rectangle background;
@@ -103,8 +131,10 @@ namespace Insilico {
         /// <summary>Adds all UIElements to the specified Canvas object if they aren't already present</summary>
         /// <param name="c"></param>
         public void Render(Canvas c) {
-            foreach (UIElement e in this.elements) {
-                if (!c.Children.Contains(e)) c.Children.Add(e);
+            if (c != null) {
+                foreach (UIElement e in this.elements) {
+                    if (!c.Children.Contains(e)) c.Children.Add(e);
+                }
             }
         }
 

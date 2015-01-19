@@ -44,20 +44,21 @@ namespace InsilicoDemo {
             // RenderOptions.ProcessRenderMode = RenderMode.SoftwareOnly; 
 
             // Example graph
-            Graph myGraph = new Graph();
-            GraphLayout myLayout = new GraphLayout();
-            myGraph.DefaultVertexStyleTemplate = Styles.Green_VertexStyle;
-            myGraph.DefaultEdgeStyleTemplate = Styles.GreenGlass_EdgeStyle;
-            insilico.displays.Add(myGraph);
-            myGraph.drawEdgeArrows = false;
-            Cached.graph = insilico.graph;
+            //Graph myGraph = new Graph();
+            //GraphLayout myLayout = new GraphLayout();
+            //myGraph.DefaultVertexStyleTemplate = Styles.Green_VertexStyle;
+            //myGraph.DefaultEdgeStyleTemplate = Styles.GreenGlass_EdgeStyle;
+            
+            //insilico.displays.Add(myGraph);
+            //myGraph.drawEdgeArrows = false;
+            //Cached.graph = insilico.graph;
 
-            insilico.graph = myGraph;
-            Cached.graph = myGraph;
+            //insilico.graph = myGraph;
+            //Cached.graph = myGraph;
 
             insilico.canvas = canvas;
             insilico.bShowAnimations = true;
-            insilico.layout = myLayout;
+            //insilico.layout = myLayout;
             insilico.bPrintEdgeNode = false;
             insilico.bSizeVertexToText = true;
             insilico.bShowObjectCoordinates = false;
@@ -72,6 +73,7 @@ namespace InsilicoDemo {
             #region Displays
             VitalIndicator vital0 = new VitalIndicator();
             insilico.displays.Add(vital0);
+            vital0.TargetCanvas = canvas;
             vital0.Height = 400;
             vital0.Width = 20;
             vital0.yo = 300;
@@ -81,6 +83,7 @@ namespace InsilicoDemo {
             
             VitalIndicator vital1 = new VitalIndicator();
             insilico.displays.Add(vital1);
+            vital1.TargetCanvas = canvas;
             vital1.Height = 400;
             vital1.Width = 20;
             vital1.yo = 300;
@@ -90,6 +93,7 @@ namespace InsilicoDemo {
             
             VitalIndicator vital2 = new VitalIndicator();
             insilico.displays.Add(vital2);
+            vital2.TargetCanvas = canvas;
             vital2.Height = 400;
             vital2.Width = 20;
             vital2.yo = 300;
@@ -98,6 +102,7 @@ namespace InsilicoDemo {
             
             LinePlot lp1 = new LinePlot(10);
             insilico.displays.Add(lp1);
+            lp1.TargetCanvas = canvas;
             lp1.Height = 200;
             lp1.Width = 300;
             lp1.yo = 50;
@@ -107,6 +112,7 @@ namespace InsilicoDemo {
             LinePlot lp2 = new LinePlot(10);
             lp2.Layout = Layouts.LinePlotBlue;
             insilico.displays.Add(lp2);
+            lp2.TargetCanvas = canvas;
             lp2.Height = 200;
             lp2.Width = 600;
             lp2.yo = 50;
@@ -114,6 +120,7 @@ namespace InsilicoDemo {
             lp2.Activate();
 
             Histogram h3 = new Histogram(25);
+            h3.TargetCanvas = canvas;
             h3.Height = 200;
             h3.Width = 300;
             h3.xo = 400;
@@ -122,6 +129,7 @@ namespace InsilicoDemo {
             h3.Activate();
 
             EEG e0 = new EEG(15);
+            e0.TargetCanvas = canvas;
             e0.Height = 400;
             e0.Width = 350;
             e0.xo = 250;
@@ -133,6 +141,7 @@ namespace InsilicoDemo {
             e0.Activate();
 
             EEG e1 = new EEG(100);
+            e1.TargetCanvas = canvas;
             e1.Height = 400;
             e1.Width = 700;
             e1.xo = 650;
@@ -145,6 +154,7 @@ namespace InsilicoDemo {
             e1.Activate();
 
             EEG e2 = new EEG(100);
+            e2.TargetCanvas = canvas;
             e2.Height = 150;
             e2.Width = 1300;
             e2.xo = 50;
@@ -193,11 +203,13 @@ namespace InsilicoDemo {
             #endregion
 
             // Simulated data source to feed the various display objects in the rendering engine
+            /*
             SimulatedData myDataSource = new SimulatedData();
             myDataSource.canvasWidth = 1100.0f;
             myDataSource.canvasHeight = 800.0f;
-            myDataSource.graph = myGraph;
+            //myDataSource.graph = myGraph;
             myDataSource.Start();
+             * */
         }
 
         #region Events

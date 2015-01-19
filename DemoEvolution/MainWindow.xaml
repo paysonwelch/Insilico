@@ -2,8 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="500" Width="1061">
-    <Grid Background="Black">
-        <Canvas Name="MyCanvas" HorizontalAlignment="Center" Background="Black" Height="450" Margin="10,10,0,0" VerticalAlignment="Center" Width="1033"/>
+    <Grid Background="White">
+        <Canvas Name="MyCanvas" HorizontalAlignment="Center" Background="Black" Height="473" VerticalAlignment="Center" Width="1053"/>
 
     </Grid>
 </Window>

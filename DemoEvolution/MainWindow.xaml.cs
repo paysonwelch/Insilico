@@ -24,6 +24,8 @@ using Nucleo;
  * thread which monitors the state of the optimizer and pushes that data to the EEG display
  * object in the Insilico engine.
  * 
+ * NOTE: The evolutionary optimizer has been intentionally slowed so the plot can be seen
+ * 
  * */
 
 namespace EvolutionDemo {
@@ -35,10 +37,9 @@ namespace EvolutionDemo {
 
         public MainWindow() {
             InitializeComponent();
-            this.Title = "EvolutionDemo";
+            this.Title = "EvolutionDemo (Nucleo)";
 
             #region Engine setup
-            insilico.canvas = MyCanvas;             // Tell the library where to draw
             insilico.bShowAnimations = true;        // Enable node-physics and smooth display transitions
             insilico.Start();                       // Start the background thread (for animations and physics)
 
@@ -48,10 +49,11 @@ namespace EvolutionDemo {
             #region Display Objects (LinePlots, Histograms, VitalIndicators, EEGs, Networks, etc)
             EEG eeg = new EEG(30);
             insilico.displays.Add(eeg);
-            eeg.Height = 450;
-            eeg.Width = 1033;
-            eeg.yo = 0;
-            eeg.xo = 0;
+            eeg.TargetCanvas = MyCanvas;
+            eeg.Height = 300;
+            eeg.Width = 800;
+            eeg.yo = 90;
+            eeg.xo = 125;
             eeg.max = 40;
             eeg.min = 0;
             eeg.Activate();

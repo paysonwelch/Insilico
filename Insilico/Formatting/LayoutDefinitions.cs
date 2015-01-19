@@ -34,6 +34,31 @@ namespace Insilico {
             pointColor = Cached.BrushWhite
         };
 
+        public static DisplayLayout Spartan = new DisplayLayout {
+            bAnimated = true,
+            bHorizontalFlip = false,
+            bShowAxes = true,
+            bShowBackground = false,
+            bShowScores = true,
+            bShowValues = true,
+            bShowBorder = true,
+            bUpsidedown = false,
+            bShowPoints = false,
+            bShowMeanLine = true,
+
+            pointSize = 8,
+
+            backgroundColor = Cached.BrushTransparent,
+            lineColor = Cached.BrushWhite,
+            lineThickness = 1,
+            labelColor = Cached.BrushWhite,
+            valueColor = Cached.BrushWhite,
+            scoreColor = Cached.BrushWhite,
+            textColor = Cached.BrushWhite,
+            barColor = Cached.BrushWhite,
+            pointColor = Cached.BrushWhite
+        };
+
         public static DisplayLayout RadioactiveChocolate = new DisplayLayout {
             bAnimated = true,
             bHorizontalFlip = false,

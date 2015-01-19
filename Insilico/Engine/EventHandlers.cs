@@ -13,28 +13,33 @@ namespace Insilico {
         /// Handles Left-Button mouse click events
         /// </summary>
         public void OnLeftMouseDown(object sender, MouseButtonEventArgs e) {
+            /*
             Point p = Mouse.GetPosition(this.canvas);
             Cached.lastPoint = p;
             foreach (Vertex v in Cached.graph.vertices.Values.ToList().Where(q => q.box.IsMouseOver || q.labelBlock.IsMouseOver)) { Cached.lastClickedVertex = v; }
             if (Cached.lastClickedVertex == null) Cached.dragStartPoint = p;
+             * */
         }
 
         /// <summary>
         /// Handles Right-Button mouse click events
         /// </summary>
         public void OnRightMouseDown(object sender, MouseButtonEventArgs e) {
+            /*
             Point p = Mouse.GetPosition(this.canvas);
             Cached.lastPoint = p;
             foreach (Vertex v in Cached.graph.vertices.Values.ToList().Where(q => q.box.IsMouseOver || q.labelBlock.IsMouseOver)) {
                 Cached.lastClickedVertex = v;
                 Cached.rightClicked = true;
             }
+             * */
         }
 
         /// <summary>
         /// Handles mouse movement events
         /// </summary>
         public void OnMouseMove(object sender, System.Windows.Input.MouseEventArgs e) {
+            /*
             float xo, yo;
             Point p = Mouse.GetPosition(this.canvas);
             // If we're holding the mouse button down and we've previously clicked on a vertex
@@ -63,23 +68,25 @@ namespace Insilico {
                     RenderGraph(Cached.graph, (float)Cached.leftDragPrevOffset.X, (float)Cached.leftDragPrevOffset.Y);
                 }
             }
-            /* 
+            
             // PERSPECTIVE DRAG
-            if (Shared.stickyDrag && e.RightButton == MouseButtonState.Pressed && myNetworkPlot != null && Shared.network.Root != null) { // Drag entire cluster
-                if (Shared.lastPoint != p && Shared.lastClickedVertex != null) {
-                    Shared.dragEndPoint = p;
-                    xo = (float)(Shared.dragEndPoint.X + Shared.rightDragPrevOffset.X - Shared.lastClickedVertex.coordinates.X - Shared.leftDragPrevOffset.X);
-                    yo = (float)(Shared.dragEndPoint.Y + Shared.rightDragPrevOffset.Y - Shared.lastClickedVertex.coordinates.Y - Shared.leftDragPrevOffset.Y);
-                    myNetworkPlot.TranslateSubtree(Shared.lastClickedVertex, (float)(xo), (float)(yo), 0.15f);
-                    myNetworkPlot.Render_Network(Shared.network, (float)Shared.leftDragPrevOffset.X, (float)Shared.leftDragPrevOffset.Y);
-                }
-            }*/
+            //if (Shared.stickyDrag && e.RightButton == MouseButtonState.Pressed && myNetworkPlot != null && Shared.network.Root != null) { // Drag entire cluster
+            //    if (Shared.lastPoint != p && Shared.lastClickedVertex != null) {
+            //        Shared.dragEndPoint = p;
+            //        xo = (float)(Shared.dragEndPoint.X + Shared.rightDragPrevOffset.X - Shared.lastClickedVertex.coordinates.X - Shared.leftDragPrevOffset.X);
+            //        yo = (float)(Shared.dragEndPoint.Y + Shared.rightDragPrevOffset.Y - Shared.lastClickedVertex.coordinates.Y - Shared.leftDragPrevOffset.Y);
+            //        myNetworkPlot.TranslateSubtree(Shared.lastClickedVertex, (float)(xo), (float)(yo), 0.15f);
+            //        myNetworkPlot.Render_Network(Shared.network, (float)Shared.leftDragPrevOffset.X, (float)Shared.leftDragPrevOffset.Y);
+            //    }
+            }
+            **/
         }
 
         /// <summary>
         /// Handles mouse button release events
         /// </summary>
         public void OnClickUp(object sender, RoutedEventArgs e) {
+            /*
             Point p = Mouse.GetPosition(this.canvas);
             if (Cached.lastClickedVertex == null) {
                 if (Cached.lastClickedVertex == null) { // Save drag location state (for next drag)
@@ -97,6 +104,7 @@ namespace Insilico {
             Cached.dragStartPoint = Cached.ZeroPoint;
             Cached.lastClickedVertex = null;
             Cached.lastPoint = p;
+             * */
         }
 
         /// <summary>
