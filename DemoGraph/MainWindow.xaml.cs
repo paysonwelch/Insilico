@@ -24,7 +24,7 @@ namespace DemoGraph {
 
         public MainWindow() {
             InitializeComponent();
-            this.Title = "MultiCanvasDemo";
+            this.Title = "DemoGraph";
 
             #region Engine setup
             insilico.bShowAnimations = true;        // Enable node-physics and smooth display transitions

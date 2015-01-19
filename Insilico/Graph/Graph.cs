@@ -80,6 +80,12 @@ namespace Insilico {
                     Canvas.SetLeft(nodes[i].box, c.X  - nodes[i].coordinates.X);
                     Canvas.SetTop(nodes[i].box, c.Y - nodes[i].coordinates.Y);
                 }
+
+                if (nodes[i].labelBlock != null) {
+                    Canvas.SetLeft(nodes[i].labelBlock, (c.X) - (nodes[i].labelBlockSize.Width / 2));
+                    Canvas.SetTop(nodes[i].labelBlock, (c.Y) - (nodes[i].labelBlockSize.Height / 2));
+                }
+
                 // Set edge coordinates
                 foreach (Edge e in nodes[i].outgoingEdges.Values) {
                     Point o = e.origin.transCoords.X == 0.0 && e.origin.transCoords.Y == 0.0 ? e.origin.coordinates : e.origin.transCoords;
@@ -152,12 +158,28 @@ namespace Insilico {
             }
         }
 
+
         /// <summary>
         /// Returns a random vertex from the graph
         /// </summary>
         public Vertex GetRandomVertex() {
             Random rand = new Random();
             return vertices.Any() ? vertices.Values.ToList()[rand.Next(0, vertices.Count)] : null;
+        }
+
+        public Vertex CreateNewVertex(int x, int y, int radius, string label) {
+            Point p = new Point(x, y);
+            Vertex newVertex = new Vertex();
+            newVertex.style = Styles.Green_VertexStyle;
+            newVertex.label = label;
+            newVertex.labelBlock = Primitives.CreateTextBlock(label, Cached.typeface, 12, newVertex.style.vertexTextColor, Cached.BrushTransparent, newVertex.coordinates.X, newVertex.coordinates.Y);
+            newVertex.labelBlockSize = Primitives.MeasureString(newVertex.labelBlock, Cached.typeface);
+            newVertex.coordinates = p;
+            double vrad = Math.Max(newVertex.labelBlockSize.Width, newVertex.labelBlockSize.Height) * 1.25;
+            newVertex.box = Primitives.CreateEllipse(newVertex.coordinates.X, newVertex.coordinates.Y, vrad, vrad, newVertex.style.vertexColor);
+            newVertex.box.Opacity = newVertex.style.vertexOpacity;
+            Add(newVertex);
+            return newVertex;
         }
 
         /// <summary>
@@ -169,6 +191,7 @@ namespace Insilico {
                 vertices.TryAdd(v.label, v); // Handle Exception???
             }
             elements.Add(v.box);
+            elements.Add(v.labelBlock);
         }
 
         /// <summary>

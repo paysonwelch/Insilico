@@ -129,15 +129,20 @@ namespace Insilico {
                         gr.Compute();
                         gr.Render(gr.TargetCanvas);
                         if (Math.Round(ticker, 0) % 9 == 0) {
-                            Vertex newVertex = new Vertex();
+                            /*Vertex newVertex = new Vertex();
                             newVertex.style = Styles.Green_VertexStyle;
                             newVertex.label = "" + Math.Round(ticker, 0);
-                            newVertex.coordinates = ToWPFCoords(new Point(rand.Next(-50, 50), rand.Next(-50, 50)), (float)gr.TargetCanvas.ActualWidth, (float)gr.TargetCanvas.ActualHeight);
+                            newVertex.coordinates = ToWPFCoords();
                             newVertex.box = Primitives.CreateEllipse(newVertex.coordinates.X, newVertex.coordinates.Y, 20, 20, newVertex.style.vertexColor);
                             newVertex.box.Opacity = newVertex.style.vertexOpacity;
-                            gr.elements.Add(newVertex.box);
+                            //gr.elements.Add(newVertex.box);
                             gr.CreateUnidirectionalEdge(newVertex, gr.GetRandomVertex());
                             gr.Add(newVertex);
+                             * */
+
+                            Point p = ToWPFCoords(new Point(rand.Next(-50, 50), rand.Next(-50, 50)), (float)gr.TargetCanvas.ActualWidth, (float)gr.TargetCanvas.ActualHeight);
+                            Vertex newVertex = gr.CreateNewVertex((int)p.X, (int)p.Y, 30, "" + Math.Round(ticker, 0));
+                            gr.CreateUnidirectionalEdge(newVertex, gr.GetRandomVertex());
                         }
                         
 
@@ -242,6 +247,7 @@ namespace Insilico {
         #region Coordinate conversions
         // Convert our coordinates from a system centered at (0,0) to the strange fucked up world of WPF coordinates
         public static Point ToWPFCoords(Point c, float canvasWidth, float canvasHeight) { return new Point((float)((canvasWidth / 2.0) + c.X), (float)((canvasHeight / 2.0) - c.Y)); }
+        public static Point ToWPFCoords(int x, int y, float canvasWidth, float canvasHeight) { return new Point((float)((canvasWidth / 2.0) + x), (float)((canvasHeight / 2.0) - y)); }
         public static Point ToCenteredCoords(Point c, float canvasWidth, float canvasHeight) { return new Point((float)(c.X - (canvasWidth / 2.0)), (float)((canvasHeight / 2.0) - c.Y)); }
         #endregion
     }
